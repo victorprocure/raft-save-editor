@@ -1,0 +1,4090 @@
+{
+ "1": {
+  "name": "Block_Floor_Wood",
+  "display": "Wooden floor",
+  "term": "Block/Floor_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "2": {
+  "name": "Block_Foundation",
+  "display": "Foundation",
+  "term": "Block/Foundation_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "3": {
+  "name": "Block_Stair",
+  "display": "Stair",
+  "term": "Block/Stair_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "4": {
+  "name": "Block_Wall_Wood",
+  "display": "Wooden wall",
+  "term": "Block/Wall_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "6": {
+  "name": "Placeable_Anchor_Stationary",
+  "display": "Stationary anchor",
+  "term": "Block/Anchor_Stationary",
+  "stack": 5,
+  "uses": 1
+ },
+ "7": {
+  "name": "Placeable_Chair_Basic",
+  "display": "Chair",
+  "term": "Block/Chair",
+  "stack": 5,
+  "uses": 1
+ },
+ "8": {
+  "name": "Placeable_CollectionNet_Basic",
+  "display": "Simple collection net",
+  "term": "Block/CollectionNet_Simple",
+  "stack": 5,
+  "uses": 1
+ },
+ "9": {
+  "name": "Repair",
+  "display": "Repair",
+  "term": "Block/Repair",
+  "stack": 1,
+  "uses": 1
+ },
+ "10": {
+  "name": "Coconut",
+  "display": "Coconut",
+  "term": "Item/Coconut",
+  "stack": 20,
+  "uses": 1
+ },
+ "11": {
+  "name": "Cooked_Beet",
+  "display": "Cooked beet",
+  "term": "Item/Cooked_Beet",
+  "stack": 20,
+  "uses": 1
+ },
+ "12": {
+  "name": "Cooked_Mackerel",
+  "display": "Cooked mackerel",
+  "term": "Item/Cooked_Mackerel",
+  "stack": 20,
+  "uses": 1
+ },
+ "13": {
+  "name": "Cooked_Potato",
+  "display": "Cooked potato",
+  "term": "Item/Cooked_Potato",
+  "stack": 20,
+  "uses": 1
+ },
+ "14": {
+  "name": "Cooked_Shark",
+  "display": "Cooked shark",
+  "term": "Item/Cooked_Shark",
+  "stack": 20,
+  "uses": 1
+ },
+ "15": {
+  "name": "Raw_Beet",
+  "display": "Raw beet",
+  "term": "Item/Raw_Beet",
+  "stack": 20,
+  "uses": 1
+ },
+ "16": {
+  "name": "Raw_Mackerel",
+  "display": "Raw mackerel",
+  "term": "Item/Raw_Mackerel",
+  "stack": 20,
+  "uses": 1
+ },
+ "17": {
+  "name": "Raw_Potato",
+  "display": "Raw potato",
+  "term": "Item/Raw_Potato",
+  "stack": 20,
+  "uses": 1
+ },
+ "18": {
+  "name": "Raw_Shark",
+  "display": "Raw sharkmeat",
+  "term": "Item/Raw_Shark",
+  "stack": 20,
+  "uses": 1
+ },
+ "19": {
+  "name": "MetalOre",
+  "display": "Metal ore",
+  "term": "Item/MetalOre",
+  "stack": 20,
+  "uses": 1
+ },
+ "20": {
+  "name": "Nail",
+  "display": "Nail",
+  "term": "Item/Nail",
+  "stack": 20,
+  "uses": 1
+ },
+ "21": {
+  "name": "Plank",
+  "display": "Plank",
+  "term": "Item/Plank",
+  "stack": 20,
+  "uses": 1
+ },
+ "22": {
+  "name": "Rope",
+  "display": "Rope",
+  "term": "Item/Rope",
+  "stack": 20,
+  "uses": 1
+ },
+ "23": {
+  "name": "Scrap",
+  "display": "Scrap",
+  "term": "Item/Scrap",
+  "stack": 20,
+  "uses": 1
+ },
+ "24": {
+  "name": "SeaVine",
+  "display": "Seaweed",
+  "term": "Item/SeaVine",
+  "stack": 20,
+  "uses": 1
+ },
+ "25": {
+  "name": "Thatch",
+  "display": "Palm Leaf",
+  "term": "Item/Thatch",
+  "stack": 20,
+  "uses": 1
+ },
+ "26": {
+  "name": "Barrel",
+  "display": null,
+  "term": "",
+  "stack": 1,
+  "uses": 1
+ },
+ "27": {
+  "name": "DropItem",
+  "display": null,
+  "term": "",
+  "stack": 1,
+  "uses": 1
+ },
+ "31": {
+  "name": "Seed_Palm",
+  "display": "Palm seed",
+  "term": "Item/Seed_Palm",
+  "stack": 20,
+  "uses": 1
+ },
+ "32": {
+  "name": "Axe",
+  "display": "Metal axe",
+  "term": "Item/Axe",
+  "stack": 1,
+  "uses": 120
+ },
+ "33": {
+  "name": "FishingRod",
+  "display": "Fishing rod",
+  "term": "Item/FishingRod",
+  "stack": 1,
+  "uses": 10
+ },
+ "34": {
+  "name": "Hammer",
+  "display": "Building Hammer",
+  "term": "Item/Hammer",
+  "stack": 1,
+  "uses": 1
+ },
+ "35": {
+  "name": "Hook_Plastic",
+  "display": "Plastic hook",
+  "term": "Item/Hook_Plastic",
+  "stack": 1,
+  "uses": 40
+ },
+ "36": {
+  "name": "Hook_Scrap",
+  "display": "Scrap hook",
+  "term": "Item/Hook_Scrap",
+  "stack": 1,
+  "uses": 100
+ },
+ "37": {
+  "name": "Spear_Scrap",
+  "display": "Metal Spear",
+  "term": "Item/Spear_Scrap",
+  "stack": 1,
+  "uses": 40
+ },
+ "38": {
+  "name": "PlasticCup_Empty",
+  "display": "Empty cup",
+  "term": "Item/PlasticCup_Empty",
+  "stack": 1,
+  "uses": 1
+ },
+ "39": {
+  "name": "PlasticCup_Water",
+  "display": "Cup of fresh water",
+  "term": "Item/PlasticCup_Water",
+  "stack": 1,
+  "uses": 1
+ },
+ "40": {
+  "name": "PlasticCup_SaltWater",
+  "display": "Cup of salt water",
+  "term": "Item/PlasticCup_SaltWater",
+  "stack": 1,
+  "uses": 1
+ },
+ "42": {
+  "name": "Placeable_Storage_Medium",
+  "display": "Storage",
+  "term": "Block/Storage_Medium",
+  "stack": 5,
+  "uses": 1
+ },
+ "43": {
+  "name": "Placeable_CookingStand_Food_One",
+  "display": "Simple grill",
+  "term": "Block/CookingStand_Food_One",
+  "stack": 5,
+  "uses": 1
+ },
+ "45": {
+  "name": "Placeable_Cropplot_Small",
+  "display": "Small crop plot",
+  "term": "Block/Cropplot_Small",
+  "stack": 5,
+  "uses": 1
+ },
+ "46": {
+  "name": "Placeable_Cropplot_Large",
+  "display": "Large crop plot",
+  "term": "Block/Cropplot_Large",
+  "stack": 5,
+  "uses": 1
+ },
+ "47": {
+  "name": "Placeable_Lantern_Basic",
+  "display": "Lantern",
+  "term": "Block/Lantern",
+  "stack": 5,
+  "uses": 1
+ },
+ "48": {
+  "name": "Placeable_Table_Basic",
+  "display": "Table",
+  "term": "Block/Table",
+  "stack": 5,
+  "uses": 1
+ },
+ "50": {
+  "name": "Stone",
+  "display": "Stone",
+  "term": "Item/Stone",
+  "stack": 20,
+  "uses": 1
+ },
+ "51": {
+  "name": "Placeable_GiantClam",
+  "display": "Giant clam",
+  "term": "Item/GiantClam",
+  "stack": 20,
+  "uses": 1
+ },
+ "52": {
+  "name": "Spear_Plank",
+  "display": "Wooden spear",
+  "term": "Item/Spear_Wood",
+  "stack": 1,
+  "uses": 20
+ },
+ "53": {
+  "name": "Plastic",
+  "display": "Plastic",
+  "term": "Item/Plastic",
+  "stack": 20,
+  "uses": 1
+ },
+ "54": {
+  "name": "SharkBait",
+  "display": "Shark bait",
+  "term": "Item/SharkBait",
+  "stack": 1,
+  "uses": 1
+ },
+ "56": {
+  "name": "Placeable_Anchor_Throwable",
+  "display": "Throwable anchor",
+  "term": "Block/Anchor_Throwable",
+  "stack": 5,
+  "uses": 1
+ },
+ "57": {
+  "name": "ThrowableAnchor",
+  "display": null,
+  "term": "",
+  "stack": 1,
+  "uses": 1
+ },
+ "59": {
+  "name": "Block_Wall_Thatch",
+  "display": "Thatch wall",
+  "term": "Block/Wall_Thatch",
+  "stack": 1,
+  "uses": 1
+ },
+ "63": {
+  "name": "Flipper",
+  "display": "Flippers",
+  "term": "Item/Flipper",
+  "stack": 1,
+  "uses": 600
+ },
+ "64": {
+  "name": "OxygenBottle",
+  "display": "Oxygen bottle",
+  "term": "Item/AirBottle",
+  "stack": 1,
+  "uses": 600
+ },
+ "65": {
+  "name": "Clay",
+  "display": "Clay",
+  "term": "Item/Clay",
+  "stack": 20,
+  "uses": 1
+ },
+ "66": {
+  "name": "Sand",
+  "display": "Sand",
+  "term": "Item/Sand",
+  "stack": 20,
+  "uses": 1
+ },
+ "67": {
+  "name": "Glass",
+  "display": "Glass",
+  "term": "Item/Glass",
+  "stack": 20,
+  "uses": 1
+ },
+ "70": {
+  "name": "MetalIngot",
+  "display": "Metal ingot",
+  "term": "Item/MetalIngot",
+  "stack": 20,
+  "uses": 1
+ },
+ "71": {
+  "name": "Placeable_CookingStand_Smelter",
+  "display": "Smelter",
+  "term": "Block/CookingStand_Smelter",
+  "stack": 5,
+  "uses": 1
+ },
+ "72": {
+  "name": "Placeable_Brick_Wet",
+  "display": "Wet brick",
+  "term": "Block/Brick_Wet",
+  "stack": 20,
+  "uses": 1
+ },
+ "73": {
+  "name": "Brick_Dry",
+  "display": "Dry brick",
+  "term": "Item/Brick_Dry",
+  "stack": 20,
+  "uses": 1
+ },
+ "77": {
+  "name": "Placeable_CookingStand_Food_Two",
+  "display": "Advanced grill",
+  "term": "Block/CookingStand_Food_Two",
+  "stack": 5,
+  "uses": 1
+ },
+ "78": {
+  "name": "Placeable_CookingStand_Purifier_Two",
+  "display": "Advanced purifier",
+  "term": "Block/CookingStand_Purifier_Two",
+  "stack": 5,
+  "uses": 1
+ },
+ "79": {
+  "name": "PlasticBottle_Empty",
+  "display": "Empty bottle",
+  "term": "Item/PlasticBottle_Empty",
+  "stack": 1,
+  "uses": 1
+ },
+ "80": {
+  "name": "PlasticBottle_SaltWater",
+  "display": "Bottle of salt water",
+  "term": "Item/PlasticBottle_SaltWater",
+  "stack": 1,
+  "uses": 5
+ },
+ "81": {
+  "name": "PlasticBottle_Water",
+  "display": "Bottle of fresh water",
+  "term": "Item/PlasticBottle_Water",
+  "stack": 1,
+  "uses": 5
+ },
+ "82": {
+  "name": "Block_Wall_Window_Wood",
+  "display": "Wooden window",
+  "term": "Block/Window_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "83": {
+  "name": "Block_Wall_Window_Thatch",
+  "display": "Thatch window",
+  "term": "Block/Window_Thatch",
+  "stack": 1,
+  "uses": 1
+ },
+ "84": {
+  "name": "Block_Pillar_Wood",
+  "display": "Wooden pillar",
+  "term": "Block/Pillar_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "85": {
+  "name": "Block_Wall_Fence_Plank",
+  "display": "Plank fence",
+  "term": "Block/Fence_Plank",
+  "stack": 1,
+  "uses": 1
+ },
+ "86": {
+  "name": "Block_Wall_Fence_Rope",
+  "display": "Rope fence",
+  "term": "Block/Fence_Rope",
+  "stack": 1,
+  "uses": 1
+ },
+ "88": {
+  "name": "Block_Wall_Door_Wood",
+  "display": "Wooden door",
+  "term": "Block/Door_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "89": {
+  "name": "Block_Wall_Door_Thatch",
+  "display": "Thatch door",
+  "term": "Block/Door_Thatch",
+  "stack": 1,
+  "uses": 1
+ },
+ "91": {
+  "name": "Placeable_CookingStand_Purifier_One",
+  "display": "Simple purifier",
+  "term": "Block/CookingStand_Purifier_One",
+  "stack": 5,
+  "uses": 1
+ },
+ "92": {
+  "name": "Placeable_Bed_Hammock",
+  "display": "Hammock",
+  "term": "Block/Bed_Hammock",
+  "stack": 5,
+  "uses": 1
+ },
+ "93": {
+  "name": "Placeable_Bed_Basic",
+  "display": "Simple bed",
+  "term": "Block/Bed_Simple",
+  "stack": 5,
+  "uses": 1
+ },
+ "94": {
+  "name": "Placeable",
+  "display": null,
+  "term": "",
+  "stack": 0,
+  "uses": 1
+ },
+ "95": {
+  "name": "Feather",
+  "display": "Feather",
+  "term": "Item/Feather",
+  "stack": 20,
+  "uses": 1
+ },
+ "96": {
+  "name": "Block_FoundationArmor",
+  "display": "Foundation armor",
+  "term": "Block/FoundationArmor",
+  "stack": 1,
+  "uses": 1
+ },
+ "97": {
+  "name": "Egg",
+  "display": "Egg",
+  "term": "Item/Egg",
+  "stack": 20,
+  "uses": 1
+ },
+ "98": {
+  "name": "Raw_Drumstick",
+  "display": "Raw drumstick",
+  "term": "Item/Raw_Drumstick",
+  "stack": 20,
+  "uses": 1
+ },
+ "99": {
+  "name": "Cooked_Drumstick",
+  "display": "Cooked drumstick",
+  "term": "Item/Cooked_Drumstick",
+  "stack": 20,
+  "uses": 1
+ },
+ "100": {
+  "name": "Placeable_Scarecrow",
+  "display": "Scarecrow",
+  "term": "Block/Scarecrow",
+  "stack": 5,
+  "uses": 1
+ },
+ "101": {
+  "name": "Placeable_BirdsNest",
+  "display": "Birds nest",
+  "term": "Block/BirdsNest",
+  "stack": 5,
+  "uses": 1
+ },
+ "103": {
+  "name": "Paddle",
+  "display": "Paddle",
+  "term": "Item/Paddle",
+  "stack": 1,
+  "uses": 125
+ },
+ "104": {
+  "name": "Color_Red",
+  "display": "Red paint",
+  "term": "Item/Color_Red",
+  "stack": 600,
+  "uses": 1
+ },
+ "105": {
+  "name": "Color_Blue",
+  "display": "Blue paint",
+  "term": "Item/Color_Blue",
+  "stack": 600,
+  "uses": 1
+ },
+ "106": {
+  "name": "Color_Yellow",
+  "display": "Yellow paint",
+  "term": "Item/Color_Yellow",
+  "stack": 600,
+  "uses": 1
+ },
+ "107": {
+  "name": "Color_White",
+  "display": "White paint",
+  "term": "Item/Color_White",
+  "stack": 600,
+  "uses": 1
+ },
+ "108": {
+  "name": "Color_Black",
+  "display": "Black paint",
+  "term": "Item/Color_Black",
+  "stack": 600,
+  "uses": 1
+ },
+ "109": {
+  "name": "PaintBrush",
+  "display": "Paint brush",
+  "term": "Item/PaintBrush",
+  "stack": 1,
+  "uses": 1
+ },
+ "110": {
+  "name": "Placeable_ScrapMechanic",
+  "display": "Scrap Mechanic duck",
+  "term": "Block/ScrapMechanic",
+  "stack": 5,
+  "uses": 1
+ },
+ "113": {
+  "name": "Placeable_ResearchTable",
+  "display": "Research table",
+  "term": "Block/ResearchTable",
+  "stack": 5,
+  "uses": 1
+ },
+ "114": {
+  "name": "Flower_Black",
+  "display": "Black flower",
+  "term": "Item/Flower_Black",
+  "stack": 50,
+  "uses": 1
+ },
+ "115": {
+  "name": "Flower_Red",
+  "display": "Red flower",
+  "term": "Item/Flower_Red",
+  "stack": 50,
+  "uses": 1
+ },
+ "116": {
+  "name": "Flower_Yellow",
+  "display": "Yellow flower",
+  "term": "Item/Flower_Yellow",
+  "stack": 50,
+  "uses": 1
+ },
+ "117": {
+  "name": "Flower_Blue",
+  "display": "Blue flower",
+  "term": "Item/Flower_Blue",
+  "stack": 50,
+  "uses": 1
+ },
+ "118": {
+  "name": "Flower_White",
+  "display": "White flower",
+  "term": "Item/Flower_White",
+  "stack": 50,
+  "uses": 1
+ },
+ "119": {
+  "name": "Seed_Flower_Black",
+  "display": "Black seed",
+  "term": "Item/Seed_Black",
+  "stack": 20,
+  "uses": 1
+ },
+ "120": {
+  "name": "Seed_Flower_White",
+  "display": "White seed",
+  "term": "Item/Seed_White",
+  "stack": 20,
+  "uses": 1
+ },
+ "121": {
+  "name": "Seed_Flower_Red",
+  "display": "Red seed",
+  "term": "Item/Seed_Red",
+  "stack": 20,
+  "uses": 1
+ },
+ "122": {
+  "name": "Seed_Flower_Yellow",
+  "display": "Yellow seed",
+  "term": "Item/Seed_Yellow",
+  "stack": 20,
+  "uses": 1
+ },
+ "123": {
+  "name": "Seed_Flower_Blue",
+  "display": "Blue seed",
+  "term": "Item/Seed_Blue",
+  "stack": 20,
+  "uses": 1
+ },
+ "124": {
+  "name": "Placeable_PaintMill",
+  "display": "Paint mill",
+  "term": "Block/PaintMill",
+  "stack": 5,
+  "uses": 1
+ },
+ "125": {
+  "name": "VineGoo",
+  "display": "Vine goo",
+  "term": "Item/VineGoo",
+  "stack": 20,
+  "uses": 1
+ },
+ "126": {
+  "name": "Placeable_Sail",
+  "display": "Sail",
+  "term": "Block/Sail",
+  "stack": 5,
+  "uses": 1
+ },
+ "127": {
+  "name": "Head_Shark",
+  "display": "Shark head",
+  "term": "Item/SharkHead",
+  "stack": 20,
+  "uses": 1
+ },
+ "128": {
+  "name": "Placeable_SharkTrophy",
+  "display": "Shark trophy",
+  "term": "Block/SharkTrophy",
+  "stack": 5,
+  "uses": 1
+ },
+ "129": {
+  "name": "Raw_Catfish",
+  "display": "Raw catfish",
+  "term": "Item/Raw_Catfish",
+  "stack": 20,
+  "uses": 1
+ },
+ "130": {
+  "name": "Raw_Salmon",
+  "display": "Raw salmon",
+  "term": "Item/Raw_Salmon",
+  "stack": 20,
+  "uses": 1
+ },
+ "131": {
+  "name": "Raw_Herring",
+  "display": "Raw herring",
+  "term": "Item/Raw_Herring",
+  "stack": 20,
+  "uses": 1
+ },
+ "132": {
+  "name": "Raw_Pomfret",
+  "display": "Raw pomfret",
+  "term": "Item/Raw_Pomfret",
+  "stack": 20,
+  "uses": 1
+ },
+ "133": {
+  "name": "Cooked_Salmon",
+  "display": "Cooked salmon",
+  "term": "Item/Cooked_Salmon",
+  "stack": 20,
+  "uses": 3
+ },
+ "134": {
+  "name": "Cooked_Pomfret",
+  "display": "Cooked pomfret",
+  "term": "Item/Cooked_Pomfret",
+  "stack": 20,
+  "uses": 1
+ },
+ "135": {
+  "name": "Cooked_Catfish",
+  "display": "Cooked catfish",
+  "term": "Item/Cooked_Catfish",
+  "stack": 20,
+  "uses": 3
+ },
+ "136": {
+  "name": "Cooked_Herring",
+  "display": "Cooked  herring",
+  "term": "Item/Cooked_Herring",
+  "stack": 20,
+  "uses": 1
+ },
+ "137": {
+  "name": "Cooked_Tilapia",
+  "display": "Cooked tilapia",
+  "term": "Item/Cooked_Tilapia",
+  "stack": 20,
+  "uses": 1
+ },
+ "138": {
+  "name": "Raw_Tilapia",
+  "display": "Raw tilapia",
+  "term": "Item/Raw_Tilapia",
+  "stack": 20,
+  "uses": 1
+ },
+ "139": {
+  "name": "Placeable_Cropplot_Shoe",
+  "display": "Old shoe",
+  "term": "Block/Cropplot_Shoe",
+  "stack": 5,
+  "uses": 1
+ },
+ "140": {
+  "name": "Placeable_Storage_Small",
+  "display": "Small storage",
+  "term": "Block/Storage_Small",
+  "stack": 5,
+  "uses": 1
+ },
+ "142": {
+  "name": "Placeable_Streamer",
+  "display": "Streamer",
+  "term": "Block/Streamer",
+  "stack": 5,
+  "uses": 1
+ },
+ "143": {
+  "name": "Block_HalfFloor_Wood",
+  "display": "Raised floor",
+  "term": "Block/HalfFloor_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "144": {
+  "name": "Block_HalfWall_Wood",
+  "display": "Half wooden wall",
+  "term": "Block/HalfWall_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "145": {
+  "name": "Block_HalfStair",
+  "display": "Half stair",
+  "term": "Block/HalfStair_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "146": {
+  "name": "Block_HalfPillar_Wood",
+  "display": "Half wooden pillar",
+  "term": "Block/HalfPillar_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "147": {
+  "name": "Block_HalfWall_Thatch",
+  "display": "Half thatch wall",
+  "term": "Block/HalfWall_Thatch",
+  "stack": 1,
+  "uses": 1
+ },
+ "148": {
+  "name": "Block_Roof_Straight_Wood",
+  "display": "Wooden roof",
+  "term": "Block/Roof_Straight_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "149": {
+  "name": "Block_Roof_Straight_Thatch",
+  "display": "Thatch roof",
+  "term": "Block/Roof_Straight_Thatch",
+  "stack": 1,
+  "uses": 1
+ },
+ "150": {
+  "name": "Block_Roof_Corner_Wood",
+  "display": "Wooden roof corner",
+  "term": "Block/Roof_Corner_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "151": {
+  "name": "Block_Roof_Corner_Thatch",
+  "display": "Thatch roof corner",
+  "term": "Block/Roof_Corner_Thatch",
+  "stack": 1,
+  "uses": 1
+ },
+ "152": {
+  "name": "Block_Wall_Slope_Wood",
+  "display": "Triangular wooden wall",
+  "term": "Block/Wall_Slope_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "153": {
+  "name": "Block_Wall_Slope_Thatch",
+  "display": "Triangular thatch wall",
+  "term": "Block/Wall_Slope_Thatch",
+  "stack": 1,
+  "uses": 1
+ },
+ "154": {
+  "name": "Bolt",
+  "display": "Bolt",
+  "term": "Item/Bolt",
+  "stack": 20,
+  "uses": 1
+ },
+ "155": {
+  "name": "Hinge",
+  "display": "Hinge",
+  "term": "Item/Hinge",
+  "stack": 20,
+  "uses": 1
+ },
+ "156": {
+  "name": "Placeable_LuckyCat",
+  "display": "Lucky cat",
+  "term": "Block/WavingCat",
+  "stack": 5,
+  "uses": 1
+ },
+ "157": {
+  "name": "Placeable_GlassCandle",
+  "display": "Candle Bottle",
+  "term": "Block/CandleBottle",
+  "stack": 5,
+  "uses": 1
+ },
+ "158": {
+  "name": "Placeable_Rug_Rectangle",
+  "display": "Rug",
+  "term": "Block/Rug",
+  "stack": 5,
+  "uses": 1
+ },
+ "159": {
+  "name": "Placeable_Clock_Basic",
+  "display": "Clock",
+  "term": "Block/Clock",
+  "stack": 5,
+  "uses": 1
+ },
+ "160": {
+  "name": "Block_Roof_InvCorner_Wood",
+  "display": "Inverted wooden roof corner",
+  "term": "Block/Roof_InvCorner_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "161": {
+  "name": "Block_Roof_InvCorner_Thatch",
+  "display": "Inverted thatch roof corner",
+  "term": "Block/Roof_InvCorner_Thatch",
+  "stack": 1,
+  "uses": 1
+ },
+ "162": {
+  "name": "Placeable_Cropplot_Medium",
+  "display": "Medium crop plot",
+  "term": "Block/Cropplot_Medium",
+  "stack": 5,
+  "uses": 1
+ },
+ "163": {
+  "name": "Watermelon",
+  "display": "Watermelon",
+  "term": "Item/Watermelon",
+  "stack": 20,
+  "uses": 2
+ },
+ "164": {
+  "name": "Mango",
+  "display": "Mango",
+  "term": "Item/Mango",
+  "stack": 20,
+  "uses": 1
+ },
+ "165": {
+  "name": "Pineapple",
+  "display": "Pineapple",
+  "term": "Item/Pineapple",
+  "stack": 20,
+  "uses": 1
+ },
+ "166": {
+  "name": "Seed_Watermelon",
+  "display": "Watermelon seed",
+  "term": "Item/Seed_Watermelon",
+  "stack": 20,
+  "uses": 1
+ },
+ "167": {
+  "name": "Seed_Mango",
+  "display": "Mango seed",
+  "term": "Item/Seed_Mango",
+  "stack": 20,
+  "uses": 1
+ },
+ "168": {
+  "name": "Seed_Pineapple",
+  "display": "Pineapple seed",
+  "term": "Item/Seed_Pineapple",
+  "stack": 20,
+  "uses": 1
+ },
+ "169": {
+  "name": "FishingRod_Metal",
+  "display": "Metal fishing rod",
+  "term": "Item/FishingRod_Metal",
+  "stack": 1,
+  "uses": 30
+ },
+ "170": {
+  "name": "Binoculars",
+  "display": "Binoculars",
+  "term": "Item/Binoculars",
+  "stack": 1,
+  "uses": 1
+ },
+ "171": {
+  "name": "Placeable_Calendar",
+  "display": "Calendar",
+  "term": "Item/Calendar",
+  "stack": 5,
+  "uses": 1
+ },
+ "172": {
+  "name": "Placeable_Sign",
+  "display": "Sign",
+  "term": "Item/Sign",
+  "stack": 5,
+  "uses": 1
+ },
+ "173": {
+  "name": "Placeable_Reciever",
+  "display": "Receiver",
+  "term": "Block/Reciever",
+  "stack": 5,
+  "uses": 1
+ },
+ "175": {
+  "name": "Placeable_Reciever_Antenna",
+  "display": "Antenna",
+  "term": "Block/Antenna",
+  "stack": 5,
+  "uses": 1
+ },
+ "176": {
+  "name": "Battery",
+  "display": "Simple Battery",
+  "term": "Item/Simple_Battery",
+  "stack": 1,
+  "uses": 50
+ },
+ "177": {
+  "name": "CopperIngot",
+  "display": "Copper Ingot",
+  "term": "Item/CopperIngot",
+  "stack": 20,
+  "uses": 1
+ },
+ "178": {
+  "name": "CircuitBoard",
+  "display": "Circuit board",
+  "term": "Item/CircuitBoard",
+  "stack": 20,
+  "uses": 1
+ },
+ "179": {
+  "name": "CopperOre",
+  "display": "Copper",
+  "term": "Item/CopperOre",
+  "stack": 20,
+  "uses": 1
+ },
+ "181": {
+  "name": "Blueprint_Reciever",
+  "display": "Blueprint: Receiver",
+  "term": "Item/BlueprintReciever",
+  "stack": 1,
+  "uses": 1
+ },
+ "182": {
+  "name": "Blueprint_Antenna",
+  "display": "Blueprint: Antenna",
+  "term": "Item/BlueprintAntenna",
+  "stack": 1,
+  "uses": 1
+ },
+ "184": {
+  "name": "Block_Ladder",
+  "display": "Ladder",
+  "term": "Block/Ladder",
+  "stack": 5,
+  "uses": 1
+ },
+ "185": {
+  "name": "Bow",
+  "display": "Basic bow",
+  "term": "Item/Bow",
+  "stack": 1,
+  "uses": 60
+ },
+ "186": {
+  "name": "Arrow_Stone",
+  "display": "Stone arrow",
+  "term": "Item/Arrow_Stone",
+  "stack": 30,
+  "uses": 1
+ },
+ "187": {
+  "name": "Placeable_Shelf_Small_Basic",
+  "display": "Shelf",
+  "term": "Block/Shelf",
+  "stack": 5,
+  "uses": 1
+ },
+ "188": {
+  "name": "Axe_Stone",
+  "display": "Stone axe",
+  "term": "Item/Axe_Stone",
+  "stack": 1,
+  "uses": 50
+ },
+ "189": {
+  "name": "Block_Foundation_Triangular_Wood",
+  "display": "Triangular foundation",
+  "term": "Block/Foundation_Triangular_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "191": {
+  "name": "Block_Floor_Triangular_Wood",
+  "display": "Triangular wooden floor",
+  "term": "Block/Floor_Triangular_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "193": {
+  "name": "Block_HalfFloor_Triangular_Wood",
+  "display": "Triangular raised floor",
+  "term": "Block/HalfFloor_Triangular_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "194": {
+  "name": "Placeable_CookingPot",
+  "display": "Cookingpot",
+  "term": "Block/CookingPot",
+  "stack": 5,
+  "uses": 1
+ },
+ "195": {
+  "name": "Placeable_TrophyBoard_Large",
+  "display": "Large trophy board",
+  "term": "Item/TrophyBoard_Large",
+  "stack": 5,
+  "uses": 1
+ },
+ "196": {
+  "name": "Placeable_TrophyBoard_Medium",
+  "display": "Medium trophy board",
+  "term": "Item/TrophyBoard_Medium",
+  "stack": 5,
+  "uses": 1
+ },
+ "197": {
+  "name": "Placeable_TrophyBoard_Small",
+  "display": "Small trophy board",
+  "term": "Item/TrophyBoard_Small",
+  "stack": 5,
+  "uses": 1
+ },
+ "198": {
+  "name": "CaveMushroom",
+  "display": "Cave mushroom",
+  "term": "Item/CaveMushroom",
+  "stack": 20,
+  "uses": 1
+ },
+ "199": {
+  "name": "Claybowl_Empty",
+  "display": "Clay bowl",
+  "term": "Item/ClayBowl",
+  "stack": 20,
+  "uses": 1
+ },
+ "200": {
+  "name": "Berries_Red",
+  "display": "Red berries",
+  "term": "Item/Berries_Red",
+  "stack": 20,
+  "uses": 1
+ },
+ "201": {
+  "name": "SilverAlgae",
+  "display": "Silver algae",
+  "term": "Item/SilverAlgae",
+  "stack": 20,
+  "uses": 1
+ },
+ "202": {
+  "name": "Claybowl_RootVegetableSoup",
+  "display": "Vegetable soup",
+  "term": "Item/VegetableSoup",
+  "stack": 5,
+  "uses": 1
+ },
+ "203": {
+  "name": "Claybowl_Leftover",
+  "display": "Leftovers",
+  "term": "Item/Leftover",
+  "stack": 5,
+  "uses": 1
+ },
+ "204": {
+  "name": "Placeable_Recipe_VegetableSoup",
+  "display": "Recipe: Vegetable soup",
+  "term": "Item/Recipe_VegetableSoup",
+  "stack": 20,
+  "uses": 1
+ },
+ "205": {
+  "name": "Head_Screecher",
+  "display": "Screecher head",
+  "term": "Item/ScreecherHead",
+  "stack": 20,
+  "uses": 1
+ },
+ "206": {
+  "name": "Head_PoisonPuffer",
+  "display": "Poison-puffer head",
+  "term": "Item/PoisonPufferHead",
+  "stack": 20,
+  "uses": 1
+ },
+ "207": {
+  "name": "Arrow_Metal",
+  "display": "Metal arrow",
+  "term": "Item/Arrow_Metal",
+  "stack": 30,
+  "uses": 1
+ },
+ "208": {
+  "name": "Claybowl_SimpleFishStew",
+  "display": "Simple fish stew",
+  "term": "Item/SimpleFishStew",
+  "stack": 5,
+  "uses": 1
+ },
+ "210": {
+  "name": "Claybowl_CoconutChicken",
+  "display": "Coconut chicken",
+  "term": "Item/CoconutChicken",
+  "stack": 5,
+  "uses": 1
+ },
+ "211": {
+  "name": "ClayPlate_SteakWithJam",
+  "display": "Steak with jam",
+  "term": "Item/SteakWithJam",
+  "stack": 5,
+  "uses": 1
+ },
+ "212": {
+  "name": "Claybowl_HeadBroth",
+  "display": "Head broth",
+  "term": "Item/HeadBroth",
+  "stack": 5,
+  "uses": 1
+ },
+ "213": {
+  "name": "ClayPlate_MushroomOmelette",
+  "display": "Mushroom omelette",
+  "term": "Item/MushroomOmelette",
+  "stack": 5,
+  "uses": 1
+ },
+ "215": {
+  "name": "ClayPlate_SharkDinner",
+  "display": "Shark dinner",
+  "term": "Item/SharkDinner",
+  "stack": 5,
+  "uses": 1
+ },
+ "216": {
+  "name": "ClayPlate_BBQ",
+  "display": "BBQ",
+  "term": "Item/BBQ",
+  "stack": 5,
+  "uses": 1
+ },
+ "217": {
+  "name": "ClayPlate_Sushi",
+  "display": "Sushi",
+  "term": "Item/Sushi",
+  "stack": 5,
+  "uses": 1
+ },
+ "218": {
+  "name": "Placeable_Recipe_SimpleFishStew",
+  "display": "Recipe: Simple fish stew",
+  "term": "Item/Recipe_SimpleFishStew",
+  "stack": 20,
+  "uses": 1
+ },
+ "220": {
+  "name": "Placeable_Recipe_CoconutChicken",
+  "display": "Recipe: Coconut chicken",
+  "term": "Item/Recipe_CoconutChicken",
+  "stack": 20,
+  "uses": 1
+ },
+ "221": {
+  "name": "Placeable_Recipe_SteakWithJam",
+  "display": "Recipe: Steak with jam",
+  "term": "Item/Recipe_SteakWithJam",
+  "stack": 20,
+  "uses": 1
+ },
+ "222": {
+  "name": "Placeable_Recipe_HeadBroth",
+  "display": "Recipe: Head broth",
+  "term": "Item/Recipe_HeadBroth",
+  "stack": 20,
+  "uses": 1
+ },
+ "223": {
+  "name": "Placeable_Recipe_MushroomOmelette",
+  "display": "Recipe: Mushroom omelette",
+  "term": "Item/Recipe_MushroomOmelette",
+  "stack": 20,
+  "uses": 1
+ },
+ "225": {
+  "name": "Placeable_Recipe_SharkDinner",
+  "display": "Recipe: Shark dinner",
+  "term": "Item/Recipe_SharkDinner",
+  "stack": 20,
+  "uses": 1
+ },
+ "226": {
+  "name": "Placeable_Recipe_BBQ",
+  "display": "Recipe: BBQ",
+  "term": "Item/Recipe_BBQ",
+  "stack": 20,
+  "uses": 1
+ },
+ "227": {
+  "name": "Placeable_Recipe_Sushi",
+  "display": "Recipe: Sushi",
+  "term": "Item/Recipe_Sushi",
+  "stack": 20,
+  "uses": 1
+ },
+ "228": {
+  "name": "Placeable_Recipe",
+  "display": null,
+  "term": "",
+  "stack": 0,
+  "uses": 1
+ },
+ "235": {
+  "name": "Hat_Pilot",
+  "display": "Pilot helmet",
+  "term": "Item/Hat_Pilot",
+  "stack": 5,
+  "uses": 1
+ },
+ "236": {
+  "name": "Seed_Grass",
+  "display": null,
+  "term": "",
+  "stack": 20,
+  "uses": 1
+ },
+ "237": {
+  "name": "Placeable_Cropplot_Grass",
+  "display": "Grass plot",
+  "term": "Block/Cropplot_Grass",
+  "stack": 20,
+  "uses": 1
+ },
+ "238": {
+  "name": "Shovel",
+  "display": "Shovel",
+  "term": "Item/Shovel",
+  "stack": 1,
+  "uses": 20
+ },
+ "239": {
+  "name": "Dirt",
+  "display": "Dirt",
+  "term": "Item/Dirt",
+  "stack": 20,
+  "uses": 1
+ },
+ "240": {
+  "name": "Bucket",
+  "display": "Bucket",
+  "term": "Item/Bucket",
+  "stack": 20,
+  "uses": 1
+ },
+ "241": {
+  "name": "Bucket_Milk",
+  "display": "Bucket of milk",
+  "term": "Item/Bucket_Milk",
+  "stack": 1,
+  "uses": 1
+ },
+ "242": {
+  "name": "Shear",
+  "display": "Shears",
+  "term": "Item/Shear",
+  "stack": 1,
+  "uses": 15
+ },
+ "243": {
+  "name": "Wool",
+  "display": "Wool",
+  "term": "Item/Wool",
+  "stack": 20,
+  "uses": 1
+ },
+ "244": {
+  "name": "NetGun",
+  "display": "Net launcher",
+  "term": "Item/NetGun",
+  "stack": 1,
+  "uses": 20
+ },
+ "245": {
+  "name": "NetCanister",
+  "display": "Net canister",
+  "term": "Item/NetCanister",
+  "stack": 20,
+  "uses": 1
+ },
+ "246": {
+  "name": "Leather",
+  "display": "Leather",
+  "term": "Item/Leather",
+  "stack": 20,
+  "uses": 1
+ },
+ "247": {
+  "name": "ExplosiveGoo",
+  "display": "Explosive goo",
+  "term": "Item/ExplosiveGoo",
+  "stack": 20,
+  "uses": 1
+ },
+ "248": {
+  "name": "HealingSalve",
+  "display": "Healing salve",
+  "term": "Item/HealingSalve",
+  "stack": 20,
+  "uses": 1
+ },
+ "249": {
+  "name": "Equipment_LeatherHelmet",
+  "display": "Leather helmet",
+  "term": "Item/LeatherHelmet",
+  "stack": 1,
+  "uses": 20
+ },
+ "250": {
+  "name": "Equipment_LeatherChest",
+  "display": "Leather body armor",
+  "term": "Item/LeatherChest",
+  "stack": 1,
+  "uses": 30
+ },
+ "251": {
+  "name": "Equipment_LeatherLegs",
+  "display": "Leather greaves",
+  "term": "Item/LeatherLegs",
+  "stack": 1,
+  "uses": 25
+ },
+ "252": {
+  "name": "Backpack",
+  "display": "Backpack",
+  "term": "Item/Backpack",
+  "stack": 1,
+  "uses": 1
+ },
+ "253": {
+  "name": "Head_Boar",
+  "display": "Warthog head",
+  "term": "Item/BoarHead",
+  "stack": 20,
+  "uses": 1
+ },
+ "254": {
+  "name": "ExplosivePowder",
+  "display": "Explosive powder",
+  "term": "Item/ExplosivePowder",
+  "stack": 20,
+  "uses": 1
+ },
+ "255": {
+  "name": "Block_Wall_Gate_Wood",
+  "display": "Wooden gate",
+  "term": "Block/Gate_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "256": {
+  "name": "Block_Wall_Gate_Thatch",
+  "display": "Thatch gate",
+  "term": "Block/Gate_Thatch",
+  "stack": 1,
+  "uses": 1
+ },
+ "257": {
+  "name": "Placeable_Nametag",
+  "display": "Nametag",
+  "term": "Item/Nametag",
+  "stack": 1,
+  "uses": 1
+ },
+ "259": {
+  "name": "Placeable_Sprinkler",
+  "display": "Sprinkler",
+  "term": "Block/Sprinkler",
+  "stack": 5,
+  "uses": 1
+ },
+ "260": {
+  "name": "Placeable_Figurine_Llama",
+  "display": "Llama",
+  "term": "Block/Figurine_Llama",
+  "stack": 20,
+  "uses": 1
+ },
+ "261": {
+  "name": "Placeable_Figurine_Chicken",
+  "display": "Clucker",
+  "term": "Block/Figurine_Chicken",
+  "stack": 20,
+  "uses": 1
+ },
+ "262": {
+  "name": "Placeable_Figurine_Goat",
+  "display": "Goat",
+  "term": "Block/Figurine_Goat",
+  "stack": 20,
+  "uses": 1
+ },
+ "263": {
+  "name": "Placeable_Radio",
+  "display": "Radio",
+  "term": "Block/Radio",
+  "stack": 5,
+  "uses": 1
+ },
+ "264": {
+  "name": "Hat_Captain",
+  "display": "Captain's hat",
+  "term": "Item/Hat_Captain",
+  "stack": 5,
+  "uses": 1
+ },
+ "265": {
+  "name": "Placeable_MotorWheel",
+  "display": "Engine",
+  "term": "Block/MotorWheel",
+  "stack": 5,
+  "uses": 1
+ },
+ "268": {
+  "name": "Placeable_SteeringWheel",
+  "display": "Steering Wheel",
+  "term": "Block/SteeringWheel",
+  "stack": 5,
+  "uses": 1
+ },
+ "270": {
+  "name": "Blueprint_HeadLight",
+  "display": "Blueprint: Head light",
+  "term": "Item/BlueprintHeadLight",
+  "stack": 1,
+  "uses": 1
+ },
+ "271": {
+  "name": "HeadLight",
+  "display": "Head light",
+  "term": "Item/HeadLight",
+  "stack": 1,
+  "uses": 800
+ },
+ "272": {
+  "name": "Blueprint_MotorWheel",
+  "display": "Blueprint: Engine",
+  "term": "Item/BlueprintMotorWheel",
+  "stack": 1,
+  "uses": 1
+ },
+ "273": {
+  "name": "Blueprint_SteeringWheel",
+  "display": "Blueprint: Steering wheel",
+  "term": "Item/BlueprintSteeringWheel",
+  "stack": 1,
+  "uses": 1
+ },
+ "274": {
+  "name": "Placeable_BiofuelExtractor",
+  "display": "Biofuel refiner",
+  "term": "Block/BiofuelExtractor",
+  "stack": 5,
+  "uses": 1
+ },
+ "275": {
+  "name": "Machete",
+  "display": "Machete",
+  "term": "Item/Machete",
+  "stack": 1,
+  "uses": 40
+ },
+ "276": {
+  "name": "Jar_Honey",
+  "display": "Honey",
+  "term": "Item/Honey",
+  "stack": 20,
+  "uses": 1
+ },
+ "277": {
+  "name": "Placeable_Pipe_Fuel",
+  "display": "Fuel pipe",
+  "term": "Block/Pipe_Fuel",
+  "stack": 20,
+  "uses": 1
+ },
+ "278": {
+  "name": "Placeable_FuelTank",
+  "display": "Fuel tank",
+  "term": "Block/FuelTank",
+  "stack": 20,
+  "uses": 1
+ },
+ "279": {
+  "name": "Blueprint_Machete",
+  "display": "Blueprint: Machete",
+  "term": "Item/BlueprintMachete",
+  "stack": 1,
+  "uses": 1
+ },
+ "280": {
+  "name": "Blueprint_Pipe_Fuel",
+  "display": "Blueprint: Fuel pipe",
+  "term": "Item/BlueprintPipe_Fuel",
+  "stack": 1,
+  "uses": 1
+ },
+ "281": {
+  "name": "Blueprint_Fueltank",
+  "display": "Blueprint: Fuel tank",
+  "term": "Item/BlueprintFuelTank",
+  "stack": 1,
+  "uses": 1
+ },
+ "282": {
+  "name": "Blueprint_BiofuelExtractor",
+  "display": "Blueprint: Biofuel refiner",
+  "term": "Item/BlueprintBiofuelExtractor",
+  "stack": 1,
+  "uses": 1
+ },
+ "283": {
+  "name": "Seed_Pine",
+  "display": "Pinecone",
+  "term": "Item/Seed_Pine",
+  "stack": 20,
+  "uses": 1
+ },
+ "284": {
+  "name": "Seed_Birch",
+  "display": "Birch seed",
+  "term": "Item/Seed_Birch",
+  "stack": 20,
+  "uses": 1
+ },
+ "285": {
+  "name": "Head_Bear",
+  "display": "Bear head",
+  "term": "Item/BearHead",
+  "stack": 20,
+  "uses": 1
+ },
+ "286": {
+  "name": "BioFuel",
+  "display": "Biofuel",
+  "term": "Item/Biofuel",
+  "stack": 20,
+  "uses": 1
+ },
+ "287": {
+  "name": "Head_MamaBear",
+  "display": "Mama bear head",
+  "term": "Item/MamaBearHead",
+  "stack": 20,
+  "uses": 1
+ },
+ "288": {
+  "name": "Cooked_GenericMeat",
+  "display": "Cooked meat",
+  "term": "Item/Cooked_GenericMeat",
+  "stack": 20,
+  "uses": 1
+ },
+ "289": {
+  "name": "Raw_GenericMeat",
+  "display": "Raw meat",
+  "term": "Item/Raw_GenericMeat",
+  "stack": 20,
+  "uses": 1
+ },
+ "290": {
+  "name": "Placeable_BeeHive",
+  "display": "Beehive",
+  "term": "Block/Beehive",
+  "stack": 5,
+  "uses": 1
+ },
+ "291": {
+  "name": "SweepNet",
+  "display": "Sweep net",
+  "term": "Item/SweepNet",
+  "stack": 1,
+  "uses": 35
+ },
+ "292": {
+  "name": "Jar_Bee",
+  "display": "Bee jar",
+  "term": "Item/Bee",
+  "stack": 20,
+  "uses": 1
+ },
+ "293": {
+  "name": "Placeable_BatteryCharger",
+  "display": "Battery charger",
+  "term": "Block/BatteryCharger",
+  "stack": 5,
+  "uses": 1
+ },
+ "294": {
+  "name": "HoneyComb",
+  "display": "Honeycomb",
+  "term": "Item/HoneyComb",
+  "stack": 20,
+  "uses": 1
+ },
+ "295": {
+  "name": "HealingSalve_Good",
+  "display": "Good healing salve",
+  "term": "Item/HealingSalve_Good",
+  "stack": 20,
+  "uses": 1
+ },
+ "296": {
+  "name": "Placeable_Storage_Large",
+  "display": "Large Storage",
+  "term": "Block/Storage_Large",
+  "stack": 5,
+  "uses": 1
+ },
+ "297": {
+  "name": "Blueprint_Storage_Large",
+  "display": "Blueprint: Large storage",
+  "term": "Item/BlueprintStorageLarge",
+  "stack": 1,
+  "uses": 1
+ },
+ "298": {
+  "name": "Blueprint_MetalDetector",
+  "display": "Blueprint: Metal detector",
+  "term": "Item/BlueprintMetalDetector",
+  "stack": 1,
+  "uses": 1
+ },
+ "299": {
+  "name": "Blueprint_BatteryCharger",
+  "display": "Blueprint: Battery charger",
+  "term": "Item/BlueprintBatteryCharger",
+  "stack": 1,
+  "uses": 1
+ },
+ "300": {
+  "name": "MetalDetector",
+  "display": "Metal detector",
+  "term": "Item/MetalDetector",
+  "stack": 1,
+  "uses": 450
+ },
+ "301": {
+  "name": "TitaniumOre",
+  "display": "Titanium ore",
+  "term": "Item/TitaniumOre",
+  "stack": 20,
+  "uses": 1
+ },
+ "302": {
+  "name": "Placeable_MajorTom",
+  "display": "Major Tom",
+  "term": "Block/MajorTom",
+  "stack": 5,
+  "uses": 1
+ },
+ "306": {
+  "name": "Head_Screecher_Caravan",
+  "display": "White screecher head",
+  "term": "Item/ScreecherHead_Caravan",
+  "stack": 20,
+  "uses": 1
+ },
+ "307": {
+  "name": "TitaniumIngot",
+  "display": "Titanium ingot",
+  "term": "Item/TitaniumIngot",
+  "stack": 20,
+  "uses": 1
+ },
+ "308": {
+  "name": "Placeable_ZiplineBase",
+  "display": "Zipline",
+  "term": "Block/ZiplineBase",
+  "stack": 5,
+  "uses": 1
+ },
+ "309": {
+  "name": "Blueprint_ZiplineTool",
+  "display": "Blueprint: Zipline tool",
+  "term": "Item/BlueprintZiplineTool",
+  "stack": 1,
+  "uses": 1
+ },
+ "310": {
+  "name": "Placeable_Firework",
+  "display": "Firework",
+  "term": "Block/Firework",
+  "stack": 50,
+  "uses": 1
+ },
+ "311": {
+  "name": "ZiplineTool",
+  "display": "Zipline tool",
+  "term": "Item/ZiplineTool",
+  "stack": 1,
+  "uses": 175
+ },
+ "312": {
+  "name": "Placeable_TikiPole_Feet",
+  "display": "Tiki piece",
+  "term": "Block/TikiPolePiece",
+  "stack": 5,
+  "uses": 1
+ },
+ "313": {
+  "name": "Placeable_TikiPole_Mid_1",
+  "display": "Tiki piece",
+  "term": "Block/TikiPolePiece",
+  "stack": 5,
+  "uses": 1
+ },
+ "314": {
+  "name": "Placeable_TikiPole_Mid_2",
+  "display": "Tiki piece",
+  "term": "Block/TikiPolePiece",
+  "stack": 5,
+  "uses": 1
+ },
+ "315": {
+  "name": "Placeable_TikiPole_Top",
+  "display": "Tiki piece",
+  "term": "Block/TikiPolePiece",
+  "stack": 5,
+  "uses": 1
+ },
+ "316": {
+  "name": "Placeable_TikiPole_Complete",
+  "display": "Tiki pole",
+  "term": "Block/TikiPoleComplete",
+  "stack": 5,
+  "uses": 1
+ },
+ "317": {
+  "name": "Hat_Tiki",
+  "display": "Tiki mask",
+  "term": "Item/Hat_Tiki",
+  "stack": 5,
+  "uses": 1
+ },
+ "318": {
+  "name": "Placeable_ToyRobot",
+  "display": "Toy robot",
+  "term": "Block/ToyRobot",
+  "stack": 5,
+  "uses": 1
+ },
+ "319": {
+  "name": "Blueprint_Firework",
+  "display": "Blueprint: Firework",
+  "term": "Item/BlueprintFirework",
+  "stack": 1,
+  "uses": 1
+ },
+ "320": {
+  "name": "Hat_Dev",
+  "display": "Developer hat",
+  "term": "Item/Hat_Dev",
+  "stack": 5,
+  "uses": 1
+ },
+ "321": {
+  "name": "Hat_Mayor",
+  "display": "Mayor hat",
+  "term": "Item/Hat_Mayor",
+  "stack": 5,
+  "uses": 1
+ },
+ "322": {
+  "name": "Placeable_Electric_Purifier",
+  "display": "Electric purifier",
+  "term": "Block/ElectricPurifier",
+  "stack": 5,
+  "uses": 1
+ },
+ "323": {
+  "name": "Cassette_EDM",
+  "display": "EDM cassette",
+  "term": "Item/Cassette_EDM",
+  "stack": 1,
+  "uses": 1
+ },
+ "324": {
+  "name": "Cassette_Pop",
+  "display": "Pop cassette",
+  "term": "Item/Cassette_Pop",
+  "stack": 1,
+  "uses": 1
+ },
+ "325": {
+  "name": "Cassette_Rock",
+  "display": "Rock cassette",
+  "term": "Item/Cassette_Rock",
+  "stack": 1,
+  "uses": 1
+ },
+ "326": {
+  "name": "Cassette_Classical",
+  "display": "Classical cassette",
+  "term": "Item/Cassette_Classical",
+  "stack": 1,
+  "uses": 1
+ },
+ "327": {
+  "name": "Banana",
+  "display": "Banana",
+  "term": "Item/Banana",
+  "stack": 20,
+  "uses": 1
+ },
+ "328": {
+  "name": "Strawberry",
+  "display": "Strawberry",
+  "term": "Item/Strawberry",
+  "stack": 20,
+  "uses": 1
+ },
+ "329": {
+  "name": "Seed_Strawberry",
+  "display": "Strawberry seed",
+  "term": "Item/Seed_Strawberry",
+  "stack": 20,
+  "uses": 1
+ },
+ "330": {
+  "name": "Seed_Banana",
+  "display": "Banana seed",
+  "term": "Item/Seed_Banana",
+  "stack": 20,
+  "uses": 1
+ },
+ "331": {
+  "name": "Placeable_Painting_Andr\u00e9",
+  "display": "Man And Moon",
+  "term": "Block/RBPainting_Andre",
+  "stack": 5,
+  "uses": 1
+ },
+ "332": {
+  "name": "Placeable_Painting_Ellen",
+  "display": "The Pot",
+  "term": "Block/RBPainting_Ellen",
+  "stack": 5,
+  "uses": 1
+ },
+ "333": {
+  "name": "Placeable_Painting_Felicia",
+  "display": "After The Rain",
+  "term": "Block/RBPainting_Felicia",
+  "stack": 5,
+  "uses": 1
+ },
+ "334": {
+  "name": "Placeable_Painting_Gabriel",
+  "display": "Octohenge",
+  "term": "Block/RBPainting_Gabriel",
+  "stack": 5,
+  "uses": 1
+ },
+ "335": {
+  "name": "Placeable_Painting_Illayda",
+  "display": "Neighbors Dog",
+  "term": "Block/RBPainting_Illayda",
+  "stack": 5,
+  "uses": 1
+ },
+ "336": {
+  "name": "Placeable_Painting_Petter",
+  "display": "Real Self Portrait",
+  "term": "Block/RBPainting_Petter",
+  "stack": 5,
+  "uses": 1
+ },
+ "337": {
+  "name": "Placeable_Painting_Semih",
+  "display": "What Even Is?",
+  "term": "Block/RBPainting_Semih",
+  "stack": 5,
+  "uses": 1
+ },
+ "338": {
+  "name": "Placeable_Painting_William",
+  "display": "Foul Fogs",
+  "term": "Block/RBPainting_William",
+  "stack": 5,
+  "uses": 1
+ },
+ "339": {
+  "name": "Blueprint_ZiplineBase",
+  "display": "Blueprint: Zipline",
+  "term": "Item/BlueprintZiplineBase",
+  "stack": 1,
+  "uses": 1
+ },
+ "340": {
+  "name": "Blueprint_ElectricPurifier",
+  "display": "Blueprint: Electric purifier",
+  "term": "Item/BlueprintElectricPurifier",
+  "stack": 1,
+  "uses": 1
+ },
+ "341": {
+  "name": "Placeable_Pipe_Water",
+  "display": "Water pipe",
+  "term": "Block/Pipe_Water",
+  "stack": 20,
+  "uses": 1
+ },
+ "342": {
+  "name": "Placeable_WaterTank",
+  "display": "Water tank",
+  "term": "Block/WaterTank",
+  "stack": 20,
+  "uses": 1
+ },
+ "343": {
+  "name": "Blueprint_WaterTank",
+  "display": "Blueprint: Water tank",
+  "term": "Item/BlueprintWatertank",
+  "stack": 1,
+  "uses": 1
+ },
+ "344": {
+  "name": "Blueprint_Pipe_Water",
+  "display": "Blueprint: Water pipe",
+  "term": "Item/BlueprintPipe_Water",
+  "stack": 1,
+  "uses": 1
+ },
+ "345": {
+  "name": "Placeable_Piano",
+  "display": "Piano",
+  "term": "Block/Piano",
+  "stack": 5,
+  "uses": 1
+ },
+ "346": {
+  "name": "Placeable_TangaroaPlant_1",
+  "display": "Tangaroa plant",
+  "term": "Block/TangaroaPlant",
+  "stack": 5,
+  "uses": 1
+ },
+ "347": {
+  "name": "Placeable_TangaroaPlant_2",
+  "display": "Tangaroa plant",
+  "term": "Block/TangaroaPlant",
+  "stack": 5,
+  "uses": 1
+ },
+ "348": {
+  "name": "Placeable_TangaroaPlant_3",
+  "display": "Tangaroa plant",
+  "term": "Block/TangaroaPlant",
+  "stack": 5,
+  "uses": 1
+ },
+ "349": {
+  "name": "Placeable_TangaroaPlant_4",
+  "display": "Tangaroa plant",
+  "term": "Block/TangaroaPlant",
+  "stack": 5,
+  "uses": 1
+ },
+ "350": {
+  "name": "Placeable_TangaroaPlant_5",
+  "display": "Tangaroa plant",
+  "term": "Block/TangaroaPlant",
+  "stack": 5,
+  "uses": 1
+ },
+ "351": {
+  "name": "Placeable_TangaroaPlant_6",
+  "display": "Tangaroa plant",
+  "term": "Block/TangaroaPlant",
+  "stack": 5,
+  "uses": 1
+ },
+ "352": {
+  "name": "Placeable_Painting_Tangaroa_1",
+  "display": "Tangaroa painting",
+  "term": "Block/Painting_Tangaroa",
+  "stack": 5,
+  "uses": 1
+ },
+ "353": {
+  "name": "Placeable_Painting_Tangaroa_2",
+  "display": "Tangaroa painting",
+  "term": "Block/Painting_Tangaroa",
+  "stack": 5,
+  "uses": 1
+ },
+ "354": {
+  "name": "Placeable_Painting_Tangaroa_3",
+  "display": "Tangaroa painting",
+  "term": "Block/Painting_Tangaroa",
+  "stack": 5,
+  "uses": 1
+ },
+ "355": {
+  "name": "Placeable_Painting_Tangaroa_4",
+  "display": "Tangaroa painting",
+  "term": "Block/Painting_Tangaroa",
+  "stack": 5,
+  "uses": 1
+ },
+ "356": {
+  "name": "Placeable_Painting_Tangaroa_5",
+  "display": "Tangaroa painting",
+  "term": "Block/Painting_Tangaroa",
+  "stack": 5,
+  "uses": 1
+ },
+ "357": {
+  "name": "Cassette_Elevator",
+  "display": "Elevator cassette",
+  "term": "Item/Cassette_Elevator",
+  "stack": 1,
+  "uses": 1
+ },
+ "358": {
+  "name": "DevSpear",
+  "display": "OP weapon",
+  "term": "Item/DevSpear",
+  "stack": 1,
+  "uses": 9999
+ },
+ "359": {
+  "name": "Placeable_ToyRobot_Golden",
+  "display": "Golden toy robot",
+  "term": "Block/ToyRobot_Gold",
+  "stack": 5,
+  "uses": 1
+ },
+ "360": {
+  "name": "Compass",
+  "display": "Compass",
+  "term": "Item/Compass",
+  "stack": 1,
+  "uses": 1
+ },
+ "361": {
+  "name": "Placeable_WindTurbine",
+  "display": "Wind turbine",
+  "term": "Block/WindTurbine",
+  "stack": 5,
+  "uses": 1
+ },
+ "362": {
+  "name": "Placeable_EngineControls",
+  "display": "Engine controls",
+  "term": "Block/EngineControls",
+  "stack": 5,
+  "uses": 1
+ },
+ "363": {
+  "name": "Placeable_Recycler",
+  "display": "Recycler",
+  "term": "Block/Recycler",
+  "stack": 5,
+  "uses": 1
+ },
+ "364": {
+  "name": "Trashcube",
+  "display": "Trash cube",
+  "term": "Item/TrashCube",
+  "stack": 20,
+  "uses": 1
+ },
+ "365": {
+  "name": "Hat_Construction",
+  "display": "Construction helmet",
+  "term": "Item/Hat_Construction",
+  "stack": 5,
+  "uses": 1
+ },
+ "366": {
+  "name": "Placeable_Juicer",
+  "display": "Juicer",
+  "term": "Block/Juicer",
+  "stack": 5,
+  "uses": 1
+ },
+ "367": {
+  "name": "DrinkingGlass",
+  "display": "Drinking glass",
+  "term": "Item/DrinkingGlass",
+  "stack": 20,
+  "uses": 1
+ },
+ "368": {
+  "name": "Head_AnglerFish",
+  "display": "Anglerfish head",
+  "term": "Item/AnglerFishHead",
+  "stack": 20,
+  "uses": 1
+ },
+ "369": {
+  "name": "Placeable_RhinoSharkTrophy",
+  "display": "Rhino shark trophy",
+  "term": "Item/RhinoSharkTrophy",
+  "stack": 20,
+  "uses": 1
+ },
+ "371": {
+  "name": "Blueprint_WindTurbine",
+  "display": "Blueprint: Wind turbine",
+  "term": "Item/BlueprintWindTurbine",
+  "stack": 1,
+  "uses": 1
+ },
+ "372": {
+  "name": "Blueprint_Recycler",
+  "display": "Blueprint: Recycler",
+  "term": "Item/BlueprintRecycler",
+  "stack": 1,
+  "uses": 1
+ },
+ "373": {
+  "name": "Blueprint_EngineControls",
+  "display": "Blueprint: Engine controls",
+  "term": "Item/BlueprintEngineControls",
+  "stack": 1,
+  "uses": 1
+ },
+ "375": {
+  "name": "Blueprint",
+  "display": null,
+  "term": "",
+  "stack": 1,
+  "uses": 1
+ },
+ "381": {
+  "name": "Head_PolarBear",
+  "display": "Polar bear head",
+  "term": "Item/PolarBearHead",
+  "stack": 20,
+  "uses": 1
+ },
+ "382": {
+  "name": "Block_Foundation_Tier3",
+  "display": "Solid foundation",
+  "term": "Block/Foundation_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "383": {
+  "name": "Block_Foundation_Triangular_Tier3",
+  "display": "Triangular solid foundation",
+  "term": "Block/Foundation_Triangular_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "384": {
+  "name": "Block_Floor_Tier3",
+  "display": "Solid wooden floor",
+  "term": "Block/Floor_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "385": {
+  "name": "Block_Floor_Triangular_Tier3",
+  "display": "Triangular solid wooden floor",
+  "term": "Block/Floor_Triangular_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "386": {
+  "name": "Block_Wall_Fence_Tier3",
+  "display": "Solid wooden fence",
+  "term": "Block/Fence_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "387": {
+  "name": "Block_Foundation_Triangular_Tier3_Mirrored",
+  "display": "Triangular solid foundation",
+  "term": "Block/Foundation_Triangular_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "388": {
+  "name": "Block_Floor_Triangular_Tier3_Mirrored",
+  "display": "Triangular solid wooden floor",
+  "term": "Block/Floor_Triangular_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "389": {
+  "name": "Placeable_Trashcan",
+  "display": "Trashcan",
+  "term": "Block/Trashcan",
+  "stack": 5,
+  "uses": 1
+ },
+ "390": {
+  "name": "Placeable_Bookpile",
+  "display": "Bookpile",
+  "term": "Block/Bookpile",
+  "stack": 5,
+  "uses": 1
+ },
+ "391": {
+  "name": "Placeable_Quill",
+  "display": "Quill",
+  "term": "Block/Quill",
+  "stack": 5,
+  "uses": 1
+ },
+ "392": {
+  "name": "Placeable_Bookpile_Standing",
+  "display": "Bookpile",
+  "term": "Block/Bookpile",
+  "stack": 5,
+  "uses": 1
+ },
+ "393": {
+  "name": "Placeable_Chair_Wood",
+  "display": "Chair",
+  "term": "Block/Chair",
+  "stack": 5,
+  "uses": 1
+ },
+ "394": {
+  "name": "Placeable_Table_Square",
+  "display": "Table",
+  "term": "Block/Table",
+  "stack": 5,
+  "uses": 1
+ },
+ "395": {
+  "name": "Placeable_Sofa",
+  "display": "Sofa",
+  "term": "Block/Sofa",
+  "stack": 5,
+  "uses": 1
+ },
+ "396": {
+  "name": "Block_HalfFloor_Tier3",
+  "display": "Raised solid floor",
+  "term": "Block/HalfFloor_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "397": {
+  "name": "Block_HalfFloor_Triangular_Tier3",
+  "display": "Triangular raised solid floor",
+  "term": "Block/HalfFloor_Triangular_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "398": {
+  "name": "Block_Ladder_Tier3",
+  "display": "Solid ladder",
+  "term": "Block/Ladder_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "399": {
+  "name": "Block_Pillar_Tier3",
+  "display": "Solid wooden pillar",
+  "term": "Block/Pillar_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "400": {
+  "name": "Block_Pillar_Tier3_Half",
+  "display": "Solid half wooden pillar",
+  "term": "Block/HalfPillar_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "401": {
+  "name": "Block_Roof_Tier3_Corner",
+  "display": "Solid wooden roof corner",
+  "term": "Block/Roof_Corner_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "402": {
+  "name": "Block_Roof_Tier3_InvCorner",
+  "display": "Inverted solid wooden roof corner",
+  "term": "Block/Roof_InvCorner_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "403": {
+  "name": "Block_Roof_Tier3_Straight",
+  "display": "Solid wooden roof",
+  "term": "Block/Roof_Straight_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "404": {
+  "name": "Block_Stair_Tier3",
+  "display": "Solid stair",
+  "term": "Block/Stair_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "405": {
+  "name": "Block_Stair_Tier3_Half",
+  "display": "Solid half stair",
+  "term": "Block/HalfStair_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "406": {
+  "name": "Block_Wall_Door_Tier3",
+  "display": "Solid wooden door",
+  "term": "Block/Door_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "407": {
+  "name": "Block_Wall_Gate_Tier3",
+  "display": "Solid wooden gate",
+  "term": "Block/Gate_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "408": {
+  "name": "Block_Wall_Slope_Tier3",
+  "display": "Triangular solid wooden wall",
+  "term": "Block/Wall_Slope_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "409": {
+  "name": "Block_Wall_Tier3",
+  "display": "Solid wooden wall",
+  "term": "Block/Wall_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "410": {
+  "name": "Block_Wall_Tier3_Half",
+  "display": "Solid half wooden wall",
+  "term": "Block/HalfWall_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "411": {
+  "name": "Block_Wall_Window_Tier3",
+  "display": "Solid wooden window",
+  "term": "Block/Window_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "412": {
+  "name": "Placeable_Cutlery",
+  "display": "Cutlery",
+  "term": "Block/Cutlery",
+  "stack": 5,
+  "uses": 1
+ },
+ "413": {
+  "name": "Placeable_Candlestick",
+  "display": "Candlestick",
+  "term": "Block/Candlestick",
+  "stack": 5,
+  "uses": 1
+ },
+ "414": {
+  "name": "Placeable_Candelabra",
+  "display": "Candlestick",
+  "term": "Block/Candlestick",
+  "stack": 5,
+  "uses": 1
+ },
+ "415": {
+  "name": "Placeable_Mug",
+  "display": "Mug",
+  "term": "Block/Mug",
+  "stack": 5,
+  "uses": 1
+ },
+ "416": {
+  "name": "Placeable_Table_Square_Small",
+  "display": "Table",
+  "term": "Block/Table_Small",
+  "stack": 5,
+  "uses": 1
+ },
+ "417": {
+  "name": "Placeable_Table_Round_Small",
+  "display": "Table",
+  "term": "Block/Table_Small",
+  "stack": 5,
+  "uses": 1
+ },
+ "418": {
+  "name": "Placeable_Chair_Stool",
+  "display": "Chair",
+  "term": "Block/Chair",
+  "stack": 5,
+  "uses": 1
+ },
+ "419": {
+  "name": "Placeable_Chair_Stool_Small",
+  "display": "Chair",
+  "term": "Block/Chair",
+  "stack": 5,
+  "uses": 1
+ },
+ "420": {
+  "name": "Placeable_Table_Round",
+  "display": "Table",
+  "term": "Block/Table",
+  "stack": 5,
+  "uses": 1
+ },
+ "421": {
+  "name": "Block_Wall_VSlope_Wood",
+  "display": "Pyramid wooden wall",
+  "term": "Block/Wall_VSlope_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "422": {
+  "name": "Block_Wall_VSlope_Thatch",
+  "display": "Pyramid thatch wall",
+  "term": "Block/Wall_VSlope_Thatch",
+  "stack": 1,
+  "uses": 1
+ },
+ "423": {
+  "name": "Block_Wall_VSlope_Tier3",
+  "display": "Pyramid solid wooden wall",
+  "term": "Block/Wall_VSlope_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "424": {
+  "name": "Block_Roof_Wood_EndCap",
+  "display": "Wooden roof endcap",
+  "term": "Block/Roof_EndCap_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "425": {
+  "name": "Block_Roof_Thatch_EndCap",
+  "display": "Thatch roof endcap",
+  "term": "Block/Roof_EndCap_Thatch",
+  "stack": 1,
+  "uses": 1
+ },
+ "426": {
+  "name": "Block_Roof_Tier3_EndCap",
+  "display": "Solid wooden roof endcap",
+  "term": "Block/Roof_EndCap_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "427": {
+  "name": "Block_Roof_Wood_Pyramid",
+  "display": "Wooden roof pyramid",
+  "term": "Block/Roof_Pyramid_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "428": {
+  "name": "Block_Roof_Thatch_Pyramid",
+  "display": "Thatch roof pyramid",
+  "term": "Block/Roof_Pyramid_Thatch",
+  "stack": 1,
+  "uses": 1
+ },
+ "429": {
+  "name": "Block_Roof_Tier3_Pyramid",
+  "display": "Solid wooden roof pyramid",
+  "term": "Block/Roof_Pyramid_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "430": {
+  "name": "Block_Roof_Wood_StraightV",
+  "display": "Wooden double roof",
+  "term": "Block/Roof_StraightV_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "431": {
+  "name": "Block_Roof_Thatch_StraightV",
+  "display": "Thatch double roof",
+  "term": "Block/Roof_StraightV_Thatch",
+  "stack": 1,
+  "uses": 1
+ },
+ "432": {
+  "name": "Block_Roof_Tier3_StraightV",
+  "display": "Solid wooden double roof",
+  "term": "Block/Roof_StraightV_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "433": {
+  "name": "Placeable_WorldGlobe",
+  "display": "World globe",
+  "term": "Block/WorldGlobe",
+  "stack": 5,
+  "uses": 1
+ },
+ "434": {
+  "name": "Placeable_Lantern_Metal",
+  "display": "Metal lantern",
+  "term": "Block/Lantern_Metal",
+  "stack": 5,
+  "uses": 1
+ },
+ "435": {
+  "name": "Placeable_Shelf_Large",
+  "display": "Shelf",
+  "term": "Block/Shelf",
+  "stack": 5,
+  "uses": 1
+ },
+ "436": {
+  "name": "Placeable_Shelf_Wood",
+  "display": "Shelf",
+  "term": "Block/Shelf",
+  "stack": 5,
+  "uses": 1
+ },
+ "437": {
+  "name": "Placeable_Rug_Round_Small",
+  "display": "Rug",
+  "term": "Block/Rug",
+  "stack": 5,
+  "uses": 1
+ },
+ "438": {
+  "name": "Placeable_Rug_Round_Large",
+  "display": "Rug",
+  "term": "Block/Rug",
+  "stack": 5,
+  "uses": 1
+ },
+ "439": {
+  "name": "Placeable_Rug_Door",
+  "display": "Rug",
+  "term": "Block/Rug",
+  "stack": 5,
+  "uses": 1
+ },
+ "440": {
+  "name": "Placeable_Sofa2Seat",
+  "display": "Sofa",
+  "term": "Block/Sofa",
+  "stack": 5,
+  "uses": 1
+ },
+ "441": {
+  "name": "Placeable_Sofa3Seat",
+  "display": "Sofa",
+  "term": "Block/Sofa",
+  "stack": 5,
+  "uses": 1
+ },
+ "442": {
+  "name": "Placeable_Clock_Fine",
+  "display": "Clock",
+  "term": "Block/Clock",
+  "stack": 5,
+  "uses": 1
+ },
+ "443": {
+  "name": "Block_Wall_Slope_Wood_Inverted",
+  "display": "Triangular wooden wall",
+  "term": "Block/Wall_Slope_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "444": {
+  "name": "Block_Wall_Slope_Thatch_Inverted",
+  "display": "Triangular thatch wall",
+  "term": "Block/Wall_Slope_Thatch",
+  "stack": 1,
+  "uses": 1
+ },
+ "445": {
+  "name": "Block_Wall_Slope_Tier3_Inverted",
+  "display": "Triangular solid wooden wall",
+  "term": "Block/Wall_Slope_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "446": {
+  "name": "Placeable_Curtain_Vertical",
+  "display": "Curtain",
+  "term": "Block/Curtain",
+  "stack": 5,
+  "uses": 1
+ },
+ "447": {
+  "name": "Placeable_Curtain_Horizontal",
+  "display": "Curtain",
+  "term": "Block/Curtain",
+  "stack": 5,
+  "uses": 1
+ },
+ "448": {
+  "name": "Placeable_Bed_Wood",
+  "display": "Bed",
+  "term": "Block/Bed",
+  "stack": 5,
+  "uses": 1
+ },
+ "449": {
+  "name": "Placeable_Flower_Rose",
+  "display": "Rose",
+  "term": "Block/Flower_Rose",
+  "stack": 5,
+  "uses": 1
+ },
+ "450": {
+  "name": "Placeable_Flower_Sunflower",
+  "display": "Sunflower",
+  "term": "Block/Flower_Sunflower",
+  "stack": 5,
+  "uses": 1
+ },
+ "451": {
+  "name": "Placeable_Flower_Monstera",
+  "display": "Monstera",
+  "term": "Block/Flower_Monstera",
+  "stack": 5,
+  "uses": 1
+ },
+ "452": {
+  "name": "Placeable_Flower_Hibiscus",
+  "display": "Hibiscus",
+  "term": "Block/Flower_Hibiscus",
+  "stack": 5,
+  "uses": 1
+ },
+ "453": {
+  "name": "Placeable_Flower_Cactus",
+  "display": "Cactus",
+  "term": "Block/Flower_Cactus",
+  "stack": 5,
+  "uses": 1
+ },
+ "454": {
+  "name": "Placeable_Flower_AloeVera",
+  "display": "Aloe Vera",
+  "term": "Block/Flower_AloeVera",
+  "stack": 5,
+  "uses": 1
+ },
+ "455": {
+  "name": "Placeable_Table_Sofa_Square",
+  "display": "Table",
+  "term": "Block/Table_Small",
+  "stack": 5,
+  "uses": 1
+ },
+ "456": {
+  "name": "Placeable_Cupboard_Small",
+  "display": "Cupboard",
+  "term": "Block/Cupboard",
+  "stack": 5,
+  "uses": 1
+ },
+ "457": {
+  "name": "Placeable_Cupboard_Medium",
+  "display": "Cupboard",
+  "term": "Block/Cupboard",
+  "stack": 5,
+  "uses": 1
+ },
+ "458": {
+  "name": "Placeable_Cupboard_Large",
+  "display": "Cupboard",
+  "term": "Block/Cupboard",
+  "stack": 5,
+  "uses": 1
+ },
+ "459": {
+  "name": "Placeable_Table_Sofa_Round",
+  "display": "Table",
+  "term": "Block/Table_Small",
+  "stack": 5,
+  "uses": 1
+ },
+ "460": {
+  "name": "Placeable_Shelf_Small_Fine",
+  "display": "Shelf",
+  "term": "Block/Shelf",
+  "stack": 5,
+  "uses": 1
+ },
+ "461": {
+  "name": "Placeable_FirewoodRack",
+  "display": "Firewood rack",
+  "term": "Block/FirewoodRack",
+  "stack": 5,
+  "uses": 1
+ },
+ "462": {
+  "name": "Placeable_Lantern_Fireplace",
+  "display": "Fireplace",
+  "term": "Block/Fireplace",
+  "stack": 5,
+  "uses": 1
+ },
+ "463": {
+  "name": "Placeable_Lantern_FireBasket",
+  "display": "Fire basket",
+  "term": "Block/FireBasket",
+  "stack": 5,
+  "uses": 1
+ },
+ "465": {
+  "name": "Block_HalfFloor_Triangular_Tier3_Mirrored",
+  "display": "Triangular raised solid floor",
+  "term": "Block/HalfFloor_Triangular_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "466": {
+  "name": "Placeable_StringLight_Horizontal",
+  "display": "String light",
+  "term": "Block/StringLight",
+  "stack": 5,
+  "uses": 1
+ },
+ "467": {
+  "name": "Placeable_StringLight_Vertical",
+  "display": "String light",
+  "term": "Block/StringLight",
+  "stack": 5,
+  "uses": 1
+ },
+ "468": {
+  "name": "Mystery_Package",
+  "display": "Decoration package",
+  "term": "Item/Package",
+  "stack": 20,
+  "uses": 1
+ },
+ "469": {
+  "name": "Placeable_Painting_Crafted_1",
+  "display": "Painting",
+  "term": "Block/Painting",
+  "stack": 5,
+  "uses": 1
+ },
+ "470": {
+  "name": "Placeable_Painting_Crafted_2",
+  "display": "Painting",
+  "term": "Block/Painting",
+  "stack": 5,
+  "uses": 1
+ },
+ "471": {
+  "name": "Placeable_Painting_Crafted_3",
+  "display": "Painting",
+  "term": "Block/Painting",
+  "stack": 5,
+  "uses": 1
+ },
+ "472": {
+  "name": "Placeable_Painting_Crafted_4",
+  "display": "Painting",
+  "term": "Block/Painting",
+  "stack": 5,
+  "uses": 1
+ },
+ "473": {
+  "name": "Placeable_Bathtub",
+  "display": "Wooden bathtub",
+  "term": "Block/Bathtub",
+  "stack": 5,
+  "uses": 1
+ },
+ "474": {
+  "name": "Placeable_Outhouse",
+  "display": "Outhouse",
+  "term": "Block/Outhouse",
+  "stack": 5,
+  "uses": 1
+ },
+ "475": {
+  "name": "Placeable_Flag_01",
+  "display": "Flag",
+  "term": "Block/Flag",
+  "stack": 5,
+  "uses": 1
+ },
+ "476": {
+  "name": "Placeable_Flag_02",
+  "display": "Flag",
+  "term": "Block/Flag",
+  "stack": 5,
+  "uses": 1
+ },
+ "477": {
+  "name": "Placeable_Flag_03",
+  "display": "Flag",
+  "term": "Block/Flag",
+  "stack": 5,
+  "uses": 1
+ },
+ "478": {
+  "name": "Placeable_Flag_04",
+  "display": "Flag",
+  "term": "Block/Flag",
+  "stack": 5,
+  "uses": 1
+ },
+ "479": {
+  "name": "Placeable_Flag_05",
+  "display": "Flag",
+  "term": "Block/Flag",
+  "stack": 5,
+  "uses": 1
+ },
+ "480": {
+  "name": "Placeable_Flag_06",
+  "display": "Flag",
+  "term": "Block/Flag",
+  "stack": 5,
+  "uses": 1
+ },
+ "481": {
+  "name": "Placeable_Flag_07",
+  "display": "Flag",
+  "term": "Block/Flag",
+  "stack": 5,
+  "uses": 1
+ },
+ "482": {
+  "name": "Placeable_PaperBundle",
+  "display": "Paper bundle",
+  "term": "Block/PaperBundle",
+  "stack": 5,
+  "uses": 1
+ },
+ "483": {
+  "name": "Placeable_OpenBook",
+  "display": "Open book",
+  "term": "Block/OpenBook",
+  "stack": 5,
+  "uses": 1
+ },
+ "484": {
+  "name": "Placeable_MotivationalSign_1",
+  "display": "Motivational quote",
+  "term": "Block/MotivationalQuote",
+  "stack": 5,
+  "uses": 1
+ },
+ "485": {
+  "name": "Placeable_MotivationalSign_2",
+  "display": "Motivational quote",
+  "term": "Block/MotivationalQuote",
+  "stack": 5,
+  "uses": 1
+ },
+ "486": {
+  "name": "Placeable_MotivationalSign_3",
+  "display": "Motivational quote",
+  "term": "Block/MotivationalQuote",
+  "stack": 5,
+  "uses": 1
+ },
+ "487": {
+  "name": "Placeable_MotivationalSign_4",
+  "display": "Motivational quote",
+  "term": "Block/MotivationalQuote",
+  "stack": 5,
+  "uses": 1
+ },
+ "488": {
+  "name": "Block_Roof_Wood_TJunction",
+  "display": "Wooden T-junction",
+  "term": "Block/Roof_TJunction_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "489": {
+  "name": "Block_Roof_Thatch_TJunction",
+  "display": "Thatch T-junction",
+  "term": "Block/Roof_TJunction_Thatch",
+  "stack": 1,
+  "uses": 1
+ },
+ "490": {
+  "name": "Block_Roof_Tier3_TJunction",
+  "display": "Solid wooden T-junction",
+  "term": "Block/Roof_TJunction_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "491": {
+  "name": "Block_Wall_Window_Wood_Half",
+  "display": "Half wooden window",
+  "term": "Block/Window_Wood_Half",
+  "stack": 1,
+  "uses": 1
+ },
+ "492": {
+  "name": "Block_Wall_Window_Thatch_Half",
+  "display": "Half thatch window",
+  "term": "Block/Window_Thatch_Half",
+  "stack": 1,
+  "uses": 1
+ },
+ "493": {
+  "name": "Block_Wall_Window_Tier3_Half",
+  "display": "Solid half wooden window",
+  "term": "Block/Window_Tier3_Half",
+  "stack": 1,
+  "uses": 1
+ },
+ "494": {
+  "name": "Block_Ladder_Half",
+  "display": "Half ladder",
+  "term": "Block/Ladder_Half",
+  "stack": 1,
+  "uses": 1
+ },
+ "495": {
+  "name": "Block_Ladder_Tier3_Half",
+  "display": "Solid half ladder",
+  "term": "Block/Ladder_Tier3_Half",
+  "stack": 1,
+  "uses": 1
+ },
+ "496": {
+  "name": "Placeable_Table_Square_Tall",
+  "display": "Table",
+  "term": "Block/Table_Small",
+  "stack": 5,
+  "uses": 1
+ },
+ "497": {
+  "name": "Block_Roof_Wood_XJunction",
+  "display": "Wooden X-junction",
+  "term": "Block/Roof_XJunction_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "498": {
+  "name": "Block_Roof_Thatch_XJunction",
+  "display": "Thatch X-junction",
+  "term": "Block/Roof_XJunction_Thatch",
+  "stack": 1,
+  "uses": 1
+ },
+ "499": {
+  "name": "Block_Roof_Tier3_XJunction",
+  "display": "Solid wooden X-junction",
+  "term": "Block/Roof_XJunction_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "500": {
+  "name": "Block_Roof_Tier3_LJunction",
+  "display": "Solid wooden L-junction",
+  "term": "Block/Roof_LJunction_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "501": {
+  "name": "Block_Roof_Thatch_LJunction",
+  "display": "Thatch L-junction",
+  "term": "Block/Roof_LJunction_Thatch",
+  "stack": 1,
+  "uses": 1
+ },
+ "502": {
+  "name": "Block_Roof_Wood_LJunction",
+  "display": "Wooden L-junction",
+  "term": "Block/Roof_LJunction_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "503": {
+  "name": "Placeable_CollectionNet_Advanced",
+  "display": "Advanced collection net",
+  "term": "Block/CollectionNet",
+  "stack": 5,
+  "uses": 1
+ },
+ "504": {
+  "name": "Claybowl_HeartyStew",
+  "display": "Hearty stew",
+  "term": "Item/HeartyStew",
+  "stack": 5,
+  "uses": 1
+ },
+ "508": {
+  "name": "DrinkingGlass_RedbeetShot",
+  "display": "Redbeet shot",
+  "term": "Item/RedbeetShot",
+  "stack": 5,
+  "uses": 1
+ },
+ "509": {
+  "name": "DrinkingGlass_SpicyPineberry",
+  "display": "Spicy pineberry",
+  "term": "Item/SpicyPineberry",
+  "stack": 5,
+  "uses": 1
+ },
+ "510": {
+  "name": "DrinkingGlass_SimpleSmoothie",
+  "display": "Simple smoothie",
+  "term": "Item/SimpleSmoothie",
+  "stack": 5,
+  "uses": 1
+ },
+ "511": {
+  "name": "DrinkingGlass_Mangonana",
+  "display": "Mangonana",
+  "term": "Item/Mangonana",
+  "stack": 5,
+  "uses": 1
+ },
+ "512": {
+  "name": "DrinkingGlass_RedMelon",
+  "display": "Red melon",
+  "term": "Item/RedMelon",
+  "stack": 5,
+  "uses": 1
+ },
+ "513": {
+  "name": "DrinkingGlass_SilverSmoothie",
+  "display": "Silver smoothie",
+  "term": "Item/SilverSmoothie",
+  "stack": 5,
+  "uses": 1
+ },
+ "514": {
+  "name": "DrinkingGlass_CoconutBeat",
+  "display": "Coconut beat",
+  "term": "Item/CoconutBeat",
+  "stack": 5,
+  "uses": 1
+ },
+ "515": {
+  "name": "DrinkingGlass_StrawberryColada",
+  "display": "Strawberry colada",
+  "term": "Item/StrawberryColada",
+  "stack": 5,
+  "uses": 1
+ },
+ "516": {
+  "name": "Placeable_Recipe_HeartyStew",
+  "display": "Recipe: Hearty stew",
+  "term": "Item/Recipe_HeartyStew",
+  "stack": 20,
+  "uses": 1
+ },
+ "520": {
+  "name": "Placeable_Recipe_SpicyPineberry",
+  "display": "Recipe: Spicy pineberry",
+  "term": "Item/Recipe_SpicyPineberry",
+  "stack": 20,
+  "uses": 1
+ },
+ "521": {
+  "name": "Placeable_Recipe_RedbeetShot",
+  "display": "Recipe: Redbeet shot",
+  "term": "Item/Recipe_RedbeetShot",
+  "stack": 20,
+  "uses": 1
+ },
+ "522": {
+  "name": "Placeable_Recipe_SimpleSmoothie",
+  "display": "Recipe: Simple smoothie",
+  "term": "Item/Recipe_SimpleSmoothie",
+  "stack": 20,
+  "uses": 1
+ },
+ "523": {
+  "name": "Placeable_Recipe_CoconutBeat",
+  "display": "Recipe: Coconut beat",
+  "term": "Item/Recipe_CoconutBeat",
+  "stack": 20,
+  "uses": 1
+ },
+ "524": {
+  "name": "Placeable_Recipe_StrawberryColada",
+  "display": "Recipe: Strawberry colada",
+  "term": "Item/Recipe_StrawberryColada",
+  "stack": 20,
+  "uses": 1
+ },
+ "525": {
+  "name": "Placeable_Recipe_Mangonana",
+  "display": "Recipe: Mangonana",
+  "term": "Item/Recipe_Mangonana",
+  "stack": 20,
+  "uses": 1
+ },
+ "526": {
+  "name": "Placeable_Recipe_RedMelon",
+  "display": "Recipe: Red melon",
+  "term": "Item/Recipe_RedMelon",
+  "stack": 20,
+  "uses": 1
+ },
+ "527": {
+  "name": "Placeable_Recipe_SilverSmoothie",
+  "display": "Recipe: Silver smoothie",
+  "term": "Item/Recipe_SilverSmoothie",
+  "stack": 20,
+  "uses": 1
+ },
+ "528": {
+  "name": "Juniper",
+  "display": "Juniper",
+  "term": "Item/Juniper",
+  "stack": 20,
+  "uses": 1
+ },
+ "529": {
+  "name": "Turmeric",
+  "display": "Turmeric",
+  "term": "Item/Turmeric",
+  "stack": 20,
+  "uses": 1
+ },
+ "530": {
+  "name": "Chili",
+  "display": "Chili",
+  "term": "Item/Chili",
+  "stack": 20,
+  "uses": 1
+ },
+ "531": {
+  "name": "Placeable_Recipe_SalmonSalad",
+  "display": "Recipe: Salmon salad",
+  "term": "Item/Recipe_SalmonSalad",
+  "stack": 20,
+  "uses": 1
+ },
+ "532": {
+  "name": "Placeable_Recipe_CatfishDeluxe",
+  "display": "Recipe: Catfish deluxe",
+  "term": "Item/Recipe_CatfishDeluxe",
+  "stack": 20,
+  "uses": 1
+ },
+ "533": {
+  "name": "ClayPlate_SalmonSalad",
+  "display": "Salmon salad",
+  "term": "Item/SalmonSalad",
+  "stack": 5,
+  "uses": 1
+ },
+ "534": {
+  "name": "ClayPlate_CatfishDeluxe",
+  "display": "Catfish deluxe",
+  "term": "Item/CatfishDeluxe",
+  "stack": 5,
+  "uses": 1
+ },
+ "535": {
+  "name": "Battery_Advanced",
+  "display": "Advanced Battery",
+  "term": "Item/Advanced_Battery",
+  "stack": 1,
+  "uses": 175
+ },
+ "536": {
+  "name": "Head_Hyena",
+  "display": "Hyena head",
+  "term": "Item/HyenaHead",
+  "stack": 20,
+  "uses": 1
+ },
+ "537": {
+  "name": "Head_HyenaBoss",
+  "display": "Alpha's head",
+  "term": "Item/HyenaBossHead",
+  "stack": 20,
+  "uses": 1
+ },
+ "538": {
+  "name": "Placeable_Anchor_Stationary_Advanced",
+  "display": "Advanced stationary anchor",
+  "term": "Block/Anchor_Stationary_Advanced",
+  "stack": 5,
+  "uses": 1
+ },
+ "539": {
+  "name": "Placeable_BiofuelExtractor_Advanced",
+  "display": "Advanced biofuel refiner",
+  "term": "Block/BiofuelExtractor_Advanced",
+  "stack": 5,
+  "uses": 1
+ },
+ "540": {
+  "name": "Placeable_CookingStand_Smelter_Electric",
+  "display": "Electric Smelter",
+  "term": "Block/CookingStand_Smelter_Electric",
+  "stack": 5,
+  "uses": 1
+ },
+ "541": {
+  "name": "Block_HorizontalPillar_Wood",
+  "display": "Horizontal wooden pillar",
+  "term": "Block/HorizontalPillar_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "542": {
+  "name": "Block_HorizontalPillar_Wood_Half",
+  "display": "Horizontal half wooden pillar",
+  "term": "Block/HorizontalHalfPillar_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "543": {
+  "name": "Block_HorizontalPillar_Tier3",
+  "display": "Horizontal solid wooden pillar",
+  "term": "Block/HorizontalPillar_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "544": {
+  "name": "Block_HorizontalPillar_Tier3_Half",
+  "display": "Horizontal solid half wooden pillar",
+  "term": "Block/HorizontalHalfPillar_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "545": {
+  "name": "Placeable_DetailPlank",
+  "display": "Detail plank",
+  "term": "Block/DetailPlank",
+  "stack": 20,
+  "uses": 1
+ },
+ "546": {
+  "name": "Block_Upgrade_Wood",
+  "display": "Replace with wood",
+  "term": "Block/Upgrade_Wood",
+  "stack": 1,
+  "uses": 1
+ },
+ "547": {
+  "name": "Block_Upgrade_Thatch",
+  "display": "Replace with thatch",
+  "term": "Block/Upgrade_Thatch",
+  "stack": 1,
+  "uses": 1
+ },
+ "548": {
+  "name": "Block_Upgrade_Tier3",
+  "display": "Replace with solid wood",
+  "term": "Block/Upgrade_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "549": {
+  "name": "ZiplineTool_Electric",
+  "display": "Electric zipline tool",
+  "term": "Item/ZiplineToolElectric",
+  "stack": 1,
+  "uses": 350
+ },
+ "550": {
+  "name": "DrinkingGlass_Leftover",
+  "display": "Leftovers",
+  "term": "Item/Leftover",
+  "stack": 5,
+  "uses": 1
+ },
+ "551": {
+  "name": "Blueprint_AnchorStationaryAdvanced",
+  "display": "Blueprint: Advanced stationary anchor",
+  "term": "Item/BlueprintAnchorStationaryAdvanced",
+  "stack": 1,
+  "uses": 1
+ },
+ "552": {
+  "name": "Blueprint_BatteryAdvanced",
+  "display": "Blueprint: Advanced battery",
+  "term": "Item/BlueprintBatteryAdvanced",
+  "stack": 1,
+  "uses": 1
+ },
+ "553": {
+  "name": "Blueprint_SmelterElectric",
+  "display": "Blueprint: Electric smelter",
+  "term": "Item/BlueprintSmelterElectric",
+  "stack": 1,
+  "uses": 1
+ },
+ "554": {
+  "name": "Blueprint_BiofuelExtractorAdvanced",
+  "display": "Blueprint: Advanced biofuel refiner",
+  "term": "Item/BlueprintBiofuelExtractorAdvanced",
+  "stack": 1,
+  "uses": 1
+ },
+ "555": {
+  "name": "Blueprint_ZiplineToolElectric",
+  "display": "Blueprint: Electric zipline tool",
+  "term": "Item/BlueprintZiplineToolElectric",
+  "stack": 1,
+  "uses": 1
+ },
+ "556": {
+  "name": "Blueprint_BackpackAdvanced",
+  "display": "Blueprint: Big backpack",
+  "term": "Item/BlueprintBackpackAdvanced",
+  "stack": 1,
+  "uses": 1
+ },
+ "557": {
+  "name": "Arrow_Titanium",
+  "display": "Titanium arrow",
+  "term": "Item/Arrow_Titanium",
+  "stack": 30,
+  "uses": 1
+ },
+ "558": {
+  "name": "Sword_Titanium",
+  "display": "Titanium sword",
+  "term": "Item/Sword_Titanium",
+  "stack": 1,
+  "uses": 80
+ },
+ "559": {
+  "name": "Axe_Titanium",
+  "display": "Titanium axe",
+  "term": "Item/Axe_Titanium",
+  "stack": 1,
+  "uses": 240
+ },
+ "560": {
+  "name": "Hook_Titanium",
+  "display": "Titanium hook",
+  "term": "Item/Hook_Titanium",
+  "stack": 1,
+  "uses": 200
+ },
+ "561": {
+  "name": "Blueprint_TitaniumTools",
+  "display": "Blueprint: Titanium tools",
+  "term": "Item/BlueprintTitaniumTools",
+  "stack": 1,
+  "uses": 1
+ },
+ "562": {
+  "name": "Backpack_Advanced",
+  "display": "Big backpack",
+  "term": "Item/BackpackAdvanced",
+  "stack": 1,
+  "uses": 1
+ },
+ "564": {
+  "name": "TradeToken",
+  "display": "Trade coin",
+  "term": "Item/TradeToken",
+  "stack": 20,
+  "uses": 1
+ },
+ "565": {
+  "name": "Placeable_Scarecrow_Advanced",
+  "display": "Advanced Scarecrow",
+  "term": "Block/Scarecrow_Advanced",
+  "stack": 5,
+  "uses": 1
+ },
+ "566": {
+  "name": "Placeable_TicTacToe",
+  "display": "Tic-tac-toe",
+  "term": "Block/TicTacToe",
+  "stack": 5,
+  "uses": 1
+ },
+ "567": {
+  "name": "TrophyFish_T1_Glow_Shrimp",
+  "display": "GlowShrimp",
+  "term": "Item/GlowShrimp",
+  "stack": 20,
+  "uses": 1
+ },
+ "568": {
+  "name": "TrophyFish_T1_NetNibbler",
+  "display": "Netnibbler",
+  "term": "Item/NetNibbler",
+  "stack": 20,
+  "uses": 1
+ },
+ "569": {
+  "name": "TrophyFish_T1_SharpCarp",
+  "display": "Sharp Carp",
+  "term": "Item/SharpCarp",
+  "stack": 20,
+  "uses": 1
+ },
+ "570": {
+  "name": "TrophyFish_T2_TrapSnapper",
+  "display": "Trap Snapper",
+  "term": "Item/TrapSnapper",
+  "stack": 20,
+  "uses": 1
+ },
+ "571": {
+  "name": "TrophyFish_T2_Foamspitter",
+  "display": "Foamspitter",
+  "term": "Item/Foamspitter",
+  "stack": 20,
+  "uses": 1
+ },
+ "572": {
+  "name": "TrophyFish_T2_Pufferlisk",
+  "display": "Pufferlisk",
+  "term": "Item/Pufferlisk",
+  "stack": 20,
+  "uses": 1
+ },
+ "573": {
+  "name": "TrophyFish_T3_Pentapus",
+  "display": "Pentapus",
+  "term": "Item/Pentapus",
+  "stack": 20,
+  "uses": 1
+ },
+ "574": {
+  "name": "TrophyFish_T3_Lionfish",
+  "display": "LionFish",
+  "term": "Item/LionFish",
+  "stack": 20,
+  "uses": 1
+ },
+ "575": {
+  "name": "TrophyFish_T3_Lunarfish",
+  "display": "Lunarfish",
+  "term": "Item/Lunarfish",
+  "stack": 20,
+  "uses": 1
+ },
+ "576": {
+  "name": "TrophyFish_T3_Sharkeater",
+  "display": "Sharkeater",
+  "term": "Item/SharkEater",
+  "stack": 20,
+  "uses": 1
+ },
+ "577": {
+  "name": "TrophyFish_T3_RainbowLobster",
+  "display": "Rainbow Lobster",
+  "term": "Item/RainbowLobster",
+  "stack": 20,
+  "uses": 1
+ },
+ "578": {
+  "name": "TrophyFish_T3_PinkPike",
+  "display": "Pink Pike",
+  "term": "Item/PinkPike",
+  "stack": 20,
+  "uses": 1
+ },
+ "579": {
+  "name": "FishingBait_Simple",
+  "display": "Simple fishing bait",
+  "term": "Item/FishingBait_Simple",
+  "stack": 40,
+  "uses": 1
+ },
+ "580": {
+  "name": "FishingBait_Advanced",
+  "display": "Advanced fishing bait",
+  "term": "Item/FishingBait_Advanced",
+  "stack": 40,
+  "uses": 1
+ },
+ "581": {
+  "name": "FishingBait_Expert",
+  "display": "Expert fishing bait",
+  "term": "Item/FishingBait_Expert",
+  "stack": 40,
+  "uses": 1
+ },
+ "582": {
+  "name": "Placeable_FoundationCounter",
+  "display": "Foundation counter",
+  "term": "Block/FoundationCounter",
+  "stack": 5,
+  "uses": 1
+ },
+ "583": {
+  "name": "Placeable_HonkHorn_1",
+  "display": "Air horn",
+  "term": "Block/HonkHorn1",
+  "stack": 5,
+  "uses": 1
+ },
+ "584": {
+  "name": "Placeable_HonkHorn_2",
+  "display": "Honk horn",
+  "term": "Block/HonkHorn2",
+  "stack": 5,
+  "uses": 1
+ },
+ "585": {
+  "name": "Placeable_HonkHorn_3",
+  "display": "Viking horn",
+  "term": "Block/HonkHorn3",
+  "stack": 5,
+  "uses": 1
+ },
+ "587": {
+  "name": "Placeable_DrawBridgeShort",
+  "display": "Short draw bridge",
+  "term": "Block/DrawBridgeShort",
+  "stack": 5,
+  "uses": 1
+ },
+ "588": {
+  "name": "Placeable_DrawBridgeLong",
+  "display": "Long draw bridge",
+  "term": "Block/DrawBridgeLong",
+  "stack": 5,
+  "uses": 1
+ },
+ "589": {
+  "name": "Placeable_Utopia_Plant_1",
+  "display": "Utopia plant",
+  "term": "Block/UtopiaPlant",
+  "stack": 5,
+  "uses": 1
+ },
+ "590": {
+  "name": "Placeable_Utopia_Plant_2",
+  "display": "Utopia plant",
+  "term": "Block/UtopiaPlant",
+  "stack": 5,
+  "uses": 1
+ },
+ "591": {
+  "name": "Placeable_Utopia_Plant_3",
+  "display": "Utopia plant",
+  "term": "Block/UtopiaPlant",
+  "stack": 5,
+  "uses": 1
+ },
+ "592": {
+  "name": "Placeable_Utopia_LightBottleWhite",
+  "display": "Utopia light bottle",
+  "term": "Block/UtopiaLightBottle",
+  "stack": 5,
+  "uses": 1
+ },
+ "593": {
+  "name": "Placeable_Utopia_LightBottleYellow",
+  "display": "Utopia light bottle",
+  "term": "Block/UtopiaLightBottle",
+  "stack": 5,
+  "uses": 1
+ },
+ "594": {
+  "name": "Placeable_Utopia_Herb_1",
+  "display": "Utopia herbs",
+  "term": "Block/UtopiaHerb",
+  "stack": 5,
+  "uses": 1
+ },
+ "595": {
+  "name": "Placeable_Utopia_Herb_2",
+  "display": "Utopia herbs",
+  "term": "Block/UtopiaHerb",
+  "stack": 5,
+  "uses": 1
+ },
+ "596": {
+  "name": "Placeable_Utopia_Herb_3",
+  "display": "Utopia herbs",
+  "term": "Block/UtopiaHerb",
+  "stack": 5,
+  "uses": 1
+ },
+ "597": {
+  "name": "Placeable_Utopia_Herb_4",
+  "display": "Utopia herbs",
+  "term": "Block/UtopiaHerb",
+  "stack": 5,
+  "uses": 1
+ },
+ "598": {
+  "name": "Placeable_Utopia_Herb_5",
+  "display": "Utopia herbs",
+  "term": "Block/UtopiaHerb",
+  "stack": 5,
+  "uses": 1
+ },
+ "599": {
+  "name": "Placeable_Utopia_Herb_6",
+  "display": "Utopia herbs",
+  "term": "Block/UtopiaHerb",
+  "stack": 5,
+  "uses": 1
+ },
+ "600": {
+  "name": "Placeable_Utopia_DanglyDecoration_1",
+  "display": "Utopia dream catcher",
+  "term": "Block/UtopiaDreamCatcher",
+  "stack": 5,
+  "uses": 1
+ },
+ "601": {
+  "name": "Placeable_Utopia_DanglyDecoration_2",
+  "display": "Utopia decoration",
+  "term": "Block/UtopiaDecoration",
+  "stack": 5,
+  "uses": 1
+ },
+ "602": {
+  "name": "Placeable_Utopia_DanglyDecoration_3",
+  "display": "Utopia decoration",
+  "term": "Block/UtopiaDecoration",
+  "stack": 5,
+  "uses": 1
+ },
+ "603": {
+  "name": "Placeable_Utopia_DanglyDecoration_4",
+  "display": "Utopia decoration",
+  "term": "Block/UtopiaDecoration",
+  "stack": 5,
+  "uses": 1
+ },
+ "604": {
+  "name": "Placeable_Utopia_DanglyDecoration_5",
+  "display": "Utopia decoration",
+  "term": "Block/UtopiaDecoration",
+  "stack": 5,
+  "uses": 1
+ },
+ "605": {
+  "name": "Placeable_Utopia_DanglyDecoration_6",
+  "display": "Utopia decoration",
+  "term": "Block/UtopiaDecoration",
+  "stack": 5,
+  "uses": 1
+ },
+ "606": {
+  "name": "Placeable_Utopia_Bottle",
+  "display": "Utopia bottles",
+  "term": "Block/UtopiaBottle",
+  "stack": 5,
+  "uses": 1
+ },
+ "607": {
+  "name": "Placeable_Temperance_Painting_1",
+  "display": "Temperance painting",
+  "term": "Block/TemperancePainting",
+  "stack": 5,
+  "uses": 1
+ },
+ "608": {
+  "name": "Placeable_Temperance_Painting_2",
+  "display": "Temperance painting",
+  "term": "Block/TemperancePainting",
+  "stack": 5,
+  "uses": 1
+ },
+ "609": {
+  "name": "Placeable_Temperance_Painting_3",
+  "display": "Temperance painting",
+  "term": "Block/TemperancePainting",
+  "stack": 5,
+  "uses": 1
+ },
+ "610": {
+  "name": "Placeable_Temperance_Plant_1",
+  "display": "Temperance plant",
+  "term": "Block/TemperancePlant",
+  "stack": 5,
+  "uses": 1
+ },
+ "611": {
+  "name": "Placeable_Temperance_Plant_2",
+  "display": "Temperance plant",
+  "term": "Block/TemperancePlant",
+  "stack": 5,
+  "uses": 1
+ },
+ "612": {
+  "name": "Placeable_Temperance_Plant_3",
+  "display": "Temperance plant",
+  "term": "Block/TemperancePlant",
+  "stack": 5,
+  "uses": 1
+ },
+ "613": {
+  "name": "Placeable_Temperance_Rug_1",
+  "display": "Temperance rug",
+  "term": "Block/TemperanceRug",
+  "stack": 5,
+  "uses": 1
+ },
+ "614": {
+  "name": "Placeable_Temperance_Rug_2",
+  "display": "Temperance rug",
+  "term": "Block/TemperanceRug",
+  "stack": 5,
+  "uses": 1
+ },
+ "615": {
+  "name": "Placeable_Temperance_Cutlery",
+  "display": "Temperance cutlery",
+  "term": "Block/TemperanceCutlery",
+  "stack": 5,
+  "uses": 1
+ },
+ "616": {
+  "name": "Placeable_Temperance_Mug",
+  "display": "Temperance mug",
+  "term": "Block/TemperanceMug",
+  "stack": 5,
+  "uses": 1
+ },
+ "617": {
+  "name": "HeadLight_Advanced",
+  "display": "Advanced head light",
+  "term": "Item/HeadLight_Advanced",
+  "stack": 1,
+  "uses": 2000
+ },
+ "618": {
+  "name": "Blueprint_HeadLight_Advanced",
+  "display": "Blueprint: Advanced head light",
+  "term": "Item/BlueprintHeadLighAdvanced",
+  "stack": 1,
+  "uses": 1
+ },
+ "619": {
+  "name": "Placeable_SpiralStair",
+  "display": "Spiral stair case",
+  "term": "Block/SpiralStair",
+  "stack": 5,
+  "uses": 1
+ },
+ "620": {
+  "name": "Placeable_SpiralStair_Half",
+  "display": "Half spiral staircase",
+  "term": "Block/SpiralStairHalf",
+  "stack": 5,
+  "uses": 1
+ },
+ "621": {
+  "name": "Hat_Chef",
+  "display": "Chef's hat",
+  "term": "Item/Hat_Chef",
+  "stack": 5,
+  "uses": 1
+ },
+ "622": {
+  "name": "Hat_Glasses_Disguise",
+  "display": "Disguise glasses",
+  "term": "Item/Hat_Glasses_Disguise",
+  "stack": 5,
+  "uses": 1
+ },
+ "623": {
+  "name": "Hat_Glasses_Aviator",
+  "display": "Sunglasses",
+  "term": "Item/Hat_Glasses_Aviator",
+  "stack": 5,
+  "uses": 1
+ },
+ "624": {
+  "name": "Hat_Sailor",
+  "display": "Sailor hat",
+  "term": "Item/Hat_Sailor",
+  "stack": 5,
+  "uses": 1
+ },
+ "625": {
+  "name": "Hat_Fishing",
+  "display": "Fishing hat",
+  "term": "Item/Hat_Fishing",
+  "stack": 5,
+  "uses": 1
+ },
+ "626": {
+  "name": "Hat_Diving",
+  "display": "Diving helmet",
+  "term": "Item/Hat_Diving",
+  "stack": 5,
+  "uses": 1
+ },
+ "627": {
+  "name": "Hat_Pirate",
+  "display": "Pirate hat",
+  "term": "Item/Hat_Pirate",
+  "stack": 5,
+  "uses": 1
+ },
+ "628": {
+  "name": "Canteen_Empty",
+  "display": "Empty canteen",
+  "term": "Item/Canteen_Empty",
+  "stack": 1,
+  "uses": 1
+ },
+ "629": {
+  "name": "Canteen_SaltWater",
+  "display": "Canteen of salt water",
+  "term": "Item/Canteen_SaltWater",
+  "stack": 1,
+  "uses": 10
+ },
+ "630": {
+  "name": "Canteen_Water",
+  "display": "Canteen of fresh water",
+  "term": "Item/Canteen_Water",
+  "stack": 1,
+  "uses": 10
+ },
+ "631": {
+  "name": "Placeable_Wardrobe",
+  "display": "Wardrobe",
+  "term": "Block/Wardrobe",
+  "stack": 5,
+  "uses": 1
+ },
+ "632": {
+  "name": "Blueprint_Canteen",
+  "display": "Blueprint: Canteen",
+  "term": "Item/BlueprintCanteen",
+  "stack": 1,
+  "uses": 1
+ },
+ "633": {
+  "name": "Blueprint_DetailPlank",
+  "display": "Blueprint: Detail plank",
+  "term": "Item/BlueprintDetailPlank",
+  "stack": 1,
+  "uses": 1
+ },
+ "634": {
+  "name": "Placeable_Cropplot_Small_Tier3",
+  "display": "Advanced small crop plot",
+  "term": "Block/Cropplot_Small_Tier3",
+  "stack": 5,
+  "uses": 1
+ },
+ "635": {
+  "name": "Placeable_Cropplot_Large_Tier3",
+  "display": "Advanced large crop plot",
+  "term": "Block/Cropplot_Large_Tier3",
+  "stack": 5,
+  "uses": 1
+ },
+ "636": {
+  "name": "Placeable_Cropplot_Medium_Tier3",
+  "display": "Advanced medium crop plot",
+  "term": "Block/Cropplot_Medium_Tier3",
+  "stack": 5,
+  "uses": 1
+ },
+ "637": {
+  "name": "Blueprint_Cropplot_Small_Tier3",
+  "display": "Blueprint: Advanced small crop plot",
+  "term": "Item/BlueprintCropplot_Small_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "638": {
+  "name": "Blueprint_Cropplot_Medium_Tier3",
+  "display": "Blueprint: Advanced medium crop plot",
+  "term": "Item/BlueprintCropplot_Medium_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "639": {
+  "name": "Blueprint_Cropplot_Large_Tier3",
+  "display": "Blueprint: Advanced large crop plot",
+  "term": "Item/BlueprintCropplot_Large_Tier3",
+  "stack": 1,
+  "uses": 1
+ },
+ "640": {
+  "name": "Placeable_Fridge",
+  "display": "Fridge",
+  "term": "Block/Fridge",
+  "stack": 5,
+  "uses": 1
+ },
+ "641": {
+  "name": "Placeable_Surfboard",
+  "display": "Surfboard",
+  "term": "Block/Surfboard",
+  "stack": 5,
+  "uses": 1
+ },
+ "642": {
+  "name": "Placeable_CookingStand_Food_Electric",
+  "display": "Electric grill",
+  "term": "Block/CookingStand_Food_Electric",
+  "stack": 5,
+  "uses": 1
+ },
+ "643": {
+  "name": "Blueprint_ElectricGrill",
+  "display": "Blueprint: Electric grill",
+  "term": "Item/BlueprintElectricGrill",
+  "stack": 1,
+  "uses": 1
+ },
+ "644": {
+  "name": "FakeTitaniumTools",
+  "display": "Titanium tools",
+  "term": "Item/TitaniumTools",
+  "stack": 1,
+  "uses": 1
+ },
+ "645": {
+  "name": "Cassette_TradingPost",
+  "display": "Trading post cassette",
+  "term": "Item/Cassette_TradingPost",
+  "stack": 1,
+  "uses": 1
+ }
+}
