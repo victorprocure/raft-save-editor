@@ -1,0 +1,52 @@
+name: Release
+
+# Builds Linux and Windows installers and attaches them to a draft GitHub release named after the
+# version in src-tauri/tauri.conf.json. Push a tag like v0.2.0 (after bumping the version), or run
+# the workflow by hand from the Actions tab. Publish the draft release when it looks right.
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        # Ubuntu 22.04 keeps the AppImage and .deb compatible with older glibc versions.
+        platform: [ubuntu-22.04, windows-latest]
+    runs-on: ${{ matrix.platform }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Linux dependencies
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libwebkit2gtk-4.1-dev libappindicator3-dev librsvg2-dev patchelf
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - uses: swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri -> target
+
+      - run: npm ci
+
+      - uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tagName: v__VERSION__
+          releaseName: Raft Save Editor v__VERSION__
+          releaseBody: Download the installer for your system below. Close Raft before saving edits.
+          releaseDraft: true
+          prerelease: false
