@@ -122,10 +122,18 @@ export function setSlot(g: Graph, owner: ClassRec, fieldName: string, data: Slot
     amount: clamp(data.amount, 1),
     uses: clamp(data.uses, 0),
   };
+  const member = owner.meta.members.indexOf(fieldName);
   let arr = slotArray(g, owner, fieldName);
-  if (!arr) {
-    arr = newSlotArray(g);
-    owner.values[owner.meta.members.indexOf(fieldName)] = arr;
+  const inline = !arr || owner.values[member] === arr;
+  if (!arr) arr = newSlotArray(g);
+  if (inline) {
+    // Raft's RGD_Storage and RGD_PlayerInventory are ISerializable. BinaryFormatter hands their
+    // constructor null for an array written inline inside the object, so a chest saved empty
+    // (Slots = null) would load empty again. Write the array at top level and reference it,
+    // as the game does. This also moves inline arrays left by earlier editor versions.
+    g.doc.records.push(arr);
+    owner.values[member] = { kind: 'ref', id: arr.id };
+    g.reindex();
   }
   const existing = slotRecords(g, arr).find((o) => num(o, 'SlotIndex') === d.slotIndex);
   if (existing) {
