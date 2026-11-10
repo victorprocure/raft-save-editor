@@ -4,19 +4,22 @@ import {
   ask,
   findUserDirs,
   folderName,
+  iconSource,
   openFolder,
   pickFolder,
   readFile,
   restoreBackup,
   reveal,
+  setGameDir,
   writeSave,
   type SaveFolder,
   type UserDir,
 } from './api';
-import { SlotEditor } from './components/SlotEditor';
-import { SlotGrid } from './components/SlotGrid';
+import { IconContext } from './components/ItemIcon';
+import { EMPTY_DRAFT, SlotEditor, type Draft } from './components/SlotEditor';
+import { SlotGrid, type ClickMods } from './components/SlotGrid';
+import { item, itemLabel } from './raft/items';
 import { CREATIVE, GAME_MODES, UsersSave, WorldSave, canSwitchMode, type Container } from './raft/save';
-import type { SlotData } from './raft/slots';
 
 interface Loaded {
   root: string;
@@ -28,6 +31,8 @@ interface Loaded {
 
 type Dirty = { world: boolean; users: boolean };
 
+const GAME_DIR_KEY = 'raftGameDir';
+
 export default function App() {
   const [folders, setFolders] = useState<UserDir[]>([]);
   const [folderPath, setFolderPath] = useState('');
@@ -36,9 +41,13 @@ export default function App() {
   const [loaded, setLoaded] = useState<Loaded | null>(null);
   const [dirty, setDirty] = useState<Dirty>({ world: false, users: false });
   const [version, setVersion] = useState(0);
-  const [selected, setSelected] = useState<{ key: string; slot: number | null } | null>(null);
+  /** Selected container and slots. `anchor` is the last plain or Ctrl click, the start of a Shift range. */
+  const [selected, setSelected] = useState<{ key: string; slots: number[]; anchor: number | null } | null>(null);
+  const [draft, setDraft] = useState<Draft>(EMPTY_DRAFT);
   const [status, setStatus] = useState<{ kind: 'info' | 'error'; text: string } | null>(null);
   const [busy, setBusy] = useState(false);
+  /** Changes whenever the Raft install used for icons changes. Null when there is none. */
+  const [iconGen, setIconGen] = useState<number | null>(null);
 
   const fail = (e: unknown) => setStatus({ kind: 'error', text: e instanceof Error ? e.message : String(e) });
   const anyDirty = dirty.world || dirty.users;
@@ -51,6 +60,36 @@ export default function App() {
       })
       .catch(fail);
   }, []);
+
+  // Icons come from the user's Raft install: the folder they picked before, else the detected one.
+  useEffect(() => {
+    let saved: string | null = null;
+    try {
+      saved = localStorage.getItem(GAME_DIR_KEY);
+    } catch {
+      // Storage can be unavailable. Fall back to detection.
+    }
+    (saved ? setGameDir(saved).catch(() => iconSource()) : iconSource())
+      .then((dir) => setIconGen(dir ? Date.now() : null))
+      .catch(() => setIconGen(null));
+  }, []);
+
+  const locateGame = async () => {
+    const dir = await pickFolder('Select your Raft game folder');
+    if (!dir) return;
+    try {
+      await setGameDir(dir);
+      try {
+        localStorage.setItem(GAME_DIR_KEY, dir);
+      } catch {
+        // Not remembered. Icons still work this session.
+      }
+      setIconGen(Date.now());
+      setStatus(null);
+    } catch (e) {
+      fail(e);
+    }
+  };
 
   const refreshFolder = useCallback(async (path: string) => {
     const f = await openFolder(path);
@@ -174,10 +213,14 @@ export default function App() {
       const player = isPlayerContainer(key);
       const target = player ? loaded.users : loaded.world;
       if (!target) throw new Error('Player file is not loaded');
-      fn(target);
-      setDirty((d) => (player ? { ...d, users: true } : { ...d, world: true }));
-      setVersion((v) => v + 1);
-      setStatus(null);
+      try {
+        fn(target);
+        setStatus(null);
+      } finally {
+        // A bulk edit can fail part way. Earlier slots are already changed, so show and save them.
+        setDirty((d) => (player ? { ...d, users: true } : { ...d, world: true }));
+        setVersion((v) => v + 1);
+      }
     } catch (e) {
       fail(e);
     }
@@ -218,153 +261,215 @@ export default function App() {
     }
   };
 
-  const activeSlot = active && selected?.slot != null ? active.slots.find((s) => s.slotIndex === selected.slot) : undefined;
+  const selection = active && selected ? selected.slots : [];
+  const selectedSlots = active ? active.slots.filter((s) => selection.includes(s.slotIndex)) : [];
+
+  const selectSlot = (key: string, i: number, mods: ClickMods) =>
+    setSelected((sel) => {
+      const same = sel?.key === key;
+      if (same && mods.range && sel.anchor !== null) {
+        const [a, b] = sel.anchor < i ? [sel.anchor, i] : [i, sel.anchor];
+        const range = Array.from({ length: b - a + 1 }, (_, k) => a + k);
+        const slots = mods.toggle ? [...new Set([...sel.slots, ...range])] : range;
+        return { key, slots: slots.sort((x, y) => x - y), anchor: sel.anchor };
+      }
+      if (same && mods.toggle) {
+        const slots = sel.slots.includes(i) ? sel.slots.filter((x) => x !== i) : [...sel.slots, i].sort((x, y) => x - y);
+        return { key, slots, anchor: i };
+      }
+      return { key, slots: [i], anchor: i };
+    });
+
+  /** Raise the given slots (all when omitted) to their item's stack limit. Never lowers an amount. */
+  const maxStacks = (c: Container, slotIndexes?: number[]) =>
+    edit(c.key, (t) => {
+      for (const s of c.slots) {
+        const d = item(s.itemIndex);
+        if (d && s.amount < d.stack && (!slotIndexes || slotIndexes.includes(s.slotIndex)))
+          t.setSlot(c.key, { ...s, amount: d.stack });
+      }
+    });
+  const canMaxAll = (c: Container) => c.slots.some((s) => s.amount < (item(s.itemIndex)?.stack ?? 0));
+
+  /** Distinct item names in a container, most slots first. */
+  const summary = (c: Container) => {
+    const counts = new Map<number, number>();
+    for (const s of c.slots) counts.set(s.itemIndex, (counts.get(s.itemIndex) ?? 0) + 1);
+    return [...counts.entries()].sort((a, b) => b[1] - a[1]).map(([id]) => itemLabel(id)).join(', ');
+  };
 
   return (
-    <div className="app">
-      <header className="toolbar">
-        <h1>Raft Save Editor</h1>
-        <label>
-          Save folder
-          <select value={folderPath} onChange={(e) => setFolderPath(e.target.value)}>
-            {folders.length === 0 && <option value="">No saves found</option>}
-            {folders.map((d) => (
-              <option key={d.path} value={d.path} title={d.path}>
-                {d.name}
-              </option>
-            ))}
-          </select>
-        </label>
-        <button onClick={chooseFolder}>Open folder…</button>
-        <label>
-          World
-          <select value={worldFile} onChange={(e) => setWorldFile(e.target.value)} disabled={!folder?.worlds.length}>
-            {folder?.worlds.map((w) => (
-              <option key={w.file} value={w.file}>
-                {w.snapshot ? `${w.name} (${w.snapshot})` : w.name}
-              </option>
-            ))}
-          </select>
-        </label>
-        <button onClick={load} disabled={!worldFile || busy}>
-          Load
-        </button>
-        <span className="spacer" />
-        <button className="primary" onClick={save} disabled={!anyDirty || busy}>
-          Save{anyDirty ? ' *' : ''}
-        </button>
-      </header>
+    <IconContext.Provider value={iconGen}>
+      <div className="app">
+        <header className="toolbar">
+          <h1>Raft Save Editor</h1>
+          <label>
+            Save folder
+            <select value={folderPath} onChange={(e) => setFolderPath(e.target.value)}>
+              {folders.length === 0 && <option value="">No saves found</option>}
+              {folders.map((d) => (
+                <option key={d.path} value={d.path} title={d.path}>
+                  {d.name}
+                </option>
+              ))}
+            </select>
+          </label>
+          <button onClick={chooseFolder}>Open folder…</button>
+          <label>
+            World
+            <select value={worldFile} onChange={(e) => setWorldFile(e.target.value)} disabled={!folder?.worlds.length}>
+              {folder?.worlds.map((w) => (
+                <option key={w.file} value={w.file}>
+                  {w.snapshot ? `${w.name} (${w.snapshot})` : w.name}
+                </option>
+              ))}
+            </select>
+          </label>
+          <button onClick={load} disabled={!worldFile || busy}>
+            Load
+          </button>
+          <span className="spacer" />
+          <button className="primary" onClick={save} disabled={!anyDirty || busy}>
+            Save{anyDirty ? ' *' : ''}
+          </button>
+        </header>
 
-      {folder && (
-        <div className="backup-bar">
-          {folder.backup ? (
-            <>
-              <span>
-                Original backup: <code title={folder.backup}>{folderName(folder.backup)}</code>
-              </span>
-              <button onClick={() => reveal(folder.backup!).catch(fail)}>Show</button>
-              <button className="danger" onClick={restore} disabled={busy}>
-                Restore original
-              </button>
-              {folder.steam_cloud && <span className="warn">Turn off Steam Cloud for Raft before restoring.</span>}
-            </>
-          ) : (
-            <span className="muted">
-              The first save copies this folder to <code title={folder.backup_path}>{folderName(folder.backup_path)}</code> so you
-              can restore the original.
-            </span>
-          )}
-        </div>
-      )}
-      <p className="notice">Close Raft before saving. The game overwrites the save while it is running.</p>
-      {status && <p className={`status ${status.kind}`}>{status.text}</p>}
-
-      {!view ? (
-        <main className="empty">
-          <p>Pick a save folder or open one, choose a world, then press Load.</p>
-        </main>
-      ) : (
-        <main className="layout">
-          <aside className="sidebar">
-            <section className="world">
-              <h2>{view.name}</h2>
-              <p className="muted">Day {view.day}</p>
-              <label>
-                Game mode
-                <select
-                  value={view.mode}
-                  onChange={(e) => setMode(Number(e.target.value))}
-                  disabled={view.mode === CREATIVE}
-                >
-                  {GAME_MODES.filter((m) => canSwitchMode(view.mode, m.value)).map((m) => (
-                    <option key={m.value} value={m.value}>
-                      {m.label}
-                    </option>
-                  ))}
-                  {!GAME_MODES.some((m) => m.value === view.mode) && <option value={view.mode}>Unknown ({view.mode})</option>}
-                </select>
-              </label>
-              <p className="muted small">
-                {view.mode === CREATIVE
-                  ? 'Creative worlds cannot be switched to a survival mode.'
-                  : 'Creative is a separate world type and cannot be switched to.'}
-              </p>
-            </section>
-            {!view.player && loaded?.users && (
-              <p className="muted small">No player entry for this world in RGD_Users.rgd.</p>
-            )}
-            {containers.map((g) => (
-              <section key={g.group}>
-                <h2>{g.group}</h2>
-                <ul className="containers">
-                  {g.items.map((c) => (
-                    <li key={c.key}>
-                      <button
-                        className={selected?.key === c.key ? 'selected' : undefined}
-                        onClick={() => setSelected({ key: c.key, slot: null })}
-                      >
-                        <span>{c.label}</span>
-                        <span className="muted">
-                          {c.slots.length}/{c.capacity ?? '?'}
-                        </span>
-                      </button>
-                    </li>
-                  ))}
-                </ul>
-              </section>
-            ))}
-          </aside>
-
-          <section className="content">
-            {!active ? (
-              <p className="muted">Select a container.</p>
-            ) : (
+        {folder && (
+          <div className="backup-bar">
+            {folder.backup ? (
               <>
-                <h2>{active.label}</h2>
-                {'position' in active && (
-                  <p className="muted small">
-                    Raft position {(active as { position: number[] }).position.map((n) => n.toFixed(1)).join(', ')}
-                  </p>
-                )}
-                <SlotGrid
-                  container={active}
-                  selected={selected?.slot ?? null}
-                  onSelect={(slot) => setSelected({ key: active.key, slot })}
-                />
-                {selected?.slot != null && (
-                  <SlotEditor
-                    slotIndex={selected.slot}
-                    slot={activeSlot}
-                    canAdd={active.capacity !== null}
-                    onApply={(data: SlotData) => edit(active.key, (t) => t.setSlot(active.key, data))}
-                    onClear={() => edit(active.key, (t) => t.clearSlot(active.key, selected.slot!))}
-                  />
-                )}
+                <span>
+                  Original backup: <code title={folder.backup}>{folderName(folder.backup)}</code>
+                </span>
+                <button onClick={() => reveal(folder.backup!).catch(fail)}>Show</button>
+                <button className="danger" onClick={restore} disabled={busy}>
+                  Restore original
+                </button>
+                {folder.steam_cloud && <span className="warn">Turn off Steam Cloud for Raft before restoring.</span>}
               </>
+            ) : (
+              <span className="muted">
+                The first save copies this folder to <code title={folder.backup_path}>{folderName(folder.backup_path)}</code> so you
+                can restore the original.
+              </span>
             )}
-          </section>
-        </main>
-      )}
-    </div>
+          </div>
+        )}
+        <p className="notice">Close Raft before saving. The game overwrites the save while it is running.</p>
+        {iconGen === null && (
+          <p className="notice">
+            Item icons are read from your Raft install, which wasn't found.{' '}
+            <button className="link" onClick={locateGame}>
+              Locate Raft…
+            </button>
+          </p>
+        )}
+        {status && <p className={`status ${status.kind}`}>{status.text}</p>}
+
+        {!view ? (
+          <main className="empty">
+            <p>Pick a save folder or open one, choose a world, then press Load.</p>
+          </main>
+        ) : (
+          <main className="layout">
+            <aside className="sidebar">
+              <section className="world">
+                <h2>{view.name}</h2>
+                <p className="muted">Day {view.day}</p>
+                <label>
+                  Game mode
+                  <select
+                    value={view.mode}
+                    onChange={(e) => setMode(Number(e.target.value))}
+                    disabled={view.mode === CREATIVE}
+                  >
+                    {GAME_MODES.filter((m) => canSwitchMode(view.mode, m.value)).map((m) => (
+                      <option key={m.value} value={m.value}>
+                        {m.label}
+                      </option>
+                    ))}
+                    {!GAME_MODES.some((m) => m.value === view.mode) && <option value={view.mode}>Unknown ({view.mode})</option>}
+                  </select>
+                </label>
+                <p className="muted small">
+                  {view.mode === CREATIVE
+                    ? 'Creative worlds cannot be switched to a survival mode.'
+                    : 'Creative is a separate world type and cannot be switched to.'}
+                </p>
+              </section>
+              {!view.player && loaded?.users && (
+                <p className="muted small">No player entry for this world in RGD_Users.rgd.</p>
+              )}
+              {containers.map((g) => (
+                <section key={g.group}>
+                  <h2>{g.group}</h2>
+                  <ul className="containers">
+                    {g.items.map((c) => (
+                      <li key={c.key}>
+                        <button
+                          className={selected?.key === c.key ? 'selected' : undefined}
+                          onClick={() => setSelected({ key: c.key, slots: [], anchor: null })}
+                          title={summary(c) || 'Empty'}
+                        >
+                          <span className="container-text">
+                            <span>{c.label}</span>
+                            <span className="muted small">{summary(c) || 'Empty'}</span>
+                          </span>
+                          <span className="muted">
+                            {c.slots.length}/{c.capacity ?? '?'}
+                          </span>
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              ))}
+            </aside>
+
+            <section className="content">
+              {!active ? (
+                <p className="muted">Select a container.</p>
+              ) : (
+                <>
+                  <div className="content-main">
+                    <div className="content-head">
+                      <h2>{active.label}</h2>
+                      <button onClick={() => maxStacks(active)} disabled={!canMaxAll(active)}>
+                        Max all stacks
+                      </button>
+                    </div>
+                    {'position' in active && (
+                      <p className="muted small">
+                        Raft position {(active as { position: number[] }).position.map((n) => n.toFixed(1)).join(', ')}
+                      </p>
+                    )}
+                    <p className="muted small">Ctrl-click or Shift-click to select several slots.</p>
+                    <SlotGrid container={active} selected={selection} onSelect={(i, mods) => selectSlot(active.key, i, mods)} />
+                  </div>
+                  <aside className="content-side">
+                    <SlotEditor
+                      selection={selection}
+                      slots={selectedSlots}
+                      canAdd={active.capacity !== null}
+                      draft={draft}
+                      onDraft={setDraft}
+                      onApply={(indexes) =>
+                        edit(active.key, (t) => {
+                          if (draft.itemIndex === null) return;
+                          for (const slotIndex of indexes)
+                            t.setSlot(active.key, { slotIndex, itemIndex: draft.itemIndex, amount: draft.amount, uses: draft.uses });
+                        })
+                      }
+                      onClear={(indexes) => edit(active.key, (t) => indexes.forEach((i) => t.clearSlot(active.key, i)))}
+                      onMax={(indexes) => maxStacks(active, indexes)}
+                    />
+                  </aside>
+                </>
+              )}
+            </section>
+          </main>
+        )}
+      </div>
+    </IconContext.Provider>
   );
 }

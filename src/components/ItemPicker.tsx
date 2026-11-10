@@ -1,15 +1,18 @@
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import { ITEMS, item, type ItemDef } from '../raft/items';
+import { ItemIcon } from './ItemIcon';
 
 interface Props {
   value: number | null;
   onChange: (id: number) => void;
+  /** Search text. Owned by the caller so it survives slot and container changes. */
+  query: string;
+  onQuery: (q: string) => void;
 }
 
 const MAX_RESULTS = 60;
 
-export function ItemPicker({ value, onChange }: Props) {
-  const [query, setQuery] = useState('');
+export function ItemPicker({ value, onChange, query, onQuery }: Props) {
   const current = value !== null ? item(value) : undefined;
 
   const results = useMemo(() => {
@@ -25,7 +28,7 @@ export function ItemPicker({ value, onChange }: Props) {
         type="search"
         placeholder={current ? `${current.display} (search to change)` : 'Search items by name or ID'}
         value={query}
-        onChange={(e) => setQuery(e.target.value)}
+        onChange={(e) => onQuery(e.target.value)}
         aria-label="Search items"
       />
       <ul className="picker-results" role="listbox">
@@ -37,7 +40,10 @@ export function ItemPicker({ value, onChange }: Props) {
             className={i.id === value ? 'selected' : undefined}
             onClick={() => onChange(i.id)}
           >
-            <span>{i.display}</span>
+            <span className="picker-name">
+              <ItemIcon id={i.id} size={24} />
+              {i.display}
+            </span>
             <span className="muted">
               {i.name} · #{i.id}
             </span>

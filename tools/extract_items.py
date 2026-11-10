@@ -74,6 +74,18 @@ def english_name(i2: dict[str, str], term: str | None) -> str | None:
     return text.split('@', 1)[0].strip() or None
 
 
+def sprite_ref(obj, pptr) -> dict | None:
+    """Asset file, object id and name of an item's inventory sprite. No image data."""
+    if not pptr or not pptr.get('m_PathID'):
+        return None
+    af = obj.assets_file
+    if pptr['m_FileID']:
+        ext = af.externals[pptr['m_FileID'] - 1]
+        af = next(f for f in af.environment.files.values() if f.name.endswith(ext.path.split('/')[-1]))
+    sprite = af.objects[pptr['m_PathID']]
+    return {'file': af.name.split('/')[-1], 'id': pptr['m_PathID'], 'name': sprite.peek_name()}
+
+
 def main(data_dir: str, out_path: str) -> None:
     files = [f for f in glob.glob(data_dir.rstrip('/') + '/*')
              if not f.endswith(('.resS', '.resource', '.info', '.config'))]
@@ -108,6 +120,8 @@ def main(data_dir: str, out_path: str) -> None:
             'term': inv.get('localizationTerm'),
             'stack': inv.get('stackSize'),
             'uses': t.get('maxUses'),
+            # Where the icon lives in the game files. The editor reads the pixels from the user's install.
+            'sprite': sprite_ref(obj, inv.get('sprite')),
         }
     with open(out_path, 'w') as f:
         json.dump(dict(sorted(out.items())), f, indent=1)

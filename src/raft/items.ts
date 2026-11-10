@@ -6,9 +6,20 @@ export interface ItemDef {
   display: string;
   stack: number;
   maxUses: number;
+  /** Icon location in the game files. The pixels are read from the user's Raft install. */
+  sprite: SpriteRef | null;
 }
 
-type Raw = Record<string, { name: string; display: string | null; stack: number | null; uses: number | null }>;
+export interface SpriteRef {
+  file: string;
+  id: number;
+  name: string;
+}
+
+type Raw = Record<
+  string,
+  { name: string; display: string | null; stack: number | null; uses: number | null; sprite?: SpriteRef | null }
+>;
 
 export const ITEMS: ItemDef[] = Object.entries(data as Raw)
   .map(([id, v]) => ({
@@ -17,6 +28,7 @@ export const ITEMS: ItemDef[] = Object.entries(data as Raw)
     display: v.display || v.name,
     stack: Math.max(1, v.stack ?? 1),
     maxUses: Math.max(1, v.uses ?? 1),
+    sprite: v.sprite ?? null,
   }))
   .sort((a, b) => a.display.localeCompare(b.display));
 

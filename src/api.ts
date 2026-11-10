@@ -1,4 +1,4 @@
-import { invoke } from '@tauri-apps/api/core';
+import { convertFileSrc, invoke } from '@tauri-apps/api/core';
 import { ask as nativeAsk, open } from '@tauri-apps/plugin-dialog';
 
 export interface UserDir {
@@ -51,10 +51,20 @@ export const restoreBackup = (root: string) => invoke<void>('restore_backup', { 
 
 export const reveal = (path: string) => invoke<void>('reveal', { path });
 
-export async function pickFolder(): Promise<string | null> {
-  const r = await open({ directory: true, title: 'Select the folder that contains your Raft saves' });
+export async function pickFolder(title = 'Select the folder that contains your Raft saves'): Promise<string | null> {
+  const r = await open({ directory: true, title });
   return typeof r === 'string' ? r : null;
 }
+
+/** `Raft_Data` folder used for item icons, or null when no install was found. */
+export const iconSource = () => invoke<string | null>('icon_source');
+
+/** Use the Raft install at `path` for icons. Returns its `Raft_Data` folder. */
+export const setGameDir = (path: string) => invoke<string>('set_game_dir', { path });
+
+/** URL of an item icon. `generation` changes when the install changes, so old failures are not reused. */
+export const iconUrl = (generation: number, file: string, id: number, name: string) =>
+  convertFileSrc(`${generation}/${file}/${id}/${name}`, 'raft-icon');
 
 export function folderName(path: string): string {
   return path.replace(/[\\/]+$/, '').split(/[\\/]/).pop() ?? path;

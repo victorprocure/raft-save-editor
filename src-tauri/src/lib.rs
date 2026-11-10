@@ -1,8 +1,10 @@
+mod icons;
 mod saves;
 
 use serde::Serialize;
 use std::fs;
 use std::path::{Path, PathBuf};
+use std::sync::Arc;
 use tauri_plugin_opener::OpenerExt;
 
 const RAFT_APP_ID: &str = "648800";
@@ -21,6 +23,42 @@ fn home() -> Option<PathBuf> {
         .map(PathBuf::from)
 }
 
+/// Steam library folders (each holds `steamapps/`).
+fn steam_libraries() -> Vec<PathBuf> {
+    let mut steam_dirs = Vec::new();
+    if cfg!(windows) {
+        for var in ["ProgramFiles(x86)", "ProgramFiles"] {
+            if let Some(p) = std::env::var_os(var) {
+                steam_dirs.push(PathBuf::from(p).join("Steam"));
+            }
+        }
+    } else if let Some(h) = home() {
+        steam_dirs.extend([
+            h.join(".local/share/Steam"),
+            h.join(".steam/steam"),
+            h.join(".steam/root"),
+            h.join(".var/app/com.valvesoftware.Steam/.local/share/Steam"),
+        ]);
+    }
+    let mut libraries: Vec<PathBuf> = Vec::new();
+    for s in &steam_dirs {
+        if s.join("steamapps").is_dir() {
+            libraries.push(s.clone());
+        }
+        if let Ok(vdf) = fs::read_to_string(s.join("steamapps").join("libraryfolders.vdf")) {
+            libraries.extend(library_paths(&vdf));
+        }
+    }
+    libraries
+}
+
+/// `Raft_Data` folder of the first Raft install found in a Steam library.
+fn find_raft_data() -> Option<PathBuf> {
+    steam_libraries()
+        .into_iter()
+        .find_map(|lib| icons::data_dir_for(&lib.join("steamapps").join("common").join("Raft")))
+}
+
 /// `LocalLow/Redbeet Interactive/Raft/User` folders that may hold saves.
 fn candidate_user_roots() -> Vec<PathBuf> {
     let mut roots = Vec::new();
@@ -34,23 +72,7 @@ fn candidate_user_roots() -> Vec<PathBuf> {
     }
 
     // Linux and Steam Deck: the game runs under Proton, saves live in its prefix.
-    let Some(h) = home() else { return roots };
-    let steam_dirs = [
-        h.join(".local/share/Steam"),
-        h.join(".steam/steam"),
-        h.join(".steam/root"),
-        h.join(".var/app/com.valvesoftware.Steam/.local/share/Steam"),
-    ];
-    let mut libraries: Vec<PathBuf> = Vec::new();
-    for s in &steam_dirs {
-        if s.join("steamapps").is_dir() {
-            libraries.push(s.clone());
-        }
-        if let Ok(vdf) = fs::read_to_string(s.join("steamapps/libraryfolders.vdf")) {
-            libraries.extend(library_paths(&vdf));
-        }
-    }
-    for lib in libraries {
+    for lib in steam_libraries() {
         let prefix = lib
             .join("steamapps/compatdata")
             .join(RAFT_APP_ID)
@@ -158,6 +180,43 @@ fn reveal(app: tauri::AppHandle, path: String) -> Result<(), String> {
     app.opener().open_path(path, None::<&str>).map_err(|e| e.to_string())
 }
 
+/// Raft install used for item icons, or None when none was found.
+#[tauri::command]
+fn icon_source(store: tauri::State<'_, Arc<icons::IconStore>>) -> Option<String> {
+    store.data_dir().map(|p| p.to_string_lossy().into_owned())
+}
+
+/// Use the Raft install at `path` (the game folder or `Raft_Data`) for icons.
+#[tauri::command]
+fn set_game_dir(store: tauri::State<'_, Arc<icons::IconStore>>, path: String) -> Result<String, String> {
+    let dir = icons::data_dir_for(Path::new(&path)).ok_or(format!("No Raft game files in {path}"))?;
+    store.set_data_dir(Some(dir.clone()));
+    Ok(dir.to_string_lossy().into_owned())
+}
+
+/// `raft-icon://localhost/<generation>/<asset file>/<sprite id>/<sprite name>`, percent-encoded as
+/// one path segment. Answers with a PNG or 404.
+fn serve_icon(store: &icons::IconStore, uri_path: &str) -> tauri::http::Response<Vec<u8>> {
+    let decoded = percent_decode(uri_path.trim_start_matches('/'));
+    let parts: Vec<&str> = decoded.splitn(4, '/').collect();
+    let result = match parts.as_slice() {
+        [_, file, id, name] => id
+            .parse::<i64>()
+            .map_err(|e| e.to_string())
+            .and_then(|id| store.icon_png(file, id, name)),
+        _ => Err("Bad icon path".into()),
+    };
+    let builder = tauri::http::Response::builder().header("Access-Control-Allow-Origin", "*");
+    match result {
+        Ok(png) => builder
+            .header("Content-Type", "image/png")
+            .header("Cache-Control", "max-age=31536000, immutable")
+            .body(png.to_vec())
+            .unwrap(),
+        Err(_) => builder.status(404).body(Vec::new()).unwrap(),
+    }
+}
+
 fn percent_decode(s: &str) -> String {
     let b = s.as_bytes();
     let mut out = Vec::with_capacity(b.len());
@@ -180,7 +239,16 @@ fn percent_decode(s: &str) -> String {
 
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
+    let store = Arc::new(icons::IconStore::new(find_raft_data()));
+    let protocol_store = store.clone();
     tauri::Builder::default()
+        .manage(store)
+        .register_asynchronous_uri_scheme_protocol("raft-icon", move |_ctx, request, responder| {
+            let store = protocol_store.clone();
+            let path = request.uri().path().to_string();
+            // Decoding reads game files. Keep it off the UI thread.
+            tauri::async_runtime::spawn_blocking(move || responder.respond(serve_icon(&store, &path)));
+        })
         .plugin(tauri_plugin_opener::init())
         .plugin(tauri_plugin_dialog::init())
         .invoke_handler(tauri::generate_handler![
@@ -189,7 +257,9 @@ pub fn run() {
             read_file,
             write_save,
             restore_backup,
-            reveal
+            reveal,
+            icon_source,
+            set_game_dir
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

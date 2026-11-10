@@ -4,4087 +4,6999 @@
   "display": "Wooden floor",
   "term": "Block/Floor_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3147,
+   "name": "BuildingIcon_Floor"
+  }
  },
  "2": {
   "name": "Block_Foundation",
   "display": "Foundation",
   "term": "Block/Foundation_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3273,
+   "name": "BuildingIcon_Foundation"
+  }
  },
  "3": {
   "name": "Block_Stair",
   "display": "Stair",
   "term": "Block/Stair_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3057,
+   "name": "BuildingIcon_Stair"
+  }
  },
  "4": {
   "name": "Block_Wall_Wood",
   "display": "Wooden wall",
   "term": "Block/Wall_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3169,
+   "name": "BuildingIcon_WoodWall"
+  }
  },
  "6": {
   "name": "Placeable_Anchor_Stationary",
   "display": "Stationary anchor",
   "term": "Block/Anchor_Stationary",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3329,
+   "name": "Item_AnchorBig"
+  }
  },
  "7": {
   "name": "Placeable_Chair_Basic",
   "display": "Chair",
   "term": "Block/Chair",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3325,
+   "name": "Item_Chair"
+  }
  },
  "8": {
   "name": "Placeable_CollectionNet_Basic",
   "display": "Simple collection net",
   "term": "Block/CollectionNet_Simple",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3317,
+   "name": "Item_NetGathering"
+  }
  },
  "9": {
   "name": "Repair",
   "display": "Repair",
   "term": "Block/Repair",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3069,
+   "name": "BuildingIcon_Repair"
+  }
  },
  "10": {
   "name": "Coconut",
   "display": "Coconut",
   "term": "Item/Coconut",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3321,
+   "name": "Item_Coconut"
+  }
  },
  "11": {
   "name": "Cooked_Beet",
   "display": "Cooked beet",
   "term": "Item/Cooked_Beet",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3327,
+   "name": "Item_BeetCooked"
+  }
  },
  "12": {
   "name": "Cooked_Mackerel",
   "display": "Cooked mackerel",
   "term": "Item/Cooked_Mackerel",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3308,
+   "name": "Item_MackerelCooked"
+  }
  },
  "13": {
   "name": "Cooked_Potato",
   "display": "Cooked potato",
   "term": "Item/Cooked_Potato",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3305,
+   "name": "Item_BakedPotato"
+  }
  },
  "14": {
   "name": "Cooked_Shark",
   "display": "Cooked shark",
   "term": "Item/Cooked_Shark",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3320,
+   "name": "Item_SharkmeatCooked"
+  }
  },
  "15": {
   "name": "Raw_Beet",
   "display": "Raw beet",
   "term": "Item/Raw_Beet",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3326,
+   "name": "Item_Beet"
+  }
  },
  "16": {
   "name": "Raw_Mackerel",
   "display": "Raw mackerel",
   "term": "Item/Raw_Mackerel",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3307,
+   "name": "Item_MackerelRaw"
+  }
  },
  "17": {
   "name": "Raw_Potato",
   "display": "Raw potato",
   "term": "Item/Raw_Potato",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3258,
+   "name": "Icon_Potato"
+  }
  },
  "18": {
   "name": "Raw_Shark",
   "display": "Raw sharkmeat",
   "term": "Item/Raw_Shark",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3319,
+   "name": "Item_SharkmeatRaw"
+  }
  },
  "19": {
   "name": "MetalOre",
   "display": "Metal ore",
   "term": "Item/MetalOre",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3332,
+   "name": "Item_IronOre"
+  }
  },
  "20": {
   "name": "Nail",
   "display": "Nail",
   "term": "Item/Nail",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3328,
+   "name": "Item_Nail"
+  }
  },
  "21": {
   "name": "Plank",
   "display": "Plank",
   "term": "Item/Plank",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3303,
+   "name": "Item_Plank"
+  }
  },
  "22": {
   "name": "Rope",
   "display": "Rope",
   "term": "Item/Rope",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3313,
+   "name": "Item_Rope"
+  }
  },
  "23": {
   "name": "Scrap",
   "display": "Scrap",
   "term": "Item/Scrap",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3304,
+   "name": "Item_Scrap"
+  }
  },
  "24": {
   "name": "SeaVine",
   "display": "Seaweed",
   "term": "Item/SeaVine",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3338,
+   "name": "Item_Seavine"
+  }
  },
  "25": {
   "name": "Thatch",
   "display": "Palm Leaf",
   "term": "Item/Thatch",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3311,
+   "name": "Item_Thatch"
+  }
  },
  "26": {
   "name": "Barrel",
   "display": null,
   "term": "",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": null
  },
  "27": {
   "name": "DropItem",
   "display": null,
   "term": "",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": null
  },
  "31": {
   "name": "Seed_Palm",
   "display": "Palm seed",
   "term": "Item/Seed_Palm",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3316,
+   "name": "Item_SeedsPalm"
+  }
  },
  "32": {
   "name": "Axe",
   "display": "Metal axe",
   "term": "Item/Axe",
   "stack": 1,
-  "uses": 120
+  "uses": 120,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3315,
+   "name": "Item_Axe"
+  }
  },
  "33": {
   "name": "FishingRod",
   "display": "Fishing rod",
   "term": "Item/FishingRod",
   "stack": 1,
-  "uses": 10
+  "uses": 10,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3306,
+   "name": "Item_FishingRod1"
+  }
  },
  "34": {
   "name": "Hammer",
   "display": "Building Hammer",
   "term": "Item/Hammer",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3309,
+   "name": "Item_Hammer"
+  }
  },
  "35": {
   "name": "Hook_Plastic",
   "display": "Plastic hook",
   "term": "Item/Hook_Plastic",
   "stack": 1,
-  "uses": 40
+  "uses": 40,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3334,
+   "name": "ItemPlasticHook"
+  }
  },
  "36": {
   "name": "Hook_Scrap",
   "display": "Scrap hook",
   "term": "Item/Hook_Scrap",
   "stack": 1,
-  "uses": 100
+  "uses": 100,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3333,
+   "name": "Item_ScrapHook"
+  }
  },
  "37": {
   "name": "Spear_Scrap",
   "display": "Metal Spear",
   "term": "Item/Spear_Scrap",
   "stack": 1,
-  "uses": 40
+  "uses": 40,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3314,
+   "name": "Item_Spear"
+  }
  },
  "38": {
   "name": "PlasticCup_Empty",
   "display": "Empty cup",
   "term": "Item/PlasticCup_Empty",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3335,
+   "name": "Item_CupEmpty"
+  }
  },
  "39": {
   "name": "PlasticCup_Water",
   "display": "Cup of fresh water",
   "term": "Item/PlasticCup_Water",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3336,
+   "name": "Item_CupFreshWater"
+  }
  },
  "40": {
   "name": "PlasticCup_SaltWater",
   "display": "Cup of salt water",
   "term": "Item/PlasticCup_SaltWater",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3337,
+   "name": "Item_CupSaltWater"
+  }
  },
  "42": {
   "name": "Placeable_Storage_Medium",
   "display": "Storage",
   "term": "Block/Storage_Medium",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3322,
+   "name": "Item_StorageSmall"
+  }
  },
  "43": {
   "name": "Placeable_CookingStand_Food_One",
   "display": "Simple grill",
   "term": "Block/CookingStand_Food_One",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3347,
+   "name": "Item_GrillSmall"
+  }
  },
  "45": {
   "name": "Placeable_Cropplot_Small",
   "display": "Small crop plot",
   "term": "Block/Cropplot_Small",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3312,
+   "name": "Item_CropPlot"
+  }
  },
  "46": {
   "name": "Placeable_Cropplot_Large",
   "display": "Large crop plot",
   "term": "Block/Cropplot_Large",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3318,
+   "name": "\u00cftem_CropPlotBig"
+  }
  },
  "47": {
   "name": "Placeable_Lantern_Basic",
   "display": "Lantern",
   "term": "Block/Lantern",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3323,
+   "name": "Item_Lantern"
+  }
  },
  "48": {
   "name": "Placeable_Table_Basic",
   "display": "Table",
   "term": "Block/Table",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3324,
+   "name": "Item_Table"
+  }
  },
  "50": {
   "name": "Stone",
   "display": "Stone",
   "term": "Item/Stone",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3331,
+   "name": "Item_Rock"
+  }
  },
  "51": {
   "name": "Placeable_GiantClam",
   "display": "Giant clam",
   "term": "Item/GiantClam",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3342,
+   "name": "Item_Clam"
+  }
  },
  "52": {
   "name": "Spear_Plank",
   "display": "Wooden spear",
   "term": "Item/Spear_Wood",
   "stack": 1,
-  "uses": 20
+  "uses": 20,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3339,
+   "name": "Item_WoodSpear"
+  }
  },
  "53": {
   "name": "Plastic",
   "display": "Plastic",
   "term": "Item/Plastic",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3341,
+   "name": "Item_Plastic"
+  }
  },
  "54": {
   "name": "SharkBait",
   "display": "Shark bait",
   "term": "Item/SharkBait",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3340,
+   "name": "Item_SharkBait"
+  }
  },
  "56": {
   "name": "Placeable_Anchor_Throwable",
   "display": "Throwable anchor",
   "term": "Block/Anchor_Throwable",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3330,
+   "name": "Item_AnchorSmall"
+  }
  },
  "57": {
   "name": "ThrowableAnchor",
   "display": null,
   "term": "",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3330,
+   "name": "Item_AnchorSmall"
+  }
  },
  "59": {
   "name": "Block_Wall_Thatch",
   "display": "Thatch wall",
   "term": "Block/Wall_Thatch",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3261,
+   "name": "BuildingIcon_ThatchWall"
+  }
  },
  "63": {
   "name": "Flipper",
   "display": "Flippers",
   "term": "Item/Flipper",
   "stack": 1,
-  "uses": 600
+  "uses": 600,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3344,
+   "name": "Item_Flippers"
+  }
  },
  "64": {
   "name": "OxygenBottle",
   "display": "Oxygen bottle",
   "term": "Item/AirBottle",
   "stack": 1,
-  "uses": 600
+  "uses": 600,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3349,
+   "name": "Item_AirBottle"
+  }
  },
  "65": {
   "name": "Clay",
   "display": "Clay",
   "term": "Item/Clay",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3348,
+   "name": "Item_Clay"
+  }
  },
  "66": {
   "name": "Sand",
   "display": "Sand",
   "term": "Item/Sand",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3351,
+   "name": "Item_Sand"
+  }
  },
  "67": {
   "name": "Glass",
   "display": "Glass",
   "term": "Item/Glass",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3354,
+   "name": "Item_Glass"
+  }
  },
  "70": {
   "name": "MetalIngot",
   "display": "Metal ingot",
   "term": "Item/MetalIngot",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3353,
+   "name": "Item_IronIngot"
+  }
  },
  "71": {
   "name": "Placeable_CookingStand_Smelter",
   "display": "Smelter",
   "term": "Block/CookingStand_Smelter",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3343,
+   "name": "Item_Smelter"
+  }
  },
  "72": {
   "name": "Placeable_Brick_Wet",
   "display": "Wet brick",
   "term": "Block/Brick_Wet",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3346,
+   "name": "Item_BrickWet"
+  }
  },
  "73": {
   "name": "Brick_Dry",
   "display": "Dry brick",
   "term": "Item/Brick_Dry",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3345,
+   "name": "Item_BrickDry"
+  }
  },
  "77": {
   "name": "Placeable_CookingStand_Food_Two",
   "display": "Advanced grill",
   "term": "Block/CookingStand_Food_Two",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3350,
+   "name": "Item_GrillBig"
+  }
  },
  "78": {
   "name": "Placeable_CookingStand_Purifier_Two",
   "display": "Advanced purifier",
   "term": "Block/CookingStand_Purifier_Two",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3352,
+   "name": "Item_Purifier2"
+  }
  },
  "79": {
   "name": "PlasticBottle_Empty",
   "display": "Empty bottle",
   "term": "Item/PlasticBottle_Empty",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3383,
+   "name": "Item_Bottle"
+  }
  },
  "80": {
   "name": "PlasticBottle_SaltWater",
   "display": "Bottle of salt water",
   "term": "Item/PlasticBottle_SaltWater",
   "stack": 1,
-  "uses": 5
+  "uses": 5,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3383,
+   "name": "Item_Bottle"
+  }
  },
  "81": {
   "name": "PlasticBottle_Water",
   "display": "Bottle of fresh water",
   "term": "Item/PlasticBottle_Water",
   "stack": 1,
-  "uses": 5
+  "uses": 5,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3383,
+   "name": "Item_Bottle"
+  }
  },
  "82": {
   "name": "Block_Wall_Window_Wood",
   "display": "Wooden window",
   "term": "Block/Window_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3293,
+   "name": "BuildingIcon_WoodWindow"
+  }
  },
  "83": {
   "name": "Block_Wall_Window_Thatch",
   "display": "Thatch window",
   "term": "Block/Window_Thatch",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3096,
+   "name": "BuildingIcon_ThatchWindow"
+  }
  },
  "84": {
   "name": "Block_Pillar_Wood",
   "display": "Wooden pillar",
   "term": "Block/Pillar_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3125,
+   "name": "BuildingIcon_Pillar"
+  }
  },
  "85": {
   "name": "Block_Wall_Fence_Plank",
   "display": "Plank fence",
   "term": "Block/Fence_Plank",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3252,
+   "name": "BuildingIcon_FenceWood"
+  }
  },
  "86": {
   "name": "Block_Wall_Fence_Rope",
   "display": "Rope fence",
   "term": "Block/Fence_Rope",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3206,
+   "name": "BuildingIcon_FenceRope"
+  }
  },
  "88": {
   "name": "Block_Wall_Door_Wood",
   "display": "Wooden door",
   "term": "Block/Door_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3264,
+   "name": "BuildingIcon_DoorWood"
+  }
  },
  "89": {
   "name": "Block_Wall_Door_Thatch",
   "display": "Thatch door",
   "term": "Block/Door_Thatch",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3291,
+   "name": "BuildingIcon_DoorThatch"
+  }
  },
  "91": {
   "name": "Placeable_CookingStand_Purifier_One",
   "display": "Simple purifier",
   "term": "Block/CookingStand_Purifier_One",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3362,
+   "name": "Item_Purifier1"
+  }
  },
  "92": {
   "name": "Placeable_Bed_Hammock",
   "display": "Hammock",
   "term": "Block/Bed_Hammock",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3355,
+   "name": "Iem_BedHammock"
+  }
  },
  "93": {
   "name": "Placeable_Bed_Basic",
   "display": "Simple bed",
   "term": "Block/Bed_Simple",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3356,
+   "name": "Item_BedSimple"
+  }
  },
  "94": {
   "name": "Placeable",
   "display": null,
   "term": "",
   "stack": 0,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3310,
+   "name": "Item_NA"
+  }
  },
  "95": {
   "name": "Feather",
   "display": "Feather",
   "term": "Item/Feather",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3359,
+   "name": "Item_Feather"
+  }
  },
  "96": {
   "name": "Block_FoundationArmor",
   "display": "Foundation armor",
   "term": "Block/FoundationArmor",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3274,
+   "name": "BuildingIcon_MetalFoundation"
+  }
  },
  "97": {
   "name": "Egg",
   "display": "Egg",
   "term": "Item/Egg",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3360,
+   "name": "Item_Egg"
+  }
  },
  "98": {
   "name": "Raw_Drumstick",
   "display": "Raw drumstick",
   "term": "Item/Raw_Drumstick",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3357,
+   "name": "Item_DrumstickRaw"
+  }
  },
  "99": {
   "name": "Cooked_Drumstick",
   "display": "Cooked drumstick",
   "term": "Item/Cooked_Drumstick",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3358,
+   "name": "Item_DrumstickCooked"
+  }
  },
  "100": {
   "name": "Placeable_Scarecrow",
   "display": "Scarecrow",
   "term": "Block/Scarecrow",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3361,
+   "name": "Item_ScareCrow"
+  }
  },
  "101": {
   "name": "Placeable_BirdsNest",
   "display": "Birds nest",
   "term": "Block/BirdsNest",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3363,
+   "name": "Item_BirdNest"
+  }
  },
  "103": {
   "name": "Paddle",
   "display": "Paddle",
   "term": "Item/Paddle",
   "stack": 1,
-  "uses": 125
+  "uses": 125,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3380,
+   "name": "Item_Paddle"
+  }
  },
  "104": {
   "name": "Color_Red",
   "display": "Red paint",
   "term": "Item/Color_Red",
   "stack": 600,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3364,
+   "name": "Item_ColorRed"
+  }
  },
  "105": {
   "name": "Color_Blue",
   "display": "Blue paint",
   "term": "Item/Color_Blue",
   "stack": 600,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3366,
+   "name": "Item_ColorBlue"
+  }
  },
  "106": {
   "name": "Color_Yellow",
   "display": "Yellow paint",
   "term": "Item/Color_Yellow",
   "stack": 600,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3365,
+   "name": "Item_ColorGreen"
+  }
  },
  "107": {
   "name": "Color_White",
   "display": "White paint",
   "term": "Item/Color_White",
   "stack": 600,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3368,
+   "name": "Item_ColorWhite"
+  }
  },
  "108": {
   "name": "Color_Black",
   "display": "Black paint",
   "term": "Item/Color_Black",
   "stack": 600,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3367,
+   "name": "Item_ColorBlack"
+  }
  },
  "109": {
   "name": "PaintBrush",
   "display": "Paint brush",
   "term": "Item/PaintBrush",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3379,
+   "name": "Item_PaintBrush"
+  }
  },
  "110": {
   "name": "Placeable_ScrapMechanic",
   "display": "Scrap Mechanic duck",
   "term": "Block/ScrapMechanic",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3388,
+   "name": "Item_Duck"
+  }
  },
  "113": {
   "name": "Placeable_ResearchTable",
   "display": "Research table",
   "term": "Block/ResearchTable",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3381,
+   "name": "Item_ResearchTable"
+  }
  },
  "114": {
   "name": "Flower_Black",
   "display": "Black flower",
   "term": "Item/Flower_Black",
   "stack": 50,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3375,
+   "name": "Item_FlowerBlack"
+  }
  },
  "115": {
   "name": "Flower_Red",
   "display": "Red flower",
   "term": "Item/Flower_Red",
   "stack": 50,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3377,
+   "name": "Item_FlowerRed"
+  }
  },
  "116": {
   "name": "Flower_Yellow",
   "display": "Yellow flower",
   "term": "Item/Flower_Yellow",
   "stack": 50,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3378,
+   "name": "Item_FlowerGreen"
+  }
  },
  "117": {
   "name": "Flower_Blue",
   "display": "Blue flower",
   "term": "Item/Flower_Blue",
   "stack": 50,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3376,
+   "name": "Item_FlowerBlue"
+  }
  },
  "118": {
   "name": "Flower_White",
   "display": "White flower",
   "term": "Item/Flower_White",
   "stack": 50,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3374,
+   "name": "Item_FlowerWhite"
+  }
  },
  "119": {
   "name": "Seed_Flower_Black",
   "display": "Black seed",
   "term": "Item/Seed_Black",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3373,
+   "name": "Item_SeedBlack"
+  }
  },
  "120": {
   "name": "Seed_Flower_White",
   "display": "White seed",
   "term": "Item/Seed_White",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3372,
+   "name": "Item_SeedWhite"
+  }
  },
  "121": {
   "name": "Seed_Flower_Red",
   "display": "Red seed",
   "term": "Item/Seed_Red",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3369,
+   "name": "Item_SeedRed"
+  }
  },
  "122": {
   "name": "Seed_Flower_Yellow",
   "display": "Yellow seed",
   "term": "Item/Seed_Yellow",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3370,
+   "name": "Item_SeedGreen"
+  }
  },
  "123": {
   "name": "Seed_Flower_Blue",
   "display": "Blue seed",
   "term": "Item/Seed_Blue",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3371,
+   "name": "Item_SeedBlue"
+  }
  },
  "124": {
   "name": "Placeable_PaintMill",
   "display": "Paint mill",
   "term": "Block/PaintMill",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3382,
+   "name": "Item_PaintMill"
+  }
  },
  "125": {
   "name": "VineGoo",
   "display": "Vine goo",
   "term": "Item/VineGoo",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3384,
+   "name": "Item_VineGoo"
+  }
  },
  "126": {
   "name": "Placeable_Sail",
   "display": "Sail",
   "term": "Block/Sail",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3385,
+   "name": "Item_Sail"
+  }
  },
  "127": {
   "name": "Head_Shark",
   "display": "Shark head",
   "term": "Item/SharkHead",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3386,
+   "name": "Item_SharkHead"
+  }
  },
  "128": {
   "name": "Placeable_SharkTrophy",
   "display": "Shark trophy",
   "term": "Block/SharkTrophy",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3387,
+   "name": "Item_SharkTrophy"
+  }
  },
  "129": {
   "name": "Raw_Catfish",
   "display": "Raw catfish",
   "term": "Item/Raw_Catfish",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3392,
+   "name": "Item_CatfishRaw"
+  }
  },
  "130": {
   "name": "Raw_Salmon",
   "display": "Raw salmon",
   "term": "Item/Raw_Salmon",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3394,
+   "name": "Item_SalmonRaw"
+  }
  },
  "131": {
   "name": "Raw_Herring",
   "display": "Raw herring",
   "term": "Item/Raw_Herring",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3398,
+   "name": "Item_HerringRaw"
+  }
  },
  "132": {
   "name": "Raw_Pomfret",
   "display": "Raw pomfret",
   "term": "Item/Raw_Pomfret",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3400,
+   "name": "Item_PomfretRaw"
+  }
  },
  "133": {
   "name": "Cooked_Salmon",
   "display": "Cooked salmon",
   "term": "Item/Cooked_Salmon",
   "stack": 20,
-  "uses": 3
+  "uses": 3,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3395,
+   "name": "Item_SalmonCooked"
+  }
  },
  "134": {
   "name": "Cooked_Pomfret",
   "display": "Cooked pomfret",
   "term": "Item/Cooked_Pomfret",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3401,
+   "name": "Item_PomfretCooked"
+  }
  },
  "135": {
   "name": "Cooked_Catfish",
   "display": "Cooked catfish",
   "term": "Item/Cooked_Catfish",
   "stack": 20,
-  "uses": 3
+  "uses": 3,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3393,
+   "name": "Item_CatfishCooked"
+  }
  },
  "136": {
   "name": "Cooked_Herring",
   "display": "Cooked  herring",
   "term": "Item/Cooked_Herring",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3399,
+   "name": "Item_HerringCooked"
+  }
  },
  "137": {
   "name": "Cooked_Tilapia",
   "display": "Cooked tilapia",
   "term": "Item/Cooked_Tilapia",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3397,
+   "name": "Item_TilapiaCooked"
+  }
  },
  "138": {
   "name": "Raw_Tilapia",
   "display": "Raw tilapia",
   "term": "Item/Raw_Tilapia",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3396,
+   "name": "Item_TilapiaRaw"
+  }
  },
  "139": {
   "name": "Placeable_Cropplot_Shoe",
   "display": "Old shoe",
   "term": "Block/Cropplot_Shoe",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3389,
+   "name": "Item_Shoe"
+  }
  },
  "140": {
   "name": "Placeable_Storage_Small",
   "display": "Small storage",
   "term": "Block/Storage_Small",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3391,
+   "name": "Item_Storage_Tiny"
+  }
  },
  "142": {
   "name": "Placeable_Streamer",
   "display": "Streamer",
   "term": "Block/Streamer",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3390,
+   "name": "Item_Vimpel"
+  }
  },
  "143": {
   "name": "Block_HalfFloor_Wood",
   "display": "Raised floor",
   "term": "Block/HalfFloor_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3164,
+   "name": "BuildingIcon_RaisedFloor"
+  }
  },
  "144": {
   "name": "Block_HalfWall_Wood",
   "display": "Half wooden wall",
   "term": "Block/HalfWall_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3088,
+   "name": "BuildingIcon_HalfWallWood"
+  }
  },
  "145": {
   "name": "Block_HalfStair",
   "display": "Half stair",
   "term": "Block/HalfStair_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3231,
+   "name": "BuildingIcon_HalfStair"
+  }
  },
  "146": {
   "name": "Block_HalfPillar_Wood",
   "display": "Half wooden pillar",
   "term": "Block/HalfPillar_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3014,
+   "name": "BuildingIcon_HalfPillar"
+  }
  },
  "147": {
   "name": "Block_HalfWall_Thatch",
   "display": "Half thatch wall",
   "term": "Block/HalfWall_Thatch",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3188,
+   "name": "BuildingIcon_HalfWallThatch"
+  }
  },
  "148": {
   "name": "Block_Roof_Straight_Wood",
   "display": "Wooden roof",
   "term": "Block/Roof_Straight_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3199,
+   "name": "BuildingIcon_RoofWood"
+  }
  },
  "149": {
   "name": "Block_Roof_Straight_Thatch",
   "display": "Thatch roof",
   "term": "Block/Roof_Straight_Thatch",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3235,
+   "name": "BuildingIcon_RoodThatch"
+  }
  },
  "150": {
   "name": "Block_Roof_Corner_Wood",
   "display": "Wooden roof corner",
   "term": "Block/Roof_Corner_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3187,
+   "name": "BuildingIcon_CornerRoofWood"
+  }
  },
  "151": {
   "name": "Block_Roof_Corner_Thatch",
   "display": "Thatch roof corner",
   "term": "Block/Roof_Corner_Thatch",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3122,
+   "name": "BuildingIcon_CornerRoofThatch"
+  }
  },
  "152": {
   "name": "Block_Wall_Slope_Wood",
   "display": "Triangular wooden wall",
   "term": "Block/Wall_Slope_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3040,
+   "name": "BuildingIcon_SlopeWallWood"
+  }
  },
  "153": {
   "name": "Block_Wall_Slope_Thatch",
   "display": "Triangular thatch wall",
   "term": "Block/Wall_Slope_Thatch",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3192,
+   "name": "BuildingIcon_SlopeWallThatch"
+  }
  },
  "154": {
   "name": "Bolt",
   "display": "Bolt",
   "term": "Item/Bolt",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3403,
+   "name": "Item_Bolt"
+  }
  },
  "155": {
   "name": "Hinge",
   "display": "Hinge",
   "term": "Item/Hinge",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3402,
+   "name": "Item_Hinge"
+  }
  },
  "156": {
   "name": "Placeable_LuckyCat",
   "display": "Lucky cat",
   "term": "Block/WavingCat",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3407,
+   "name": "Item_LuckyCat"
+  }
  },
  "157": {
   "name": "Placeable_GlassCandle",
   "display": "Candle Bottle",
   "term": "Block/CandleBottle",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3405,
+   "name": "Item_WineBottle"
+  }
  },
  "158": {
   "name": "Placeable_Rug_Rectangle",
   "display": "Rug",
   "term": "Block/Rug",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3404,
+   "name": "Item_RugSquare"
+  }
  },
  "159": {
   "name": "Placeable_Clock_Basic",
   "display": "Clock",
   "term": "Block/Clock",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3406,
+   "name": "Item_Clock"
+  }
  },
  "160": {
   "name": "Block_Roof_InvCorner_Wood",
   "display": "Inverted wooden roof corner",
   "term": "Block/Roof_InvCorner_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3251,
+   "name": "BuildingIcon_InvertedCornerRoofWood"
+  }
  },
  "161": {
   "name": "Block_Roof_InvCorner_Thatch",
   "display": "Inverted thatch roof corner",
   "term": "Block/Roof_InvCorner_Thatch",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3255,
+   "name": "BuildingIcon_InvertedCornerRoofThatch"
+  }
  },
  "162": {
   "name": "Placeable_Cropplot_Medium",
   "display": "Medium crop plot",
   "term": "Block/Cropplot_Medium",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3410,
+   "name": "Item_CropplotMedium"
+  }
  },
  "163": {
   "name": "Watermelon",
   "display": "Watermelon",
   "term": "Item/Watermelon",
   "stack": 20,
-  "uses": 2
+  "uses": 2,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3414,
+   "name": "Item_Watermelon"
+  }
  },
  "164": {
   "name": "Mango",
   "display": "Mango",
   "term": "Item/Mango",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3415,
+   "name": "Item_Mango"
+  }
  },
  "165": {
   "name": "Pineapple",
   "display": "Pineapple",
   "term": "Item/Pineapple",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3416,
+   "name": "Item_Pineapple"
+  }
  },
  "166": {
   "name": "Seed_Watermelon",
   "display": "Watermelon seed",
   "term": "Item/Seed_Watermelon",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3411,
+   "name": "Item_SeedWaterMelon"
+  }
  },
  "167": {
   "name": "Seed_Mango",
   "display": "Mango seed",
   "term": "Item/Seed_Mango",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3412,
+   "name": "Item_SeedMango"
+  }
  },
  "168": {
   "name": "Seed_Pineapple",
   "display": "Pineapple seed",
   "term": "Item/Seed_Pineapple",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3413,
+   "name": "Item_SeedPineapple"
+  }
  },
  "169": {
   "name": "FishingRod_Metal",
   "display": "Metal fishing rod",
   "term": "Item/FishingRod_Metal",
   "stack": 1,
-  "uses": 30
+  "uses": 30,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3409,
+   "name": "Item_FishingrodMetal"
+  }
  },
  "170": {
   "name": "Binoculars",
   "display": "Binoculars",
   "term": "Item/Binoculars",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3408,
+   "name": "Item_Binoculars"
+  }
  },
  "171": {
   "name": "Placeable_Calendar",
   "display": "Calendar",
   "term": "Item/Calendar",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3417,
+   "name": "Item_Calendar"
+  }
  },
  "172": {
   "name": "Placeable_Sign",
   "display": "Sign",
   "term": "Item/Sign",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3418,
+   "name": "Item_Sign"
+  }
  },
  "173": {
   "name": "Placeable_Reciever",
   "display": "Receiver",
   "term": "Block/Reciever",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3422,
+   "name": "Item_Reciever"
+  }
  },
  "175": {
   "name": "Placeable_Reciever_Antenna",
   "display": "Antenna",
   "term": "Block/Antenna",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3423,
+   "name": "Item_Antenna"
+  }
  },
  "176": {
   "name": "Battery",
   "display": "Simple Battery",
   "term": "Item/Simple_Battery",
   "stack": 1,
-  "uses": 50
+  "uses": 50,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3425,
+   "name": "Item_Battery"
+  }
  },
  "177": {
   "name": "CopperIngot",
   "display": "Copper Ingot",
   "term": "Item/CopperIngot",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3419,
+   "name": "Item_CopperIngot"
+  }
  },
  "178": {
   "name": "CircuitBoard",
   "display": "Circuit board",
   "term": "Item/CircuitBoard",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3421,
+   "name": "Item_CircuitBoard"
+  }
  },
  "179": {
   "name": "CopperOre",
   "display": "Copper",
   "term": "Item/CopperOre",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3420,
+   "name": "Item_CopperOre"
+  }
  },
  "181": {
   "name": "Blueprint_Reciever",
   "display": "Blueprint: Receiver",
   "term": "Item/BlueprintReciever",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "182": {
   "name": "Blueprint_Antenna",
   "display": "Blueprint: Antenna",
   "term": "Item/BlueprintAntenna",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "184": {
   "name": "Block_Ladder",
   "display": "Ladder",
   "term": "Block/Ladder",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3283,
+   "name": "BuildingIcon_Ladder"
+  }
  },
  "185": {
   "name": "Bow",
   "display": "Basic bow",
   "term": "Item/Bow",
   "stack": 1,
-  "uses": 60
+  "uses": 60,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3427,
+   "name": "Item_Bow"
+  }
  },
  "186": {
   "name": "Arrow_Stone",
   "display": "Stone arrow",
   "term": "Item/Arrow_Stone",
   "stack": 30,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3428,
+   "name": "Item_Arrow"
+  }
  },
  "187": {
   "name": "Placeable_Shelf_Small_Basic",
   "display": "Shelf",
   "term": "Block/Shelf",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3426,
+   "name": "Item_Shelf"
+  }
  },
  "188": {
   "name": "Axe_Stone",
   "display": "Stone axe",
   "term": "Item/Axe_Stone",
   "stack": 1,
-  "uses": 50
+  "uses": 50,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3429,
+   "name": "Item_AxeStone"
+  }
  },
  "189": {
   "name": "Block_Foundation_Triangular_Wood",
   "display": "Triangular foundation",
   "term": "Block/Foundation_Triangular_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3208,
+   "name": "BuildingIcon_Foundation_Triangular"
+  }
  },
  "191": {
   "name": "Block_Floor_Triangular_Wood",
   "display": "Triangular wooden floor",
   "term": "Block/Floor_Triangular_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3196,
+   "name": "BuildingIcon_Floor_Triangular"
+  }
  },
  "193": {
   "name": "Block_HalfFloor_Triangular_Wood",
   "display": "Triangular raised floor",
   "term": "Block/HalfFloor_Triangular_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3106,
+   "name": "BuildingIcon_RaisedFloor_Triangular"
+  }
  },
  "194": {
   "name": "Placeable_CookingPot",
   "display": "Cookingpot",
   "term": "Block/CookingPot",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3430,
+   "name": "Item_Pot"
+  }
  },
  "195": {
   "name": "Placeable_TrophyBoard_Large",
   "display": "Large trophy board",
   "term": "Item/TrophyBoard_Large",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3433,
+   "name": "Item_TrophyBoard_Large"
+  }
  },
  "196": {
   "name": "Placeable_TrophyBoard_Medium",
   "display": "Medium trophy board",
   "term": "Item/TrophyBoard_Medium",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3432,
+   "name": "Item_TrophyBoard_Medium"
+  }
  },
  "197": {
   "name": "Placeable_TrophyBoard_Small",
   "display": "Small trophy board",
   "term": "Item/TrophyBoard_Small",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3431,
+   "name": "Item_TrophyBoard_Small"
+  }
  },
  "198": {
   "name": "CaveMushroom",
   "display": "Cave mushroom",
   "term": "Item/CaveMushroom",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3436,
+   "name": "Item_Mushroom"
+  }
  },
  "199": {
   "name": "Claybowl_Empty",
   "display": "Clay bowl",
   "term": "Item/ClayBowl",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3438,
+   "name": "Item_ClayBowl"
+  }
  },
  "200": {
   "name": "Berries_Red",
   "display": "Red berries",
   "term": "Item/Berries_Red",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3435,
+   "name": "Item_Berrys"
+  }
  },
  "201": {
   "name": "SilverAlgae",
   "display": "Silver algae",
   "term": "Item/SilverAlgae",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3437,
+   "name": "Item_SilverAlgae"
+  }
  },
  "202": {
   "name": "Claybowl_RootVegetableSoup",
   "display": "Vegetable soup",
   "term": "Item/VegetableSoup",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3443,
+   "name": "Item_VegetableSoup"
+  }
  },
  "203": {
   "name": "Claybowl_Leftover",
   "display": "Leftovers",
   "term": "Item/Leftover",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3441,
+   "name": "Item_Leftovers"
+  }
  },
  "204": {
   "name": "Placeable_Recipe_VegetableSoup",
   "display": "Recipe: Vegetable soup",
   "term": "Item/Recipe_VegetableSoup",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3452,
+   "name": "Item_Recipe_VegetableSoup"
+  }
  },
  "205": {
   "name": "Head_Screecher",
   "display": "Screecher head",
   "term": "Item/ScreecherHead",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3439,
+   "name": "Item_VultureHead"
+  }
  },
  "206": {
   "name": "Head_PoisonPuffer",
   "display": "Poison-puffer head",
   "term": "Item/PoisonPufferHead",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3440,
+   "name": "Item_PufferfishHead"
+  }
  },
  "207": {
   "name": "Arrow_Metal",
   "display": "Metal arrow",
   "term": "Item/Arrow_Metal",
   "stack": 30,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3434,
+   "name": "Item_Arrow_Metal"
+  }
  },
  "208": {
   "name": "Claybowl_SimpleFishStew",
   "display": "Simple fish stew",
   "term": "Item/SimpleFishStew",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3442,
+   "name": "Item_SimpleFishStew"
+  }
  },
  "210": {
   "name": "Claybowl_CoconutChicken",
   "display": "Coconut chicken",
   "term": "Item/CoconutChicken",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3445,
+   "name": "Item_CoconutChicken"
+  }
  },
  "211": {
   "name": "ClayPlate_SteakWithJam",
   "display": "Steak with jam",
   "term": "Item/SteakWithJam",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2932,
+   "name": "Item_SteakWithJam"
+  }
  },
  "212": {
   "name": "Claybowl_HeadBroth",
   "display": "Head broth",
   "term": "Item/HeadBroth",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3446,
+   "name": "Item_Headbroth"
+  }
  },
  "213": {
   "name": "ClayPlate_MushroomOmelette",
   "display": "Mushroom omelette",
   "term": "Item/MushroomOmelette",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3447,
+   "name": "Item_MushroomOmelette"
+  }
  },
  "215": {
   "name": "ClayPlate_SharkDinner",
   "display": "Shark dinner",
   "term": "Item/SharkDinner",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3449,
+   "name": "Item_SharkDinner"
+  }
  },
  "216": {
   "name": "ClayPlate_BBQ",
   "display": "BBQ",
   "term": "Item/BBQ",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2912,
+   "name": "Item_BBQ"
+  }
  },
  "217": {
   "name": "ClayPlate_Sushi",
   "display": "Sushi",
   "term": "Item/Sushi",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2968,
+   "name": "Item_Sushi"
+  }
  },
  "218": {
   "name": "Placeable_Recipe_SimpleFishStew",
   "display": "Recipe: Simple fish stew",
   "term": "Item/Recipe_SimpleFishStew",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3451,
+   "name": "Item_Recipe_SimpleFishStew"
+  }
  },
  "220": {
   "name": "Placeable_Recipe_CoconutChicken",
   "display": "Recipe: Coconut chicken",
   "term": "Item/Recipe_CoconutChicken",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3454,
+   "name": "Item_Recipe_CoconutChicken"
+  }
  },
  "221": {
   "name": "Placeable_Recipe_SteakWithJam",
   "display": "Recipe: Steak with jam",
   "term": "Item/Recipe_SteakWithJam",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2913,
+   "name": "Item_Recipe_SteakWithJam"
+  }
  },
  "222": {
   "name": "Placeable_Recipe_HeadBroth",
   "display": "Recipe: Head broth",
   "term": "Item/Recipe_HeadBroth",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3455,
+   "name": "Item_Recipe_HeadBroth"
+  }
  },
  "223": {
   "name": "Placeable_Recipe_MushroomOmelette",
   "display": "Recipe: Mushroom omelette",
   "term": "Item/Recipe_MushroomOmelette",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3456,
+   "name": "Item_Recipe_MushroomOmelette"
+  }
  },
  "225": {
   "name": "Placeable_Recipe_SharkDinner",
   "display": "Recipe: Shark dinner",
   "term": "Item/Recipe_SharkDinner",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3458,
+   "name": "Item_Recipe_SharkDinner"
+  }
  },
  "226": {
   "name": "Placeable_Recipe_BBQ",
   "display": "Recipe: BBQ",
   "term": "Item/Recipe_BBQ",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3531,
+   "name": "Item_Recipe_BBQ"
+  }
  },
  "227": {
   "name": "Placeable_Recipe_Sushi",
   "display": "Recipe: Sushi",
   "term": "Item/Recipe_Sushi",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3577,
+   "name": "Item_Recipe_Sushi"
+  }
  },
  "228": {
   "name": "Placeable_Recipe",
   "display": null,
   "term": "",
   "stack": 0,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3310,
+   "name": "Item_NA"
+  }
  },
  "235": {
   "name": "Hat_Pilot",
   "display": "Pilot helmet",
   "term": "Item/Hat_Pilot",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3459,
+   "name": "Item_PilotHat"
+  }
  },
  "236": {
   "name": "Seed_Grass",
   "display": null,
   "term": "",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3310,
+   "name": "Item_NA"
+  }
  },
  "237": {
   "name": "Placeable_Cropplot_Grass",
   "display": "Grass plot",
   "term": "Block/Cropplot_Grass",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3477,
+   "name": "Item_GrassPlot"
+  }
  },
  "238": {
   "name": "Shovel",
   "display": "Shovel",
   "term": "Item/Shovel",
   "stack": 1,
-  "uses": 20
+  "uses": 20,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3464,
+   "name": "Item_Shovel"
+  }
  },
  "239": {
   "name": "Dirt",
   "display": "Dirt",
   "term": "Item/Dirt",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3471,
+   "name": "Item_Dirt"
+  }
  },
  "240": {
   "name": "Bucket",
   "display": "Bucket",
   "term": "Item/Bucket",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3467,
+   "name": "Item_Bucket_Empty"
+  }
  },
  "241": {
   "name": "Bucket_Milk",
   "display": "Bucket of milk",
   "term": "Item/Bucket_Milk",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3468,
+   "name": "Item_Bucket_Milk"
+  }
  },
  "242": {
   "name": "Shear",
   "display": "Shears",
   "term": "Item/Shear",
   "stack": 1,
-  "uses": 15
+  "uses": 15,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3465,
+   "name": "Item_Shear"
+  }
  },
  "243": {
   "name": "Wool",
   "display": "Wool",
   "term": "Item/Wool",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3466,
+   "name": "Item_Wool"
+  }
  },
  "244": {
   "name": "NetGun",
   "display": "Net launcher",
   "term": "Item/NetGun",
   "stack": 1,
-  "uses": 20
+  "uses": 20,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3460,
+   "name": "Item_NetGun"
+  }
  },
  "245": {
   "name": "NetCanister",
   "display": "Net canister",
   "term": "Item/NetCanister",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3461,
+   "name": "Item_NetCannister"
+  }
  },
  "246": {
   "name": "Leather",
   "display": "Leather",
   "term": "Item/Leather",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3469,
+   "name": "Item_Leather"
+  }
  },
  "247": {
   "name": "ExplosiveGoo",
   "display": "Explosive goo",
   "term": "Item/ExplosiveGoo",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3462,
+   "name": "Item_ExplosiveGoo"
+  }
  },
  "248": {
   "name": "HealingSalve",
   "display": "Healing salve",
   "term": "Item/HealingSalve",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3475,
+   "name": "Item_HealingSalve"
+  }
  },
  "249": {
   "name": "Equipment_LeatherHelmet",
   "display": "Leather helmet",
   "term": "Item/LeatherHelmet",
   "stack": 1,
-  "uses": 20
+  "uses": 20,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3476,
+   "name": "Item_Armor_Leather_Helmet"
+  }
  },
  "250": {
   "name": "Equipment_LeatherChest",
   "display": "Leather body armor",
   "term": "Item/LeatherChest",
   "stack": 1,
-  "uses": 30
+  "uses": 30,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3474,
+   "name": "Armor_Leather_Chest"
+  }
  },
  "251": {
   "name": "Equipment_LeatherLegs",
   "display": "Leather greaves",
   "term": "Item/LeatherLegs",
   "stack": 1,
-  "uses": 25
+  "uses": 25,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3473,
+   "name": "Item_Armor_Leather_Legs"
+  }
  },
  "252": {
   "name": "Backpack",
   "display": "Backpack",
   "term": "Item/Backpack",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3472,
+   "name": "Item_Backpack"
+  }
  },
  "253": {
   "name": "Head_Boar",
   "display": "Warthog head",
   "term": "Item/BoarHead",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3470,
+   "name": "Item_BoarHead"
+  }
  },
  "254": {
   "name": "ExplosivePowder",
   "display": "Explosive powder",
   "term": "Item/ExplosivePowder",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3463,
+   "name": "Item_ExplosivePowder"
+  }
  },
  "255": {
   "name": "Block_Wall_Gate_Wood",
   "display": "Wooden gate",
   "term": "Block/Gate_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3032,
+   "name": "BuildingIcon_WoodGate"
+  }
  },
  "256": {
   "name": "Block_Wall_Gate_Thatch",
   "display": "Thatch gate",
   "term": "Block/Gate_Thatch",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3202,
+   "name": "BuildingIcon_ThatchGate"
+  }
  },
  "257": {
   "name": "Placeable_Nametag",
   "display": "Nametag",
   "term": "Item/Nametag",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3478,
+   "name": "Item_NameTag"
+  }
  },
  "259": {
   "name": "Placeable_Sprinkler",
   "display": "Sprinkler",
   "term": "Block/Sprinkler",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3479,
+   "name": "Item_Sprinkler"
+  }
  },
  "260": {
   "name": "Placeable_Figurine_Llama",
   "display": "Llama",
   "term": "Block/Figurine_Llama",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3480,
+   "name": "Figurine_Llama"
+  }
  },
  "261": {
   "name": "Placeable_Figurine_Chicken",
   "display": "Clucker",
   "term": "Block/Figurine_Chicken",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3481,
+   "name": "Figurine_Chicken"
+  }
  },
  "262": {
   "name": "Placeable_Figurine_Goat",
   "display": "Goat",
   "term": "Block/Figurine_Goat",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3482,
+   "name": "Figurine_Goat"
+  }
  },
  "263": {
   "name": "Placeable_Radio",
   "display": "Radio",
   "term": "Block/Radio",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3483,
+   "name": "Item_Radio"
+  }
  },
  "264": {
   "name": "Hat_Captain",
   "display": "Captain's hat",
   "term": "Item/Hat_Captain",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3484,
+   "name": "Item_CaptainsHat"
+  }
  },
  "265": {
   "name": "Placeable_MotorWheel",
   "display": "Engine",
   "term": "Block/MotorWheel",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3488,
+   "name": "Item_MotorWheel"
+  }
  },
  "268": {
   "name": "Placeable_SteeringWheel",
   "display": "Steering Wheel",
   "term": "Block/SteeringWheel",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3487,
+   "name": "Item_SteeringWheel"
+  }
  },
  "270": {
   "name": "Blueprint_HeadLight",
   "display": "Blueprint: Head light",
   "term": "Item/BlueprintHeadLight",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "271": {
   "name": "HeadLight",
   "display": "Head light",
   "term": "Item/HeadLight",
   "stack": 1,
-  "uses": 800
+  "uses": 800,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3486,
+   "name": "Item_Headlight"
+  }
  },
  "272": {
   "name": "Blueprint_MotorWheel",
   "display": "Blueprint: Engine",
   "term": "Item/BlueprintMotorWheel",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "273": {
   "name": "Blueprint_SteeringWheel",
   "display": "Blueprint: Steering wheel",
   "term": "Item/BlueprintSteeringWheel",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "274": {
   "name": "Placeable_BiofuelExtractor",
   "display": "Biofuel refiner",
   "term": "Block/BiofuelExtractor",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3493,
+   "name": "Item_BioRefiner"
+  }
  },
  "275": {
   "name": "Machete",
   "display": "Machete",
   "term": "Item/Machete",
   "stack": 1,
-  "uses": 40
+  "uses": 40,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3489,
+   "name": "Item_Machete"
+  }
  },
  "276": {
   "name": "Jar_Honey",
   "display": "Honey",
   "term": "Item/Honey",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3490,
+   "name": "Item_Honey"
+  }
  },
  "277": {
   "name": "Placeable_Pipe_Fuel",
   "display": "Fuel pipe",
   "term": "Block/Pipe_Fuel",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3485,
+   "name": "Item_Pipe"
+  }
  },
  "278": {
   "name": "Placeable_FuelTank",
   "display": "Fuel tank",
   "term": "Block/FuelTank",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3492,
+   "name": "Item_FuelTank"
+  }
  },
  "279": {
   "name": "Blueprint_Machete",
   "display": "Blueprint: Machete",
   "term": "Item/BlueprintMachete",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "280": {
   "name": "Blueprint_Pipe_Fuel",
   "display": "Blueprint: Fuel pipe",
   "term": "Item/BlueprintPipe_Fuel",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "281": {
   "name": "Blueprint_Fueltank",
   "display": "Blueprint: Fuel tank",
   "term": "Item/BlueprintFuelTank",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "282": {
   "name": "Blueprint_BiofuelExtractor",
   "display": "Blueprint: Biofuel refiner",
   "term": "Item/BlueprintBiofuelExtractor",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "283": {
   "name": "Seed_Pine",
   "display": "Pinecone",
   "term": "Item/Seed_Pine",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3494,
+   "name": "Item_PineCone"
+  }
  },
  "284": {
   "name": "Seed_Birch",
   "display": "Birch seed",
   "term": "Item/Seed_Birch",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3495,
+   "name": "Item_BirchSeeds"
+  }
  },
  "285": {
   "name": "Head_Bear",
   "display": "Bear head",
   "term": "Item/BearHead",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3496,
+   "name": "Item_BearHead"
+  }
  },
  "286": {
   "name": "BioFuel",
   "display": "Biofuel",
   "term": "Item/Biofuel",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3491,
+   "name": "Item_Biofuel"
+  }
  },
  "287": {
   "name": "Head_MamaBear",
   "display": "Mama bear head",
   "term": "Item/MamaBearHead",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3497,
+   "name": "Item_MamaBearHead"
+  }
  },
  "288": {
   "name": "Cooked_GenericMeat",
   "display": "Cooked meat",
   "term": "Item/Cooked_GenericMeat",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3499,
+   "name": "Item_MeatCooked"
+  }
  },
  "289": {
   "name": "Raw_GenericMeat",
   "display": "Raw meat",
   "term": "Item/Raw_GenericMeat",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3498,
+   "name": "Item_MeatRaw"
+  }
  },
  "290": {
   "name": "Placeable_BeeHive",
   "display": "Beehive",
   "term": "Block/Beehive",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3500,
+   "name": "Item_Beehive"
+  }
  },
  "291": {
   "name": "SweepNet",
   "display": "Sweep net",
   "term": "Item/SweepNet",
   "stack": 1,
-  "uses": 35
+  "uses": 35,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3501,
+   "name": "Item_SweepNet"
+  }
  },
  "292": {
   "name": "Jar_Bee",
   "display": "Bee jar",
   "term": "Item/Bee",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3502,
+   "name": "Item_BeeJar"
+  }
  },
  "293": {
   "name": "Placeable_BatteryCharger",
   "display": "Battery charger",
   "term": "Block/BatteryCharger",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3506,
+   "name": "Item_BatteryCharger"
+  }
  },
  "294": {
   "name": "HoneyComb",
   "display": "Honeycomb",
   "term": "Item/HoneyComb",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3503,
+   "name": "Item_HoneyComb"
+  }
  },
  "295": {
   "name": "HealingSalve_Good",
   "display": "Good healing salve",
   "term": "Item/HealingSalve_Good",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3504,
+   "name": "Item_HealingSalveGood"
+  }
  },
  "296": {
   "name": "Placeable_Storage_Large",
   "display": "Large Storage",
   "term": "Block/Storage_Large",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3510,
+   "name": "Item_StorageLarge"
+  }
  },
  "297": {
   "name": "Blueprint_Storage_Large",
   "display": "Blueprint: Large storage",
   "term": "Item/BlueprintStorageLarge",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "298": {
   "name": "Blueprint_MetalDetector",
   "display": "Blueprint: Metal detector",
   "term": "Item/BlueprintMetalDetector",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "299": {
   "name": "Blueprint_BatteryCharger",
   "display": "Blueprint: Battery charger",
   "term": "Item/BlueprintBatteryCharger",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "300": {
   "name": "MetalDetector",
   "display": "Metal detector",
   "term": "Item/MetalDetector",
   "stack": 1,
-  "uses": 450
+  "uses": 450,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3505,
+   "name": "Item_MetalDetector"
+  }
  },
  "301": {
   "name": "TitaniumOre",
   "display": "Titanium ore",
   "term": "Item/TitaniumOre",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3508,
+   "name": "Item_TitaniumOre"
+  }
  },
  "302": {
   "name": "Placeable_MajorTom",
   "display": "Major Tom",
   "term": "Block/MajorTom",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3578,
+   "name": "Item_MajorTom"
+  }
  },
  "306": {
   "name": "Head_Screecher_Caravan",
   "display": "White screecher head",
   "term": "Item/ScreecherHead_Caravan",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3511,
+   "name": "Item_VultureCaravanHead"
+  }
  },
  "307": {
   "name": "TitaniumIngot",
   "display": "Titanium ingot",
   "term": "Item/TitaniumIngot",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3507,
+   "name": "Item_TitaniumIngot"
+  }
  },
  "308": {
   "name": "Placeable_ZiplineBase",
   "display": "Zipline",
   "term": "Block/ZiplineBase",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3509,
+   "name": "ItemZiplineBase"
+  }
  },
  "309": {
   "name": "Blueprint_ZiplineTool",
   "display": "Blueprint: Zipline tool",
   "term": "Item/BlueprintZiplineTool",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "310": {
   "name": "Placeable_Firework",
   "display": "Firework",
   "term": "Block/Firework",
   "stack": 50,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3544,
+   "name": "Item_Firework"
+  }
  },
  "311": {
   "name": "ZiplineTool",
   "display": "Zipline tool",
   "term": "Item/ZiplineTool",
   "stack": 1,
-  "uses": 175
+  "uses": 175,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3512,
+   "name": "Item_ZiplineTool"
+  }
  },
  "312": {
   "name": "Placeable_TikiPole_Feet",
   "display": "Tiki piece",
   "term": "Block/TikiPolePiece",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3560,
+   "name": "Item_Tiki04"
+  }
  },
  "313": {
   "name": "Placeable_TikiPole_Mid_1",
   "display": "Tiki piece",
   "term": "Block/TikiPolePiece",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2924,
+   "name": "Item_Tiki03"
+  }
  },
  "314": {
   "name": "Placeable_TikiPole_Mid_2",
   "display": "Tiki piece",
   "term": "Block/TikiPolePiece",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2978,
+   "name": "Item_Tiki02"
+  }
  },
  "315": {
   "name": "Placeable_TikiPole_Top",
   "display": "Tiki piece",
   "term": "Block/TikiPolePiece",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2983,
+   "name": "Item_Tiki01"
+  }
  },
  "316": {
   "name": "Placeable_TikiPole_Complete",
   "display": "Tiki pole",
   "term": "Block/TikiPoleComplete",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3605,
+   "name": "Item_TikiFull"
+  }
  },
  "317": {
   "name": "Hat_Tiki",
   "display": "Tiki mask",
   "term": "Item/Hat_Tiki",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3514,
+   "name": "Item_TikiMask"
+  }
  },
  "318": {
   "name": "Placeable_ToyRobot",
   "display": "Toy robot",
   "term": "Block/ToyRobot",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3523,
+   "name": "Item_Robot"
+  }
  },
  "319": {
   "name": "Blueprint_Firework",
   "display": "Blueprint: Firework",
   "term": "Item/BlueprintFirework",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "320": {
   "name": "Hat_Dev",
   "display": "Developer hat",
   "term": "Item/Hat_Dev",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2923,
+   "name": "Item_DevHat"
+  }
  },
  "321": {
   "name": "Hat_Mayor",
   "display": "Mayor hat",
   "term": "Item/Hat_Mayor",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2939,
+   "name": "Item_MayorHat"
+  }
  },
  "322": {
   "name": "Placeable_Electric_Purifier",
   "display": "Electric purifier",
   "term": "Block/ElectricPurifier",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3549,
+   "name": "Item_ElectricPurifier"
+  }
  },
  "323": {
   "name": "Cassette_EDM",
   "display": "EDM cassette",
   "term": "Item/Cassette_EDM",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2914,
+   "name": "Item_TapeEDM"
+  }
  },
  "324": {
   "name": "Cassette_Pop",
   "display": "Pop cassette",
   "term": "Item/Cassette_Pop",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2969,
+   "name": "Item_TapePop"
+  }
  },
  "325": {
   "name": "Cassette_Rock",
   "display": "Rock cassette",
   "term": "Item/Cassette_Rock",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3582,
+   "name": "Item_TapeRock"
+  }
  },
  "326": {
   "name": "Cassette_Classical",
   "display": "Classical cassette",
   "term": "Item/Cassette_Classical",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2942,
+   "name": "Item_TapeClassic"
+  }
  },
  "327": {
   "name": "Banana",
   "display": "Banana",
   "term": "Item/Banana",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2959,
+   "name": "Item_Banana"
+  }
  },
  "328": {
   "name": "Strawberry",
   "display": "Strawberry",
   "term": "Item/Strawberry",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2943,
+   "name": "Item_Strawberry"
+  }
  },
  "329": {
   "name": "Seed_Strawberry",
   "display": "Strawberry seed",
   "term": "Item/Seed_Strawberry",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2882,
+   "name": "Item_SeedStrawberry"
+  }
  },
  "330": {
   "name": "Seed_Banana",
   "display": "Banana seed",
   "term": "Item/Seed_Banana",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2896,
+   "name": "Item_SeedBanana"
+  }
  },
  "331": {
   "name": "Placeable_Painting_Andr\u00e9",
   "display": "Man And Moon",
   "term": "Block/RBPainting_Andre",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3616,
+   "name": "Item_DevPaintingAndre"
+  }
  },
  "332": {
   "name": "Placeable_Painting_Ellen",
   "display": "The Pot",
   "term": "Block/RBPainting_Ellen",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3622,
+   "name": "Item_DevPaintingEllen"
+  }
  },
  "333": {
   "name": "Placeable_Painting_Felicia",
   "display": "After The Rain",
   "term": "Block/RBPainting_Felicia",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3589,
+   "name": "Item_DevPaintingFelicia"
+  }
  },
  "334": {
   "name": "Placeable_Painting_Gabriel",
   "display": "Octohenge",
   "term": "Block/RBPainting_Gabriel",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2905,
+   "name": "Item_DevPaintingGabriel"
+  }
  },
  "335": {
   "name": "Placeable_Painting_Illayda",
   "display": "Neighbors Dog",
   "term": "Block/RBPainting_Illayda",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2930,
+   "name": "Item_DevPaintingIlayda"
+  }
  },
  "336": {
   "name": "Placeable_Painting_Petter",
   "display": "Real Self Portrait",
   "term": "Block/RBPainting_Petter",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2963,
+   "name": "Item_DevPaintingPetter"
+  }
  },
  "337": {
   "name": "Placeable_Painting_Semih",
   "display": "What Even Is?",
   "term": "Block/RBPainting_Semih",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3569,
+   "name": "Item_DevPaintingSemih"
+  }
  },
  "338": {
   "name": "Placeable_Painting_William",
   "display": "Foul Fogs",
   "term": "Block/RBPainting_William",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3592,
+   "name": "Item_DevPaintingWilliam"
+  }
  },
  "339": {
   "name": "Blueprint_ZiplineBase",
   "display": "Blueprint: Zipline",
   "term": "Item/BlueprintZiplineBase",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "340": {
   "name": "Blueprint_ElectricPurifier",
   "display": "Blueprint: Electric purifier",
   "term": "Item/BlueprintElectricPurifier",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "341": {
   "name": "Placeable_Pipe_Water",
   "display": "Water pipe",
   "term": "Block/Pipe_Water",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3604,
+   "name": "Item_PipeWater"
+  }
  },
  "342": {
   "name": "Placeable_WaterTank",
   "display": "Water tank",
   "term": "Block/WaterTank",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2925,
+   "name": "Item_WaterTank"
+  }
  },
  "343": {
   "name": "Blueprint_WaterTank",
   "display": "Blueprint: Water tank",
   "term": "Item/BlueprintWatertank",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "344": {
   "name": "Blueprint_Pipe_Water",
   "display": "Blueprint: Water pipe",
   "term": "Item/BlueprintPipe_Water",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "345": {
   "name": "Placeable_Piano",
   "display": "Piano",
   "term": "Block/Piano",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2997,
+   "name": "Item_Piano"
+  }
  },
  "346": {
   "name": "Placeable_TangaroaPlant_1",
   "display": "Tangaroa plant",
   "term": "Block/TangaroaPlant",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3563,
+   "name": "Item_Plant_01"
+  }
  },
  "347": {
   "name": "Placeable_TangaroaPlant_2",
   "display": "Tangaroa plant",
   "term": "Block/TangaroaPlant",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3542,
+   "name": "Item_Plant_02"
+  }
  },
  "348": {
   "name": "Placeable_TangaroaPlant_3",
   "display": "Tangaroa plant",
   "term": "Block/TangaroaPlant",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2893,
+   "name": "Item_Plant_03"
+  }
  },
  "349": {
   "name": "Placeable_TangaroaPlant_4",
   "display": "Tangaroa plant",
   "term": "Block/TangaroaPlant",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3612,
+   "name": "Item_Plant_04"
+  }
  },
  "350": {
   "name": "Placeable_TangaroaPlant_5",
   "display": "Tangaroa plant",
   "term": "Block/TangaroaPlant",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2940,
+   "name": "Item_Plant_05"
+  }
  },
  "351": {
   "name": "Placeable_TangaroaPlant_6",
   "display": "Tangaroa plant",
   "term": "Block/TangaroaPlant",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2935,
+   "name": "Item_Plant_06"
+  }
  },
  "352": {
   "name": "Placeable_Painting_Tangaroa_1",
   "display": "Tangaroa painting",
   "term": "Block/Painting_Tangaroa",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3600,
+   "name": "Item_Painting_01"
+  }
  },
  "353": {
   "name": "Placeable_Painting_Tangaroa_2",
   "display": "Tangaroa painting",
   "term": "Block/Painting_Tangaroa",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3528,
+   "name": "Item_Painting_02"
+  }
  },
  "354": {
   "name": "Placeable_Painting_Tangaroa_3",
   "display": "Tangaroa painting",
   "term": "Block/Painting_Tangaroa",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2927,
+   "name": "Item_Painting_03"
+  }
  },
  "355": {
   "name": "Placeable_Painting_Tangaroa_4",
   "display": "Tangaroa painting",
   "term": "Block/Painting_Tangaroa",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3584,
+   "name": "Item_Painting_04"
+  }
  },
  "356": {
   "name": "Placeable_Painting_Tangaroa_5",
   "display": "Tangaroa painting",
   "term": "Block/Painting_Tangaroa",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3599,
+   "name": "Item_Painting_05"
+  }
  },
  "357": {
   "name": "Cassette_Elevator",
   "display": "Elevator cassette",
   "term": "Item/Cassette_Elevator",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3567,
+   "name": "Item_TapeElevator"
+  }
  },
  "358": {
   "name": "DevSpear",
   "display": "OP weapon",
   "term": "Item/DevSpear",
   "stack": 1,
-  "uses": 9999
+  "uses": 9999,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2921,
+   "name": "Item_DevSpear"
+  }
  },
  "359": {
   "name": "Placeable_ToyRobot_Golden",
   "display": "Golden toy robot",
   "term": "Block/ToyRobot_Gold",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2982,
+   "name": "Item_GoldenBoi"
+  }
  },
  "360": {
   "name": "Compass",
   "display": "Compass",
   "term": "Item/Compass",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3587,
+   "name": "Item_Compass"
+  }
  },
  "361": {
   "name": "Placeable_WindTurbine",
   "display": "Wind turbine",
   "term": "Block/WindTurbine",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2904,
+   "name": "Item_Turbine"
+  }
  },
  "362": {
   "name": "Placeable_EngineControls",
   "display": "Engine controls",
   "term": "Block/EngineControls",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3568,
+   "name": "ItemEngineControls"
+  }
  },
  "363": {
   "name": "Placeable_Recycler",
   "display": "Recycler",
   "term": "Block/Recycler",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3601,
+   "name": "Item_Trasher"
+  }
  },
  "364": {
   "name": "Trashcube",
   "display": "Trash cube",
   "term": "Item/TrashCube",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2961,
+   "name": "Item_Trashcube"
+  }
  },
  "365": {
   "name": "Hat_Construction",
   "display": "Construction helmet",
   "term": "Item/Hat_Construction",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2911,
+   "name": "Item_HardHat"
+  }
  },
  "366": {
   "name": "Placeable_Juicer",
   "display": "Juicer",
   "term": "Block/Juicer",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2878,
+   "name": "Item_Juicer"
+  }
  },
  "367": {
   "name": "DrinkingGlass",
   "display": "Drinking glass",
   "term": "Item/DrinkingGlass",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2956,
+   "name": "Item_DrinkingGlass"
+  }
  },
  "368": {
   "name": "Head_AnglerFish",
   "display": "Anglerfish head",
   "term": "Item/AnglerFishHead",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2931,
+   "name": "Item_AnglerFishHead"
+  }
  },
  "369": {
   "name": "Placeable_RhinoSharkTrophy",
   "display": "Rhino shark trophy",
   "term": "Item/RhinoSharkTrophy",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2879,
+   "name": "Item_RhinoSharkTrophy"
+  }
  },
  "371": {
   "name": "Blueprint_WindTurbine",
   "display": "Blueprint: Wind turbine",
   "term": "Item/BlueprintWindTurbine",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "372": {
   "name": "Blueprint_Recycler",
   "display": "Blueprint: Recycler",
   "term": "Item/BlueprintRecycler",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "373": {
   "name": "Blueprint_EngineControls",
   "display": "Blueprint: Engine controls",
   "term": "Item/BlueprintEngineControls",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "375": {
   "name": "Blueprint",
   "display": null,
   "term": "",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3310,
+   "name": "Item_NA"
+  }
  },
  "381": {
   "name": "Head_PolarBear",
   "display": "Polar bear head",
   "term": "Item/PolarBearHead",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3596,
+   "name": "Item_PolarBearHead"
+  }
  },
  "382": {
   "name": "Block_Foundation_Tier3",
   "display": "Solid foundation",
   "term": "Block/Foundation_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3105,
+   "name": "BuildingIcon_FoundationTier3"
+  }
  },
  "383": {
   "name": "Block_Foundation_Triangular_Tier3",
   "display": "Triangular solid foundation",
   "term": "Block/Foundation_Triangular_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3217,
+   "name": "BuildingIcon_Foundation_TriangularTier3"
+  }
  },
  "384": {
   "name": "Block_Floor_Tier3",
   "display": "Solid wooden floor",
   "term": "Block/Floor_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3294,
+   "name": "BuildingIcon_FloorTier3"
+  }
  },
  "385": {
   "name": "Block_Floor_Triangular_Tier3",
   "display": "Triangular solid wooden floor",
   "term": "Block/Floor_Triangular_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3215,
+   "name": "BuildingIcon_Floor_TriangularTier3"
+  }
  },
  "386": {
   "name": "Block_Wall_Fence_Tier3",
   "display": "Solid wooden fence",
   "term": "Block/Fence_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3061,
+   "name": "BuildingIcon_FenceTier3"
+  }
  },
  "387": {
   "name": "Block_Foundation_Triangular_Tier3_Mirrored",
   "display": "Triangular solid foundation",
   "term": "Block/Foundation_Triangular_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3217,
+   "name": "BuildingIcon_Foundation_TriangularTier3"
+  }
  },
  "388": {
   "name": "Block_Floor_Triangular_Tier3_Mirrored",
   "display": "Triangular solid wooden floor",
   "term": "Block/Floor_Triangular_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3215,
+   "name": "BuildingIcon_Floor_TriangularTier3"
+  }
  },
  "389": {
   "name": "Placeable_Trashcan",
   "display": "Trashcan",
   "term": "Block/Trashcan",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2992,
+   "name": "Item_Trashcan"
+  }
  },
  "390": {
   "name": "Placeable_Bookpile",
   "display": "Bookpile",
   "term": "Block/Bookpile",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3535,
+   "name": "Item_DecoBookPile"
+  }
  },
  "391": {
   "name": "Placeable_Quill",
   "display": "Quill",
   "term": "Block/Quill",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3521,
+   "name": "Item_DecoQuill"
+  }
  },
  "392": {
   "name": "Placeable_Bookpile_Standing",
   "display": "Bookpile",
   "term": "Block/Bookpile",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2919,
+   "name": "Item_DecoBookRow"
+  }
  },
  "393": {
   "name": "Placeable_Chair_Wood",
   "display": "Chair",
   "term": "Block/Chair",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3558,
+   "name": "Item_DecoChair01"
+  }
  },
  "394": {
   "name": "Placeable_Table_Square",
   "display": "Table",
   "term": "Block/Table",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3620,
+   "name": "Item_DecoTableSquare"
+  }
  },
  "395": {
   "name": "Placeable_Sofa",
   "display": "Sofa",
   "term": "Block/Sofa",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2966,
+   "name": "Item_DecoArmchair"
+  }
  },
  "396": {
   "name": "Block_HalfFloor_Tier3",
   "display": "Raised solid floor",
   "term": "Block/HalfFloor_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3041,
+   "name": "BuildingIcon_RaisedFloorTier3"
+  }
  },
  "397": {
   "name": "Block_HalfFloor_Triangular_Tier3",
   "display": "Triangular raised solid floor",
   "term": "Block/HalfFloor_Triangular_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3278,
+   "name": "BuildingIcon_RaisedFloor_TriangularTier3"
+  }
  },
  "398": {
   "name": "Block_Ladder_Tier3",
   "display": "Solid ladder",
   "term": "Block/Ladder_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3162,
+   "name": "BuildingIcon_LadderTier3"
+  }
  },
  "399": {
   "name": "Block_Pillar_Tier3",
   "display": "Solid wooden pillar",
   "term": "Block/Pillar_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3108,
+   "name": "BuildingIcon_PillarTier3"
+  }
  },
  "400": {
   "name": "Block_Pillar_Tier3_Half",
   "display": "Solid half wooden pillar",
   "term": "Block/HalfPillar_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3076,
+   "name": "BuildingIcon_HalfPillarTier3"
+  }
  },
  "401": {
   "name": "Block_Roof_Tier3_Corner",
   "display": "Solid wooden roof corner",
   "term": "Block/Roof_Corner_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3271,
+   "name": "BuildingIcon_CornerRoofWoodTier3"
+  }
  },
  "402": {
   "name": "Block_Roof_Tier3_InvCorner",
   "display": "Inverted solid wooden roof corner",
   "term": "Block/Roof_InvCorner_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3157,
+   "name": "BuildingIcon_InvertedCornerRoofWoodTier3"
+  }
  },
  "403": {
   "name": "Block_Roof_Tier3_Straight",
   "display": "Solid wooden roof",
   "term": "Block/Roof_Straight_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3080,
+   "name": "BuildingIcon_RoofWoodTier3"
+  }
  },
  "404": {
   "name": "Block_Stair_Tier3",
   "display": "Solid stair",
   "term": "Block/Stair_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3124,
+   "name": "BuildingIcon_StairTier3"
+  }
  },
  "405": {
   "name": "Block_Stair_Tier3_Half",
   "display": "Solid half stair",
   "term": "Block/HalfStair_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3221,
+   "name": "BuildingIcon_HalfStairTier3"
+  }
  },
  "406": {
   "name": "Block_Wall_Door_Tier3",
   "display": "Solid wooden door",
   "term": "Block/Door_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3197,
+   "name": "BuildingIcon_DoorWoodTier3"
+  }
  },
  "407": {
   "name": "Block_Wall_Gate_Tier3",
   "display": "Solid wooden gate",
   "term": "Block/Gate_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3216,
+   "name": "BuildingIcon_WoodGateTier3"
+  }
  },
  "408": {
   "name": "Block_Wall_Slope_Tier3",
   "display": "Triangular solid wooden wall",
   "term": "Block/Wall_Slope_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3207,
+   "name": "BuildingIcon_SlopeWallWoodTier3"
+  }
  },
  "409": {
   "name": "Block_Wall_Tier3",
   "display": "Solid wooden wall",
   "term": "Block/Wall_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3161,
+   "name": "BuildingIcon_WoodWallTier3"
+  }
  },
  "410": {
   "name": "Block_Wall_Tier3_Half",
   "display": "Solid half wooden wall",
   "term": "Block/HalfWall_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3026,
+   "name": "BuildingIcon_HalfWallWoodTier3"
+  }
  },
  "411": {
   "name": "Block_Wall_Window_Tier3",
   "display": "Solid wooden window",
   "term": "Block/Window_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3129,
+   "name": "BuildingIcon_WoodWindowTier3"
+  }
  },
  "412": {
   "name": "Placeable_Cutlery",
   "display": "Cutlery",
   "term": "Block/Cutlery",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2908,
+   "name": "Item_DecoPlate"
+  }
  },
  "413": {
   "name": "Placeable_Candlestick",
   "display": "Candlestick",
   "term": "Block/Candlestick",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3571,
+   "name": "Item_DecoCandlestick"
+  }
  },
  "414": {
   "name": "Placeable_Candelabra",
   "display": "Candlestick",
   "term": "Block/Candlestick",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2910,
+   "name": "Item_DecoCandleabra"
+  }
  },
  "415": {
   "name": "Placeable_Mug",
   "display": "Mug",
   "term": "Block/Mug",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2928,
+   "name": "Item_DecoMug"
+  }
  },
  "416": {
   "name": "Placeable_Table_Square_Small",
   "display": "Table",
   "term": "Block/Table_Small",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3515,
+   "name": "Item_DecoTableSquareSmall"
+  }
  },
  "417": {
   "name": "Placeable_Table_Round_Small",
   "display": "Table",
   "term": "Block/Table_Small",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3597,
+   "name": "Item_DecoTableRoundSmall"
+  }
  },
  "418": {
   "name": "Placeable_Chair_Stool",
   "display": "Chair",
   "term": "Block/Chair",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3564,
+   "name": "Item_DecoStool"
+  }
  },
  "419": {
   "name": "Placeable_Chair_Stool_Small",
   "display": "Chair",
   "term": "Block/Chair",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3610,
+   "name": "Item_DecoStoolSmall"
+  }
  },
  "420": {
   "name": "Placeable_Table_Round",
   "display": "Table",
   "term": "Block/Table",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2988,
+   "name": "Item_DecoRound"
+  }
  },
  "421": {
   "name": "Block_Wall_VSlope_Wood",
   "display": "Pyramid wooden wall",
   "term": "Block/Wall_VSlope_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3204,
+   "name": "BuildingIcon_WedgeWallWood"
+  }
  },
  "422": {
   "name": "Block_Wall_VSlope_Thatch",
   "display": "Pyramid thatch wall",
   "term": "Block/Wall_VSlope_Thatch",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3043,
+   "name": "BuildingIcon_WedgeWallThatch"
+  }
  },
  "423": {
   "name": "Block_Wall_VSlope_Tier3",
   "display": "Pyramid solid wooden wall",
   "term": "Block/Wall_VSlope_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3210,
+   "name": "BuildingIcon_WedgeWallWoodTier3"
+  }
  },
  "424": {
   "name": "Block_Roof_Wood_EndCap",
   "display": "Wooden roof endcap",
   "term": "Block/Roof_EndCap_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3241,
+   "name": "BuildingIcon_TopRoofWood02"
+  }
  },
  "425": {
   "name": "Block_Roof_Thatch_EndCap",
   "display": "Thatch roof endcap",
   "term": "Block/Roof_EndCap_Thatch",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3190,
+   "name": "BuildingIcon_TopRoofThatch02"
+  }
  },
  "426": {
   "name": "Block_Roof_Tier3_EndCap",
   "display": "Solid wooden roof endcap",
   "term": "Block/Roof_EndCap_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3165,
+   "name": "BuildingIcon_TopRoofWood02Tier3"
+  }
  },
  "427": {
   "name": "Block_Roof_Wood_Pyramid",
   "display": "Wooden roof pyramid",
   "term": "Block/Roof_Pyramid_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3239,
+   "name": "BuildingIcon_TopRoofWood03"
+  }
  },
  "428": {
   "name": "Block_Roof_Thatch_Pyramid",
   "display": "Thatch roof pyramid",
   "term": "Block/Roof_Pyramid_Thatch",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3173,
+   "name": "BuildingIcon_TopRoofThatch03"
+  }
  },
  "429": {
   "name": "Block_Roof_Tier3_Pyramid",
   "display": "Solid wooden roof pyramid",
   "term": "Block/Roof_Pyramid_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3191,
+   "name": "BuildingIcon_TopRoofWood03Tier3"
+  }
  },
  "430": {
   "name": "Block_Roof_Wood_StraightV",
   "display": "Wooden double roof",
   "term": "Block/Roof_StraightV_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3116,
+   "name": "BuildingIcon_TopRoofWood01"
+  }
  },
  "431": {
   "name": "Block_Roof_Thatch_StraightV",
   "display": "Thatch double roof",
   "term": "Block/Roof_StraightV_Thatch",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3177,
+   "name": "BuildingIcon_TopRoofThatch01"
+  }
  },
  "432": {
   "name": "Block_Roof_Tier3_StraightV",
   "display": "Solid wooden double roof",
   "term": "Block/Roof_StraightV_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3226,
+   "name": "BuildingIcon_TopRoofWood01Tier3"
+  }
  },
  "433": {
   "name": "Placeable_WorldGlobe",
   "display": "World globe",
   "term": "Block/WorldGlobe",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2890,
+   "name": "Item_DecoGlobe"
+  }
  },
  "434": {
   "name": "Placeable_Lantern_Metal",
   "display": "Metal lantern",
   "term": "Block/Lantern_Metal",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2880,
+   "name": "Item_DecoLantern"
+  }
  },
  "435": {
   "name": "Placeable_Shelf_Large",
   "display": "Shelf",
   "term": "Block/Shelf",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3555,
+   "name": "Item_ShelfOld"
+  }
  },
  "436": {
   "name": "Placeable_Shelf_Wood",
   "display": "Shelf",
   "term": "Block/Shelf",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3561,
+   "name": "Item_DecoShelf"
+  }
  },
  "437": {
   "name": "Placeable_Rug_Round_Small",
   "display": "Rug",
   "term": "Block/Rug",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2886,
+   "name": "Item_RugRoundSmall"
+  }
  },
  "438": {
   "name": "Placeable_Rug_Round_Large",
   "display": "Rug",
   "term": "Block/Rug",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3614,
+   "name": "Item_RugRoundLarge"
+  }
  },
  "439": {
   "name": "Placeable_Rug_Door",
   "display": "Rug",
   "term": "Block/Rug",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3522,
+   "name": "Item_RugDoor"
+  }
  },
  "440": {
   "name": "Placeable_Sofa2Seat",
   "display": "Sofa",
   "term": "Block/Sofa",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2887,
+   "name": "Item_DecoSofa"
+  }
  },
  "441": {
   "name": "Placeable_Sofa3Seat",
   "display": "Sofa",
   "term": "Block/Sofa",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3554,
+   "name": "Item_SofaCorner"
+  }
  },
  "442": {
   "name": "Placeable_Clock_Fine",
   "display": "Clock",
   "term": "Block/Clock",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3527,
+   "name": "Item_DecoClock"
+  }
  },
  "443": {
   "name": "Block_Wall_Slope_Wood_Inverted",
   "display": "Triangular wooden wall",
   "term": "Block/Wall_Slope_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3109,
+   "name": "BuildingIcon_SlopeWallWoodInverted"
+  }
  },
  "444": {
   "name": "Block_Wall_Slope_Thatch_Inverted",
   "display": "Triangular thatch wall",
   "term": "Block/Wall_Slope_Thatch",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3098,
+   "name": "BuildingIcon_SlopeWallThatchInverted"
+  }
  },
  "445": {
   "name": "Block_Wall_Slope_Tier3_Inverted",
   "display": "Triangular solid wooden wall",
   "term": "Block/Wall_Slope_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3223,
+   "name": "BuildingIcon_SlopeWallWoodInvertedTier3"
+  }
  },
  "446": {
   "name": "Placeable_Curtain_Vertical",
   "display": "Curtain",
   "term": "Block/Curtain",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3533,
+   "name": "Item_DecoCurtainVer"
+  }
  },
  "447": {
   "name": "Placeable_Curtain_Horizontal",
   "display": "Curtain",
   "term": "Block/Curtain",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3551,
+   "name": "Item_DecoCurtainHor"
+  }
  },
  "448": {
   "name": "Placeable_Bed_Wood",
   "display": "Bed",
   "term": "Block/Bed",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2938,
+   "name": "Item_DecoTwinBed"
+  }
  },
  "449": {
   "name": "Placeable_Flower_Rose",
   "display": "Rose",
   "term": "Block/Flower_Rose",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3593,
+   "name": "Item_DecoPlantRose"
+  }
  },
  "450": {
   "name": "Placeable_Flower_Sunflower",
   "display": "Sunflower",
   "term": "Block/Flower_Sunflower",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3530,
+   "name": "Item_DecoPlantSunflower"
+  }
  },
  "451": {
   "name": "Placeable_Flower_Monstera",
   "display": "Monstera",
   "term": "Block/Flower_Monstera",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2994,
+   "name": "Item_DecoPlantMonstera"
+  }
  },
  "452": {
   "name": "Placeable_Flower_Hibiscus",
   "display": "Hibiscus",
   "term": "Block/Flower_Hibiscus",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2967,
+   "name": "Item_DecoPlantHibiscus"
+  }
  },
  "453": {
   "name": "Placeable_Flower_Cactus",
   "display": "Cactus",
   "term": "Block/Flower_Cactus",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3557,
+   "name": "Item_DecoPlantCactus"
+  }
  },
  "454": {
   "name": "Placeable_Flower_AloeVera",
   "display": "Aloe Vera",
   "term": "Block/Flower_AloeVera",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2950,
+   "name": "Item_DecoPlantAloe"
+  }
  },
  "455": {
   "name": "Placeable_Table_Sofa_Square",
   "display": "Table",
   "term": "Block/Table_Small",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2936,
+   "name": "Item_DecoSofaTableSquare"
+  }
  },
  "456": {
   "name": "Placeable_Cupboard_Small",
   "display": "Cupboard",
   "term": "Block/Cupboard",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2949,
+   "name": "Item_DecoCubboard01"
+  }
  },
  "457": {
   "name": "Placeable_Cupboard_Medium",
   "display": "Cupboard",
   "term": "Block/Cupboard",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2944,
+   "name": "Item_DecoCupboard03"
+  }
  },
  "458": {
   "name": "Placeable_Cupboard_Large",
   "display": "Cupboard",
   "term": "Block/Cupboard",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3608,
+   "name": "Item_DecoCubboard02"
+  }
  },
  "459": {
   "name": "Placeable_Table_Sofa_Round",
   "display": "Table",
   "term": "Block/Table_Small",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3583,
+   "name": "Item_DecoSofaTableRound"
+  }
  },
  "460": {
   "name": "Placeable_Shelf_Small_Fine",
   "display": "Shelf",
   "term": "Block/Shelf",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3520,
+   "name": "Item_DecoShelfSmall"
+  }
  },
  "461": {
   "name": "Placeable_FirewoodRack",
   "display": "Firewood rack",
   "term": "Block/FirewoodRack",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2954,
+   "name": "Item_DecoWoodRack"
+  }
  },
  "462": {
   "name": "Placeable_Lantern_Fireplace",
   "display": "Fireplace",
   "term": "Block/Fireplace",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2962,
+   "name": "Item_DecoFireplace"
+  }
  },
  "463": {
   "name": "Placeable_Lantern_FireBasket",
   "display": "Fire basket",
   "term": "Block/FireBasket",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3539,
+   "name": "Item_DecoBrazier"
+  }
  },
  "465": {
   "name": "Block_HalfFloor_Triangular_Tier3_Mirrored",
   "display": "Triangular raised solid floor",
   "term": "Block/HalfFloor_Triangular_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3278,
+   "name": "BuildingIcon_RaisedFloor_TriangularTier3"
+  }
  },
  "466": {
   "name": "Placeable_StringLight_Horizontal",
   "display": "String light",
   "term": "Block/StringLight",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3525,
+   "name": "Item_DecoStringlightHor"
+  }
  },
  "467": {
   "name": "Placeable_StringLight_Vertical",
   "display": "String light",
   "term": "Block/StringLight",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3573,
+   "name": "Item_DecoStringlightVert"
+  }
  },
  "468": {
   "name": "Mystery_Package",
   "display": "Decoration package",
   "term": "Item/Package",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2946,
+   "name": "Item_MysteryPackage"
+  }
  },
  "469": {
   "name": "Placeable_Painting_Crafted_1",
   "display": "Painting",
   "term": "Block/Painting",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3591,
+   "name": "Item_DecoPaintingCrafted01"
+  }
  },
  "470": {
   "name": "Placeable_Painting_Crafted_2",
   "display": "Painting",
   "term": "Block/Painting",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3524,
+   "name": "Item_DecoPaintingCrafted02"
+  }
  },
  "471": {
   "name": "Placeable_Painting_Crafted_3",
   "display": "Painting",
   "term": "Block/Painting",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3572,
+   "name": "Item_DecoPaintingCrafted03"
+  }
  },
  "472": {
   "name": "Placeable_Painting_Crafted_4",
   "display": "Painting",
   "term": "Block/Painting",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2952,
+   "name": "Item_DecoPaintingCrafted04"
+  }
  },
  "473": {
   "name": "Placeable_Bathtub",
   "display": "Wooden bathtub",
   "term": "Block/Bathtub",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2899,
+   "name": "Item_DecoBathTub"
+  }
  },
  "474": {
   "name": "Placeable_Outhouse",
   "display": "Outhouse",
   "term": "Block/Outhouse",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3585,
+   "name": "Item_DecoOuthouse"
+  }
  },
  "475": {
   "name": "Placeable_Flag_01",
   "display": "Flag",
   "term": "Block/Flag",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2955,
+   "name": "Item_DecoFlag07"
+  }
  },
  "476": {
   "name": "Placeable_Flag_02",
   "display": "Flag",
   "term": "Block/Flag",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2970,
+   "name": "Item_DecoFlag03"
+  }
  },
  "477": {
   "name": "Placeable_Flag_03",
   "display": "Flag",
   "term": "Block/Flag",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2960,
+   "name": "Item_DecoFlag02"
+  }
  },
  "478": {
   "name": "Placeable_Flag_04",
   "display": "Flag",
   "term": "Block/Flag",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3518,
+   "name": "Item_DecoFlag04"
+  }
  },
  "479": {
   "name": "Placeable_Flag_05",
   "display": "Flag",
   "term": "Block/Flag",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2998,
+   "name": "Item_DecoFlag01"
+  }
  },
  "480": {
   "name": "Placeable_Flag_06",
   "display": "Flag",
   "term": "Block/Flag",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2891,
+   "name": "Item_DecoFlag05"
+  }
  },
  "481": {
   "name": "Placeable_Flag_07",
   "display": "Flag",
   "term": "Block/Flag",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3595,
+   "name": "Item_DecoFlag06"
+  }
  },
  "482": {
   "name": "Placeable_PaperBundle",
   "display": "Paper bundle",
   "term": "Block/PaperBundle",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2888,
+   "name": "Item_DecoPaperPile"
+  }
  },
  "483": {
   "name": "Placeable_OpenBook",
   "display": "Open book",
   "term": "Block/OpenBook",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2995,
+   "name": "Item_DecoOpenBook"
+  }
  },
  "484": {
   "name": "Placeable_MotivationalSign_1",
   "display": "Motivational quote",
   "term": "Block/MotivationalQuote",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3517,
+   "name": "Item_DecoMotivationalSign01"
+  }
  },
  "485": {
   "name": "Placeable_MotivationalSign_2",
   "display": "Motivational quote",
   "term": "Block/MotivationalQuote",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2901,
+   "name": "Item_DecoMotivationalSign03"
+  }
  },
  "486": {
   "name": "Placeable_MotivationalSign_3",
   "display": "Motivational quote",
   "term": "Block/MotivationalQuote",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2991,
+   "name": "Item_DecoMotivationalSign04"
+  }
  },
  "487": {
   "name": "Placeable_MotivationalSign_4",
   "display": "Motivational quote",
   "term": "Block/MotivationalQuote",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2894,
+   "name": "Item_DecoMotivationalSign02"
+  }
  },
  "488": {
   "name": "Block_Roof_Wood_TJunction",
   "display": "Wooden T-junction",
   "term": "Block/Roof_TJunction_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3007,
+   "name": "BuildingIcon_TopRoofWood04"
+  }
  },
  "489": {
   "name": "Block_Roof_Thatch_TJunction",
   "display": "Thatch T-junction",
   "term": "Block/Roof_TJunction_Thatch",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3074,
+   "name": "BuildingIcon_TopRoofThatch04"
+  }
  },
  "490": {
   "name": "Block_Roof_Tier3_TJunction",
   "display": "Solid wooden T-junction",
   "term": "Block/Roof_TJunction_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3298,
+   "name": "BuildingIcon_TopRoofWood04Tier3"
+  }
  },
  "491": {
   "name": "Block_Wall_Window_Wood_Half",
   "display": "Half wooden window",
   "term": "Block/Window_Wood_Half",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3113,
+   "name": "BuildingIcon_HalfWallWindowWood"
+  }
  },
  "492": {
   "name": "Block_Wall_Window_Thatch_Half",
   "display": "Half thatch window",
   "term": "Block/Window_Thatch_Half",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3137,
+   "name": "BuildingIcon_HalfWallWindowThatch"
+  }
  },
  "493": {
   "name": "Block_Wall_Window_Tier3_Half",
   "display": "Solid half wooden window",
   "term": "Block/Window_Tier3_Half",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3269,
+   "name": "BuildingIcon_HalfWallWindowWoodTier3"
+  }
  },
  "494": {
   "name": "Block_Ladder_Half",
   "display": "Half ladder",
   "term": "Block/Ladder_Half",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3193,
+   "name": "BuildingIcon_LadderHalf"
+  }
  },
  "495": {
   "name": "Block_Ladder_Tier3_Half",
   "display": "Solid half ladder",
   "term": "Block/Ladder_Tier3_Half",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3052,
+   "name": "BuildingIcon_LadderHalfTier3"
+  }
  },
  "496": {
   "name": "Placeable_Table_Square_Tall",
   "display": "Table",
   "term": "Block/Table_Small",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2929,
+   "name": "Item_DecoTableSquareTall"
+  }
  },
  "497": {
   "name": "Block_Roof_Wood_XJunction",
   "display": "Wooden X-junction",
   "term": "Block/Roof_XJunction_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3118,
+   "name": "BuildingIcon_TopRoofWood06"
+  }
  },
  "498": {
   "name": "Block_Roof_Thatch_XJunction",
   "display": "Thatch X-junction",
   "term": "Block/Roof_XJunction_Thatch",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3031,
+   "name": "BuildingIcon_TopRoofThatch06"
+  }
  },
  "499": {
   "name": "Block_Roof_Tier3_XJunction",
   "display": "Solid wooden X-junction",
   "term": "Block/Roof_XJunction_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3015,
+   "name": "BuildingIcon_TopRoofWood06Tier3"
+  }
  },
  "500": {
   "name": "Block_Roof_Tier3_LJunction",
   "display": "Solid wooden L-junction",
   "term": "Block/Roof_LJunction_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3159,
+   "name": "BuildingIcon_TopRoofWood05Tier3"
+  }
  },
  "501": {
   "name": "Block_Roof_Thatch_LJunction",
   "display": "Thatch L-junction",
   "term": "Block/Roof_LJunction_Thatch",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3218,
+   "name": "BuildingIcon_TopRoofThatch05"
+  }
  },
  "502": {
   "name": "Block_Roof_Wood_LJunction",
   "display": "Wooden L-junction",
   "term": "Block/Roof_LJunction_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3213,
+   "name": "BuildingIcon_TopRoofWood05"
+  }
  },
  "503": {
   "name": "Placeable_CollectionNet_Advanced",
   "display": "Advanced collection net",
   "term": "Block/CollectionNet",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2895,
+   "name": "Item_NetGatheringT2"
+  }
  },
  "504": {
   "name": "Claybowl_HeartyStew",
   "display": "Hearty stew",
   "term": "Item/HeartyStew",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3536,
+   "name": "Item_HeartyStew"
+  }
  },
  "508": {
   "name": "DrinkingGlass_RedbeetShot",
   "display": "Redbeet shot",
   "term": "Item/RedbeetShot",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3543,
+   "name": "Item_DrinkRedbeetShot"
+  }
  },
  "509": {
   "name": "DrinkingGlass_SpicyPineberry",
   "display": "Spicy pineberry",
   "term": "Item/SpicyPineberry",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3580,
+   "name": "Item_DrinkSpicyPineberry"
+  }
  },
  "510": {
   "name": "DrinkingGlass_SimpleSmoothie",
   "display": "Simple smoothie",
   "term": "Item/SimpleSmoothie",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2964,
+   "name": "Item_DrinkSimpleSmoothie"
+  }
  },
  "511": {
   "name": "DrinkingGlass_Mangonana",
   "display": "Mangonana",
   "term": "Item/Mangonana",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2948,
+   "name": "Item_DrinkMangonana"
+  }
  },
  "512": {
   "name": "DrinkingGlass_RedMelon",
   "display": "Red melon",
   "term": "Item/RedMelon",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3559,
+   "name": "Item_DrinkRedMelon"
+  }
  },
  "513": {
   "name": "DrinkingGlass_SilverSmoothie",
   "display": "Silver smoothie",
   "term": "Item/SilverSmoothie",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2941,
+   "name": "Item_DrinkSilverSmoothie"
+  }
  },
  "514": {
   "name": "DrinkingGlass_CoconutBeat",
   "display": "Coconut beat",
   "term": "Item/CoconutBeat",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3619,
+   "name": "Item_DrinkCoconutBeat"
+  }
  },
  "515": {
   "name": "DrinkingGlass_StrawberryColada",
   "display": "Strawberry colada",
   "term": "Item/StrawberryColada",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2917,
+   "name": "Item_DrinkStrawberryColada"
+  }
  },
  "516": {
   "name": "Placeable_Recipe_HeartyStew",
   "display": "Recipe: Hearty stew",
   "term": "Item/Recipe_HeartyStew",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3529,
+   "name": "Item_Recipe_HeartyStew"
+  }
  },
  "520": {
   "name": "Placeable_Recipe_SpicyPineberry",
   "display": "Recipe: Spicy pineberry",
   "term": "Item/Recipe_SpicyPineberry",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2915,
+   "name": "Item_Recipe_DrinkSpicyPineberry"
+  }
  },
  "521": {
   "name": "Placeable_Recipe_RedbeetShot",
   "display": "Recipe: Redbeet shot",
   "term": "Item/Recipe_RedbeetShot",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2996,
+   "name": "Item_Recipe_DrinkRedbeetShot"
+  }
  },
  "522": {
   "name": "Placeable_Recipe_SimpleSmoothie",
   "display": "Recipe: Simple smoothie",
   "term": "Item/Recipe_SimpleSmoothie",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2974,
+   "name": "Item_Recipe_DrinkSimpleSmoothie"
+  }
  },
  "523": {
   "name": "Placeable_Recipe_CoconutBeat",
   "display": "Recipe: Coconut beat",
   "term": "Item/Recipe_CoconutBeat",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3574,
+   "name": "Item_Recipe_DrinkCoconutBeat"
+  }
  },
  "524": {
   "name": "Placeable_Recipe_StrawberryColada",
   "display": "Recipe: Strawberry colada",
   "term": "Item/Recipe_StrawberryColada",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3566,
+   "name": "Item_Recipe_DrinkStrawberryColada"
+  }
  },
  "525": {
   "name": "Placeable_Recipe_Mangonana",
   "display": "Recipe: Mangonana",
   "term": "Item/Recipe_Mangonana",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3547,
+   "name": "Item_Recipe_DrinkMangonana"
+  }
  },
  "526": {
   "name": "Placeable_Recipe_RedMelon",
   "display": "Recipe: Red melon",
   "term": "Item/Recipe_RedMelon",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3581,
+   "name": "Item_Recipe_DrinkRedMelon"
+  }
  },
  "527": {
   "name": "Placeable_Recipe_SilverSmoothie",
   "display": "Recipe: Silver smoothie",
   "term": "Item/Recipe_SilverSmoothie",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3598,
+   "name": "Item_Recipe_DrinkSilverSmoothie"
+  }
  },
  "528": {
   "name": "Juniper",
   "display": "Juniper",
   "term": "Item/Juniper",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2907,
+   "name": "Item_JuniperBerries"
+  }
  },
  "529": {
   "name": "Turmeric",
   "display": "Turmeric",
   "term": "Item/Turmeric",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2885,
+   "name": "Item_Tumeric"
+  }
  },
  "530": {
   "name": "Chili",
   "display": "Chili",
   "term": "Item/Chili",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2981,
+   "name": "Item_Chili"
+  }
  },
  "531": {
   "name": "Placeable_Recipe_SalmonSalad",
   "display": "Recipe: Salmon salad",
   "term": "Item/Recipe_SalmonSalad",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3457,
+   "name": "Item_Recipe_SalmonSalad"
+  }
  },
  "532": {
   "name": "Placeable_Recipe_CatfishDeluxe",
   "display": "Recipe: Catfish deluxe",
   "term": "Item/Recipe_CatfishDeluxe",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3453,
+   "name": "Item_Recipe_CatfishDeluxe"
+  }
  },
  "533": {
   "name": "ClayPlate_SalmonSalad",
   "display": "Salmon salad",
   "term": "Item/SalmonSalad",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3448,
+   "name": "Item_SalmonSalad"
+  }
  },
  "534": {
   "name": "ClayPlate_CatfishDeluxe",
   "display": "Catfish deluxe",
   "term": "Item/CatfishDeluxe",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3444,
+   "name": "Item_CatfishDeluxe"
+  }
  },
  "535": {
   "name": "Battery_Advanced",
   "display": "Advanced Battery",
   "term": "Item/Advanced_Battery",
   "stack": 1,
-  "uses": 175
+  "uses": 175,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3552,
+   "name": "Item_BatteryT2"
+  }
  },
  "536": {
   "name": "Head_Hyena",
   "display": "Hyena head",
   "term": "Item/HyenaHead",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2985,
+   "name": "Item_HyenaHead"
+  }
  },
  "537": {
   "name": "Head_HyenaBoss",
   "display": "Alpha's head",
   "term": "Item/HyenaBossHead",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3576,
+   "name": "Item_HyenaLarsHead"
+  }
  },
  "538": {
   "name": "Placeable_Anchor_Stationary_Advanced",
   "display": "Advanced stationary anchor",
   "term": "Block/Anchor_Stationary_Advanced",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2975,
+   "name": "Item_AnchorT3"
+  }
  },
  "539": {
   "name": "Placeable_BiofuelExtractor_Advanced",
   "display": "Advanced biofuel refiner",
   "term": "Block/BiofuelExtractor_Advanced",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2903,
+   "name": "Item_BioRefinerT2"
+  }
  },
  "540": {
   "name": "Placeable_CookingStand_Smelter_Electric",
   "display": "Electric Smelter",
   "term": "Block/CookingStand_Smelter_Electric",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2976,
+   "name": "Item_SmelterT2"
+  }
  },
  "541": {
   "name": "Block_HorizontalPillar_Wood",
   "display": "Horizontal wooden pillar",
   "term": "Block/HorizontalPillar_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3134,
+   "name": "BuildingIcon_PillarHor"
+  }
  },
  "542": {
   "name": "Block_HorizontalPillar_Wood_Half",
   "display": "Horizontal half wooden pillar",
   "term": "Block/HorizontalHalfPillar_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3246,
+   "name": "BuildingIcon_HalfPillarHor"
+  }
  },
  "543": {
   "name": "Block_HorizontalPillar_Tier3",
   "display": "Horizontal solid wooden pillar",
   "term": "Block/HorizontalPillar_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3091,
+   "name": "BuildingIcon_PillarHorTier3"
+  }
  },
  "544": {
   "name": "Block_HorizontalPillar_Tier3_Half",
   "display": "Horizontal solid half wooden pillar",
   "term": "Block/HorizontalHalfPillar_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3081,
+   "name": "BuildingIcon_HalfPillarHorTier3"
+  }
  },
  "545": {
   "name": "Placeable_DetailPlank",
   "display": "Detail plank",
   "term": "Block/DetailPlank",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3526,
+   "name": "Item_DetailPlank"
+  }
  },
  "546": {
   "name": "Block_Upgrade_Wood",
   "display": "Replace with wood",
   "term": "Block/Upgrade_Wood",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "resources.assets",
+   "id": 987,
+   "name": "BuildingIcon_ReplaceWood"
+  }
  },
  "547": {
   "name": "Block_Upgrade_Thatch",
   "display": "Replace with thatch",
   "term": "Block/Upgrade_Thatch",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "resources.assets",
+   "id": 981,
+   "name": "BuildingIcon_ReplaceThatch"
+  }
  },
  "548": {
   "name": "Block_Upgrade_Tier3",
   "display": "Replace with solid wood",
   "term": "Block/Upgrade_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "resources.assets",
+   "id": 1039,
+   "name": "BuildingIcon_ReplaceWoodTier3"
+  }
  },
  "549": {
   "name": "ZiplineTool_Electric",
   "display": "Electric zipline tool",
   "term": "Item/ZiplineToolElectric",
   "stack": 1,
-  "uses": 350
+  "uses": 350,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2898,
+   "name": "Item_ZiplineToolT2"
+  }
  },
  "550": {
   "name": "DrinkingGlass_Leftover",
   "display": "Leftovers",
   "term": "Item/Leftover",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2951,
+   "name": "Item_DrinkLeftovers"
+  }
  },
  "551": {
   "name": "Blueprint_AnchorStationaryAdvanced",
   "display": "Blueprint: Advanced stationary anchor",
   "term": "Item/BlueprintAnchorStationaryAdvanced",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "552": {
   "name": "Blueprint_BatteryAdvanced",
   "display": "Blueprint: Advanced battery",
   "term": "Item/BlueprintBatteryAdvanced",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "553": {
   "name": "Blueprint_SmelterElectric",
   "display": "Blueprint: Electric smelter",
   "term": "Item/BlueprintSmelterElectric",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "554": {
   "name": "Blueprint_BiofuelExtractorAdvanced",
   "display": "Blueprint: Advanced biofuel refiner",
   "term": "Item/BlueprintBiofuelExtractorAdvanced",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "555": {
   "name": "Blueprint_ZiplineToolElectric",
   "display": "Blueprint: Electric zipline tool",
   "term": "Item/BlueprintZiplineToolElectric",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "556": {
   "name": "Blueprint_BackpackAdvanced",
   "display": "Blueprint: Big backpack",
   "term": "Item/BlueprintBackpackAdvanced",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "557": {
   "name": "Arrow_Titanium",
   "display": "Titanium arrow",
   "term": "Item/Arrow_Titanium",
   "stack": 30,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3516,
+   "name": "Item_ArrowT3"
+  }
  },
  "558": {
   "name": "Sword_Titanium",
   "display": "Titanium sword",
   "term": "Item/Sword_Titanium",
   "stack": 1,
-  "uses": 80
+  "uses": 80,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2920,
+   "name": "Item_MacheteT2"
+  }
  },
  "559": {
   "name": "Axe_Titanium",
   "display": "Titanium axe",
   "term": "Item/Axe_Titanium",
   "stack": 1,
-  "uses": 240
+  "uses": 240,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3602,
+   "name": "Item_AxeT3"
+  }
  },
  "560": {
   "name": "Hook_Titanium",
   "display": "Titanium hook",
   "term": "Item/Hook_Titanium",
   "stack": 1,
-  "uses": 200
+  "uses": 200,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3513,
+   "name": "Item_HookT3"
+  }
  },
  "561": {
   "name": "Blueprint_TitaniumTools",
   "display": "Blueprint: Titanium tools",
   "term": "Item/BlueprintTitaniumTools",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "562": {
   "name": "Backpack_Advanced",
   "display": "Big backpack",
   "term": "Item/BackpackAdvanced",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3613,
+   "name": "Item_BackpackT2"
+  }
  },
  "564": {
   "name": "TradeToken",
   "display": "Trade coin",
   "term": "Item/TradeToken",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "resources.assets",
+   "id": 954,
+   "name": "Item_TraderToken"
+  }
  },
  "565": {
   "name": "Placeable_Scarecrow_Advanced",
   "display": "Advanced Scarecrow",
   "term": "Block/Scarecrow_Advanced",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3609,
+   "name": "Item_ScareCrowT2"
+  }
  },
  "566": {
   "name": "Placeable_TicTacToe",
   "display": "Tic-tac-toe",
   "term": "Block/TicTacToe",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3550,
+   "name": "Item_TicTacToe"
+  }
  },
  "567": {
   "name": "TrophyFish_T1_Glow_Shrimp",
   "display": "GlowShrimp",
   "term": "Item/GlowShrimp",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3607,
+   "name": "Item_FishT1_GlowShrimp"
+  }
  },
  "568": {
   "name": "TrophyFish_T1_NetNibbler",
   "display": "Netnibbler",
   "term": "Item/NetNibbler",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3562,
+   "name": "Item_FishT1_NetNibbler"
+  }
  },
  "569": {
   "name": "TrophyFish_T1_SharpCarp",
   "display": "Sharp Carp",
   "term": "Item/SharpCarp",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2999,
+   "name": "Item_FishT1_Sharpcarp"
+  }
  },
  "570": {
   "name": "TrophyFish_T2_TrapSnapper",
   "display": "Trap Snapper",
   "term": "Item/TrapSnapper",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2918,
+   "name": "Item_FishT2_TrapSnapper"
+  }
  },
  "571": {
   "name": "TrophyFish_T2_Foamspitter",
   "display": "Foamspitter",
   "term": "Item/Foamspitter",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3621,
+   "name": "Item_FishT2_Foamspitter"
+  }
  },
  "572": {
   "name": "TrophyFish_T2_Pufferlisk",
   "display": "Pufferlisk",
   "term": "Item/Pufferlisk",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3545,
+   "name": "Item_FishT2_Pufferlisk"
+  }
  },
  "573": {
   "name": "TrophyFish_T3_Pentapus",
   "display": "Pentapus",
   "term": "Item/Pentapus",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2957,
+   "name": "Item_FishT3_Pentapus"
+  }
  },
  "574": {
   "name": "TrophyFish_T3_Lionfish",
   "display": "LionFish",
   "term": "Item/LionFish",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3588,
+   "name": "Item_FishT3_Lionfish"
+  }
  },
  "575": {
   "name": "TrophyFish_T3_Lunarfish",
   "display": "Lunarfish",
   "term": "Item/Lunarfish",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3606,
+   "name": "Item_FishT3_Lunarfish"
+  }
  },
  "576": {
   "name": "TrophyFish_T3_Sharkeater",
   "display": "Sharkeater",
   "term": "Item/SharkEater",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2933,
+   "name": "Item_FishT3_Sharkeater"
+  }
  },
  "577": {
   "name": "TrophyFish_T3_RainbowLobster",
   "display": "Rainbow Lobster",
   "term": "Item/RainbowLobster",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3586,
+   "name": "Item_FishT3_RainbowLobster"
+  }
  },
  "578": {
   "name": "TrophyFish_T3_PinkPike",
   "display": "Pink Pike",
   "term": "Item/PinkPike",
   "stack": 20,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2972,
+   "name": "Item_FishT3_PinkPike"
+  }
  },
  "579": {
   "name": "FishingBait_Simple",
   "display": "Simple fishing bait",
   "term": "Item/FishingBait_Simple",
   "stack": 40,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2990,
+   "name": "Item_BaitT1"
+  }
  },
  "580": {
   "name": "FishingBait_Advanced",
   "display": "Advanced fishing bait",
   "term": "Item/FishingBait_Advanced",
   "stack": 40,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3590,
+   "name": "Item_BaitT2"
+  }
  },
  "581": {
   "name": "FishingBait_Expert",
   "display": "Expert fishing bait",
   "term": "Item/FishingBait_Expert",
   "stack": 40,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2906,
+   "name": "Item_BaitT3"
+  }
  },
  "582": {
   "name": "Placeable_FoundationCounter",
   "display": "Foundation counter",
   "term": "Block/FoundationCounter",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2884,
+   "name": "\u00cftem_FoundationCounter"
+  }
  },
  "583": {
   "name": "Placeable_HonkHorn_1",
   "display": "Air horn",
   "term": "Block/HonkHorn1",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2934,
+   "name": "Item_AirHorn"
+  }
  },
  "584": {
   "name": "Placeable_HonkHorn_2",
   "display": "Honk horn",
   "term": "Block/HonkHorn2",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2987,
+   "name": "Item_HonkHorn"
+  }
  },
  "585": {
   "name": "Placeable_HonkHorn_3",
   "display": "Viking horn",
   "term": "Block/HonkHorn3",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2877,
+   "name": "Item_VikingHorn"
+  }
  },
  "587": {
   "name": "Placeable_DrawBridgeShort",
   "display": "Short draw bridge",
   "term": "Block/DrawBridgeShort",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3553,
+   "name": "Item_DrawbridgeSmall"
+  }
  },
  "588": {
   "name": "Placeable_DrawBridgeLong",
   "display": "Long draw bridge",
   "term": "Block/DrawBridgeLong",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2922,
+   "name": "Item_DrawbridgeBig"
+  }
  },
  "589": {
   "name": "Placeable_Utopia_Plant_1",
   "display": "Utopia plant",
   "term": "Block/UtopiaPlant",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2958,
+   "name": "Item_UT_Plant01"
+  }
  },
  "590": {
   "name": "Placeable_Utopia_Plant_2",
   "display": "Utopia plant",
   "term": "Block/UtopiaPlant",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2989,
+   "name": "Item_UT_Plant02"
+  }
  },
  "591": {
   "name": "Placeable_Utopia_Plant_3",
   "display": "Utopia plant",
   "term": "Block/UtopiaPlant",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3532,
+   "name": "Item_UT_Plant03"
+  }
  },
  "592": {
   "name": "Placeable_Utopia_LightBottleWhite",
   "display": "Utopia light bottle",
   "term": "Block/UtopiaLightBottle",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3519,
+   "name": "Item_UT_LightBottleWhite"
+  }
  },
  "593": {
   "name": "Placeable_Utopia_LightBottleYellow",
   "display": "Utopia light bottle",
   "term": "Block/UtopiaLightBottle",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3594,
+   "name": "Item_UT_LightBottleYellow"
+  }
  },
  "594": {
   "name": "Placeable_Utopia_Herb_1",
   "display": "Utopia herbs",
   "term": "Block/UtopiaHerb",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2881,
+   "name": "Item_UT_Herb01"
+  }
  },
  "595": {
   "name": "Placeable_Utopia_Herb_2",
   "display": "Utopia herbs",
   "term": "Block/UtopiaHerb",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2897,
+   "name": "Item_UT_Herb02"
+  }
  },
  "596": {
   "name": "Placeable_Utopia_Herb_3",
   "display": "Utopia herbs",
   "term": "Block/UtopiaHerb",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2979,
+   "name": "Item_UT_Herb04"
+  }
  },
  "597": {
   "name": "Placeable_Utopia_Herb_4",
   "display": "Utopia herbs",
   "term": "Block/UtopiaHerb",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2971,
+   "name": "Item_UT_Herb03"
+  }
  },
  "598": {
   "name": "Placeable_Utopia_Herb_5",
   "display": "Utopia herbs",
   "term": "Block/UtopiaHerb",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2945,
+   "name": "Item_UT_Herb05"
+  }
  },
  "599": {
   "name": "Placeable_Utopia_Herb_6",
   "display": "Utopia herbs",
   "term": "Block/UtopiaHerb",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2965,
+   "name": "Item_UT_Herb06"
+  }
  },
  "600": {
   "name": "Placeable_Utopia_DanglyDecoration_1",
   "display": "Utopia dream catcher",
   "term": "Block/UtopiaDreamCatcher",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3556,
+   "name": "ItemItem_UT_DanglyDec01"
+  }
  },
  "601": {
   "name": "Placeable_Utopia_DanglyDecoration_2",
   "display": "Utopia decoration",
   "term": "Block/UtopiaDecoration",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3603,
+   "name": "Item_UT_DanglyDec02"
+  }
  },
  "602": {
   "name": "Placeable_Utopia_DanglyDecoration_3",
   "display": "Utopia decoration",
   "term": "Block/UtopiaDecoration",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3611,
+   "name": "Item_UT_DanglyDec03"
+  }
  },
  "603": {
   "name": "Placeable_Utopia_DanglyDecoration_4",
   "display": "Utopia decoration",
   "term": "Block/UtopiaDecoration",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2980,
+   "name": "Item_UT_DanglyDec04"
+  }
  },
  "604": {
   "name": "Placeable_Utopia_DanglyDecoration_5",
   "display": "Utopia decoration",
   "term": "Block/UtopiaDecoration",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2892,
+   "name": "Item_UT_DanglyDec05"
+  }
  },
  "605": {
   "name": "Placeable_Utopia_DanglyDecoration_6",
   "display": "Utopia decoration",
   "term": "Block/UtopiaDecoration",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3579,
+   "name": "Item_UT_DanglyDec06"
+  }
  },
  "606": {
   "name": "Placeable_Utopia_Bottle",
   "display": "Utopia bottles",
   "term": "Block/UtopiaBottle",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2889,
+   "name": "Item_UT_Bottle"
+  }
  },
  "607": {
   "name": "Placeable_Temperance_Painting_1",
   "display": "Temperance painting",
   "term": "Block/TemperancePainting",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2900,
+   "name": "Item_TP_Painting01"
+  }
  },
  "608": {
   "name": "Placeable_Temperance_Painting_2",
   "display": "Temperance painting",
   "term": "Block/TemperancePainting",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2883,
+   "name": "Item_TP_Painting02"
+  }
  },
  "609": {
   "name": "Placeable_Temperance_Painting_3",
   "display": "Temperance painting",
   "term": "Block/TemperancePainting",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3538,
+   "name": "Item_TP_Painting03"
+  }
  },
  "610": {
   "name": "Placeable_Temperance_Plant_1",
   "display": "Temperance plant",
   "term": "Block/TemperancePlant",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2902,
+   "name": "Item_TP_Plant01"
+  }
  },
  "611": {
   "name": "Placeable_Temperance_Plant_2",
   "display": "Temperance plant",
   "term": "Block/TemperancePlant",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2926,
+   "name": "Item_TP_Plant02"
+  }
  },
  "612": {
   "name": "Placeable_Temperance_Plant_3",
   "display": "Temperance plant",
   "term": "Block/TemperancePlant",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3617,
+   "name": "Item_TP_Plant03"
+  }
  },
  "613": {
   "name": "Placeable_Temperance_Rug_1",
   "display": "Temperance rug",
   "term": "Block/TemperanceRug",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3540,
+   "name": "Item_TP_Rug01"
+  }
  },
  "614": {
   "name": "Placeable_Temperance_Rug_2",
   "display": "Temperance rug",
   "term": "Block/TemperanceRug",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3570,
+   "name": "Item_TP_Rug02"
+  }
  },
  "615": {
   "name": "Placeable_Temperance_Cutlery",
   "display": "Temperance cutlery",
   "term": "Block/TemperanceCutlery",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2993,
+   "name": "Item_TP_Cutlery"
+  }
  },
  "616": {
   "name": "Placeable_Temperance_Mug",
   "display": "Temperance mug",
   "term": "Block/TemperanceMug",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3575,
+   "name": "Item_TP_Mug"
+  }
  },
  "617": {
   "name": "HeadLight_Advanced",
   "display": "Advanced head light",
   "term": "Item/HeadLight_Advanced",
   "stack": 1,
-  "uses": 2000
+  "uses": 2000,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3546,
+   "name": "Item_HeadLightT2"
+  }
  },
  "618": {
   "name": "Blueprint_HeadLight_Advanced",
   "display": "Blueprint: Advanced head light",
   "term": "Item/BlueprintHeadLighAdvanced",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "619": {
   "name": "Placeable_SpiralStair",
   "display": "Spiral stair case",
   "term": "Block/SpiralStair",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3310,
+   "name": "Item_NA"
+  }
  },
  "620": {
   "name": "Placeable_SpiralStair_Half",
   "display": "Half spiral staircase",
   "term": "Block/SpiralStairHalf",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3310,
+   "name": "Item_NA"
+  }
  },
  "621": {
   "name": "Hat_Chef",
   "display": "Chef's hat",
   "term": "Item/Hat_Chef",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3618,
+   "name": "Item_ChefHat"
+  }
  },
  "622": {
   "name": "Hat_Glasses_Disguise",
   "display": "Disguise glasses",
   "term": "Item/Hat_Glasses_Disguise",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3534,
+   "name": "Item_GrouchoGlasses"
+  }
  },
  "623": {
   "name": "Hat_Glasses_Aviator",
   "display": "Sunglasses",
   "term": "Item/Hat_Glasses_Aviator",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2986,
+   "name": "Item_Sunglasses"
+  }
  },
  "624": {
   "name": "Hat_Sailor",
   "display": "Sailor hat",
   "term": "Item/Hat_Sailor",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3541,
+   "name": "Item_SailorHat"
+  }
  },
  "625": {
   "name": "Hat_Fishing",
   "display": "Fishing hat",
   "term": "Item/Hat_Fishing",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2973,
+   "name": "Item_FishingHat"
+  }
  },
  "626": {
   "name": "Hat_Diving",
   "display": "Diving helmet",
   "term": "Item/Hat_Diving",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2947,
+   "name": "Item_DivingHelmet"
+  }
  },
  "627": {
   "name": "Hat_Pirate",
   "display": "Pirate hat",
   "term": "Item/Hat_Pirate",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2953,
+   "name": "Item_PirateHat"
+  }
  },
  "628": {
   "name": "Canteen_Empty",
   "display": "Empty canteen",
   "term": "Item/Canteen_Empty",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3548,
+   "name": "\u00cftem_Canteen"
+  }
  },
  "629": {
   "name": "Canteen_SaltWater",
   "display": "Canteen of salt water",
   "term": "Item/Canteen_SaltWater",
   "stack": 1,
-  "uses": 10
+  "uses": 10,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3548,
+   "name": "\u00cftem_Canteen"
+  }
  },
  "630": {
   "name": "Canteen_Water",
   "display": "Canteen of fresh water",
   "term": "Item/Canteen_Water",
   "stack": 1,
-  "uses": 10
+  "uses": 10,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3548,
+   "name": "\u00cftem_Canteen"
+  }
  },
  "631": {
   "name": "Placeable_Wardrobe",
   "display": "Wardrobe",
   "term": "Block/Wardrobe",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2909,
+   "name": "Item_Wardrobe"
+  }
  },
  "632": {
   "name": "Blueprint_Canteen",
   "display": "Blueprint: Canteen",
   "term": "Item/BlueprintCanteen",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "633": {
   "name": "Blueprint_DetailPlank",
   "display": "Blueprint: Detail plank",
   "term": "Item/BlueprintDetailPlank",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "634": {
   "name": "Placeable_Cropplot_Small_Tier3",
   "display": "Advanced small crop plot",
   "term": "Block/Cropplot_Small_Tier3",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2937,
+   "name": "\u00cftem_CropPlotT3"
+  }
  },
  "635": {
   "name": "Placeable_Cropplot_Large_Tier3",
   "display": "Advanced large crop plot",
   "term": "Block/Cropplot_Large_Tier3",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2916,
+   "name": "\u00cftem_CropPlotBigT3"
+  }
  },
  "636": {
   "name": "Placeable_Cropplot_Medium_Tier3",
   "display": "Advanced medium crop plot",
   "term": "Block/Cropplot_Medium_Tier3",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3615,
+   "name": "\u00cftem_CropPlotMediumT3"
+  }
  },
  "637": {
   "name": "Blueprint_Cropplot_Small_Tier3",
   "display": "Blueprint: Advanced small crop plot",
   "term": "Item/BlueprintCropplot_Small_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "638": {
   "name": "Blueprint_Cropplot_Medium_Tier3",
   "display": "Blueprint: Advanced medium crop plot",
   "term": "Item/BlueprintCropplot_Medium_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "639": {
   "name": "Blueprint_Cropplot_Large_Tier3",
   "display": "Blueprint: Advanced large crop plot",
   "term": "Item/BlueprintCropplot_Large_Tier3",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "640": {
   "name": "Placeable_Fridge",
   "display": "Fridge",
   "term": "Block/Fridge",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2977,
+   "name": "Item_Fridge"
+  }
  },
  "641": {
   "name": "Placeable_Surfboard",
   "display": "Surfboard",
   "term": "Block/Surfboard",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3537,
+   "name": "Item_Surfboard"
+  }
  },
  "642": {
   "name": "Placeable_CookingStand_Food_Electric",
   "display": "Electric grill",
   "term": "Block/CookingStand_Food_Electric",
   "stack": 5,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 2984,
+   "name": "Item_ElectrcGrill"
+  }
  },
  "643": {
   "name": "Blueprint_ElectricGrill",
   "display": "Blueprint: Electric grill",
   "term": "Item/BlueprintElectricGrill",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3424,
+   "name": "Item_BluePrint"
+  }
  },
  "644": {
   "name": "FakeTitaniumTools",
   "display": "Titanium tools",
   "term": "Item/TitaniumTools",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3310,
+   "name": "Item_NA"
+  }
  },
  "645": {
   "name": "Cassette_TradingPost",
   "display": "Trading post cassette",
   "term": "Item/Cassette_TradingPost",
   "stack": 1,
-  "uses": 1
+  "uses": 1,
+  "sprite": {
+   "file": "sharedassets0.assets",
+   "id": 3565,
+   "name": "Item_TapeTradingPost"
+  }
  }
 }

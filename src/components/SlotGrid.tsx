@@ -1,10 +1,18 @@
 import { item, itemLabel } from '../raft/items';
+import { ItemIcon } from './ItemIcon';
 import type { Container } from '../raft/save';
+
+export interface ClickMods {
+  /** Shift: select a range from the last clicked slot. */
+  range: boolean;
+  /** Ctrl or Cmd: add or remove one slot. */
+  toggle: boolean;
+}
 
 interface Props {
   container: Container;
-  selected: number | null;
-  onSelect: (slotIndex: number) => void;
+  selected: number[];
+  onSelect: (slotIndex: number, mods: ClickMods) => void;
 }
 
 export function SlotGrid({ container, selected, onSelect }: Props) {
@@ -21,13 +29,15 @@ export function SlotGrid({ container, selected, onSelect }: Props) {
         return (
           <button
             key={i}
-            className={`cell${s ? ' filled' : ''}${selected === i ? ' selected' : ''}`}
-            onClick={() => onSelect(i)}
+            className={`cell${s ? ' filled' : ''}${selected.includes(i) ? ' selected' : ''}`}
+            onMouseDown={(e) => e.shiftKey && e.preventDefault()} // Stop Shift-click selecting page text.
+            onClick={(e) => onSelect(i, { range: e.shiftKey, toggle: e.ctrlKey || e.metaKey })}
             title={s ? `${itemLabel(s.itemIndex)} ×${s.amount}` : `Empty slot ${i + 1}`}
           >
             <span className="cell-index">{i + 1}</span>
             {s && (
               <>
+                <ItemIcon id={s.itemIndex} size={40} />
                 <span className="cell-name">{itemLabel(s.itemIndex)}</span>
                 <span className={`cell-amount${over ? ' warn' : ''}`}>×{s.amount}</span>
                 {def && def.maxUses > 1 && (
